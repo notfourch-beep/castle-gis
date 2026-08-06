@@ -38,3 +38,21 @@ L.control.scale({
     imperial: false,
     metric: true
 }).addTo(map);
+
+// 空のGeoJSONレイヤー
+const castleLayer = L.geoJSON().addTo(map);
+fetch("./data/castle.geojson")
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(`HTTPエラー: ${response.status}`);
+        }
+
+        return response.json();
+    })
+    .then(data => {
+        castleLayer.addData(data);
+        console.log("GeoJSONを正常に読み込みました", data);
+    })
+    .catch(error => {
+        console.error("GeoJSONの読み込みに失敗しました", error);
+    });
