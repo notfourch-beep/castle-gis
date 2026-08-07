@@ -1,4 +1,328 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "所在": "串本町",
+        "仮番号": "WM0507",
+        "城郭名": "和深浦城",
+        "status": "城館",
+        "遺構": "遺構有"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.656361,
+          33.506091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "所在": "串本町",
+        "仮番号": "WM0157",
+        "城郭名": "虎松山城",
+        "status": "城館",
+        "遺構": "遺構有"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.65885,
+          33.512959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "所在": "串本町",
+        "仮番号": "WM0282",
+        "城郭名": "田並上城",
+        "status": "城館",
+        "遺構": "遺構有"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.720905,
+          33.501297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "所在": "串本町",
+        "仮番号": "WM0479",
+        "城郭名": "結城城",
+        "status": "城館",
+        "遺構": "遺構有"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.733292,
+          33.494835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "所在": "串本町",
+        "仮番号": "WM0167",
+        "城郭名": "小山城",
+        "status": "城館",
+        "遺構": "遺構有"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.819141,
+          33.514534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "所在": "串本町",
+        "仮番号": "WM0033",
+        "城郭名": "稲荷山城",
+        "status": "城館",
+        "遺構": "遺構有"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.825012,
+          33.525045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "所在": "串本町",
+        "仮番号": "WM0156",
+        "城郭名": "古城山城",
+        "status": "城館",
+        "遺構": "遺構有"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.828685,
+          33.515929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "所在": "串本町",
+        "仮番号": "WM0187",
+        "城郭名": "佐部城",
+        "status": "城館",
+        "遺構": "遺構有"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.864469,
+          33.554694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "所在": "串本町",
+        "仮番号": "WM0046",
+        "城郭名": "岩屋城",
+        "status": "城館",
+        "遺構": "遺構有"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.86637,
+          33.547467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "所在": "古座川町",
+        "仮番号": "WM0439",
+        "城郭名": "三尾川中村城",
+        "status": "城館",
+        "遺構": "遺構有"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.670391,
+          33.544608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "所在": "古座川町",
+        "仮番号": "WM0579",
+        "城郭名": "三尾川丸山城",
+        "status": "城館",
+        "遺構": "遺構有"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.687316,
+          33.551056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "所在": "古座川町",
+        "仮番号": "WM0292",
+        "城郭名": "鶴川城",
+        "status": "城館",
+        "遺構": "遺構有"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.746385,
+          33.528394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "所在": "古座川町",
+        "仮番号": "WM0580",
+        "城郭名": "大柳城（仮）",
+        "status": "城館",
+        "遺構": "遺構有"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.753483,
+          33.533198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "所在": "古座川町",
+        "仮番号": "WM0581",
+        "城郭名": "明神城（仮）",
+        "status": "調査中",
+        "遺構": "遺構有"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.760567,
+          33.539474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "所在": "古座川町",
+        "仮番号": "WM0119",
+        "城郭名": "川口城",
+        "status": "城館",
+        "遺構": "遺構有"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.77632,
+          33.541586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "所在": "古座川町",
+        "仮番号": "CLL001",
+        "城郭名": "（貯水池）",
+        "status": "非城館",
+        "遺構": "貯水池"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.685431,
+          33.55211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "所在": "古座川町",
+        "仮番号": "WM0067",
+        "城郭名": "大桑伊東屋敷",
+        "status": "非城館",
+        "遺構": "屋敷地"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.734359,
+          33.602384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "所在": "すさみ町",
+        "仮番号": "WM0582",
+        "城郭名": "佐本追川城",
+        "status": "城館",
+        "遺構": "遺構有"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.614721,
+          33.582767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "所在": "すさみ町",
+        "仮番号": "WM0074",
+        "城郭名": "大谷城",
+        "status": "城館",
+        "遺構": "遺構有"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.616365,
+          33.578053
+        ]
+      }
+    }
+  ]
 }

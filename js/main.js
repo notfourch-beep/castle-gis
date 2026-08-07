@@ -39,8 +39,47 @@ L.control.scale({
     metric: true
 }).addTo(map);
 
-// 空のGeoJSONレイヤー
-const castleLayer = L.geoJSON().addTo(map);
+// statusによってマーカーの色を決める
+function getMarkerColor(status) {
+    if (status === "城館") {
+        return "red";
+    } else if (status === "非城館") {
+        return "blue";
+    } else if (status === "調査中") {
+        return "gold";
+    } else {
+        return "gray";
+    }
+}
+
+// GeoJSONレイヤー
+const castleLayer = L.geoJSON(null, {
+
+    pointToLayer: function (feature, latlng) {
+
+        const color = getMarkerColor(feature.properties.status);
+
+        return L.circleMarker(latlng, {
+            radius: 8,
+            color: "black",
+            fillColor: color,
+            fillOpacity: 0.8,
+            weight: 2
+        });
+    },
+
+    // マーカーをクリックしたときのポップアップ
+    onEachFeature: function (feature, layer) {
+
+        const name = feature.properties["城郭名"];
+        const id = feature.properties["仮番号"];
+
+       layer.bindPopup(
+    `<strong>${name}</strong><br>${id}`
+    );
+    }
+
+}).addTo(map);
 fetch("./data/castle.geojson")
     .then(response => {
         if (!response.ok) {
