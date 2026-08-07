@@ -23,15 +23,6 @@ const baseMaps = {
     "地理院標準地図": gsiStandard
 };
 
-// レイヤー切替コントロールを表示
-L.control.layers(
-    baseMaps,
-    null,
-    {
-        collapsed: false,
-        position: "topright"
-    }
-).addTo(map);
 
 // 縮尺を表示
 L.control.scale({
@@ -80,6 +71,24 @@ const castleLayer = L.geoJSON(null, {
     }
 
 }).addTo(map);
+
+// 重ね合わせレイヤーの一覧
+const overlayMaps = {
+    "城館等": castleLayer
+};
+
+// レイヤー切替コントロールを表示
+L.control.layers(
+    baseMaps,
+    overlayMaps,
+    {
+        collapsed: false,
+        position: "topright"
+    }
+).addTo(map);
+
+
+// GeoJSONを読み込む
 fetch("./data/castle.geojson")
     .then(response => {
         if (!response.ok) {
@@ -95,3 +104,59 @@ fetch("./data/castle.geojson")
     .catch(error => {
         console.error("GeoJSONの読み込みに失敗しました", error);
     });
+
+    // 凡例を作成
+const legend = L.control({
+    position: "bottomright"
+});
+
+legend.onAdd = function () {
+
+    const div = L.DomUtil.create("div", "legend");
+
+    div.innerHTML = `
+        <strong>凡例</strong><br>
+        <span class="legend-marker castle"></span> 城館<br>
+        <span class="legend-marker noncastle"></span> 非城館<br>
+        <span class="legend-marker investigating"></span> 調査中
+    `;
+
+    return div;
+};
+
+legend.addTo(map);
+
+// 地図をクリックした場所の座標を表示
+map.on("click", function (e) {
+
+    const lat = e.latlng.lat.toFixed(6);
+    const lng = e.latlng.lng.toFixed(6);
+
+const popupContent = `
+    <strong>座標</strong><br>
+    経度：${lng}<br>
+    緯度：${lat}<br><br>
+    <button onclick="copyCoordinates('${lat}', '${lng}')">
+        座標をコピー
+    </button>
+`;
+
+    L.popup()
+        .setLatLng(e.latlng)
+        .setContent(popupContent)
+        .openOn(map);
+});
+
+// 座標をクリップボードへコピー
+function copyCoordinates(lat, lng) {
+
+    const text = `${lng}\t${lat}`;
+
+    navigator.clipboard.writeText(text)
+        .then(() => {
+            alert("座標をコピーしました");
+        })
+        .catch(error => {
+            console.error("座標のコピーに失敗しました", error);
+        });
+}

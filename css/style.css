@@ -18,3 +18,39 @@ h1 {
     width: 100%;
     height: calc(100vh - 57px);
 }
+
+.legend {
+    background: white;
+    padding: 8px 10px;
+    border: 1px solid #888;
+    border-radius: 4px;
+    line-height: 1.8;
+    font-size: 14px;
+}
+
+.legend-marker {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-right: 6px;
+    border: 2px solid black;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.legend-marker.castle {
+    background: red;
+}
+
+.legend-marker.noncastle {
+    background: blue;
+}
+
+.legend-marker.investigating {
+    background: gold;
+}
+
+/* 地図上のカーソルを十字線にする */
+.leaflet-container {
+    cursor: crosshair;
+}
