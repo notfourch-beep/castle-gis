@@ -15,9 +15,16 @@ const gsiStandard = L.tileLayer(
     }
 );
 
-// CS立体図（06TD141 試験タイル）
-const csMap06TD141 = L.tileLayer(
-"./tiles/06TD141_tiles/{z}/{x}/{y}.png",
+
+
+// 背景地図の一覧
+const baseMaps = {
+    "地理院標準地図": gsiStandard
+};
+
+// CS立体図（06TD 3x3 結合版）
+const csMap06TD3x3 = L.tileLayer(
+    "./tiles/06TD_3x3_tiles/{z}/{x}/{y}.png",
     {
         minZoom: 12,
         maxZoom: 18,
@@ -26,17 +33,16 @@ const csMap06TD141 = L.tileLayer(
     }
 );
 
-// 初期状態でCS立体図を表示
-csMap06TD141.addTo(map);
+// CS立体図をグループ化
+const csMapGroup = L.layerGroup([
+    csMap06TD3x3
+]);
 
-// 初期背景地図として表示
+// 初期背景地図
 gsiStandard.addTo(map);
 
-// 背景地図の一覧
-const baseMaps = {
-    "地理院標準地図": gsiStandard
-};
-
+// CS立体図
+csMapGroup.addTo(map);
 
 // 縮尺を表示
 L.control.scale({
@@ -88,7 +94,7 @@ const castleLayer = L.geoJSON(null, {
 
 // 重ね合わせレイヤーの一覧
 const overlayMaps = {
-    "CS立体図（試験）": csMap06TD141,
+    "CS立体図（試験）": csMapGroup,
     "城館等": castleLayer
 };
 
