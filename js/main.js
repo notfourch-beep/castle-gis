@@ -33,9 +33,21 @@ const csMap06TD3x3 = L.tileLayer(
     }
 );
 
+// CS立体図（06TD 3x3 B）
+const csMap06TD3x3B = L.tileLayer(
+    "./tiles/06TD_3x3_B_tiles/{z}/{x}/{y}.png",
+    {
+        minZoom: 12,
+        maxZoom: 18,
+        maxNativeZoom: 18,
+        opacity: 1.0
+    }
+);
+
 // CS立体図をグループ化
 const csMapGroup = L.layerGroup([
-    csMap06TD3x3
+    csMap06TD3x3,
+    csMap06TD3x3B
 ]);
 
 // 初期背景地図
