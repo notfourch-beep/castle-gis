@@ -5,27 +5,131 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>検索結果 | 城郭研究支援GIS</title>
+
+<style>
+  body {
+    margin: 0;
+    font-family:
+      -apple-system,
+      BlinkMacSystemFont,
+      "Hiragino Sans",
+      "Yu Gothic",
+      "YuGothic",
+      sans-serif;
+    background-color: #ffffff;
+    color: #222222;
+  }
+
+  .results-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 60px 30px;
+  }
+
+  .results-card {
+    text-align: center;
+  }
+
+  .results-title {
+    margin: 0 0 30px;
+    font-size: 40px;
+  }
+
+  .result-summary {
+    margin-bottom: 35px;
+    font-size: 18px;
+  }
+
+  .result-list {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  .result-item {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+
+    padding: 14px 4px;
+    border-bottom: 1px solid #dddddd;
+
+    font-size: 17px;
+    line-height: 1.6;
+  }
+
+  .result-id {
+    font-weight: bold;
+  }
+
+  .result-name {
+    color: #0066cc;
+    font-weight: bold;
+  }
+
+  .result-location {
+    font-weight: bold;
+  }
+
+  .result-label {
+    padding: 2px 5px;
+    background-color: #eeeeee;
+    font-weight: bold;
+  }
+
+  .result-value {
+    font-weight: bold;
+  }
+
+  .back-button-area {
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .back-button-area a {
+    color: #0066cc;
+    font-size: 16px;
+  }
+
+  @media (max-width: 600px) {
+    .results-page {
+      padding: 35px 20px;
+    }
+
+    .results-title {
+      font-size: 30px;
+    }
+
+    .result-item {
+      padding: 12px 4px;
+    }
+  }
+</style>
+
 </head>
 
 <body>
 
-    <header>
-        <h1>城郭研究支援GIS</h1>
-    </header>
+  <main class="results-page">
 
-    <main>
-        <h2>検索結果</h2>
+    <section class="results-card">
 
-        <div id="result-summary"></div>
+      <h1 class="results-title">検索結果</h1>
 
-        <div id="result-list"></div>
+      <div id="result-summary" class="result-summary"></div>
 
-        <p>
-            <a href="./search.html">検索画面にもどる</a>
-        </p>
-    </main>
+      <div id="result-list" class="result-list"></div>
 
-    <script src="./js/results.js"></script>
+      <div class="back-button-area">
+        <a href="./search.html">検索画面にもどる</a>
+      </div>
+
+    </section>
+
+  </main>
+
+  <script src="./js/results.js"></script>
 
 </body>
 

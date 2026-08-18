@@ -47,26 +47,55 @@ fetch("./data/castles.json")
             return;
         }
 
-        // 検索結果を表示
-        results.forEach(castle => {
+// 検索結果を表示
+results.forEach(castle => {
 
-            const item = document.createElement("div");
+    const item = document.createElement("div");
+    item.className = "result-item";
 
-            item.innerHTML = `
-    <p>
-        <strong>${castle.id}</strong>
-        <a href="./detail.html?id=${encodeURIComponent(castle.id)}">
-            ${castle.name}
-        </a>
-        ／ ${castle.location}
-        ／ 分類：${castle.status}
-        ／ 遺構：${castle.remains}
-    </p>
-`;
+    // 詳細画面へ検索条件も引き継ぐ
+    const detailParams = new URLSearchParams();
 
-            resultList.appendChild(item);
-        });
-    })
-    .catch(error => {
-        console.error("castles.json の読み込みに失敗しました", error);
-    });
+    detailParams.set("id", castle.id);
+
+    if (searchName !== "") {
+        detailParams.set("name", searchName);
+    }
+
+    if (searchLocation !== "") {
+        detailParams.set("location", searchLocation);
+    }
+
+    if (searchId !== "") {
+        detailParams.set("searchId", searchId);
+    }
+
+
+    item.innerHTML = `
+        <span class="result-id">${castle.id}</span>
+
+    <a
+    class="result-name"
+    href="./detail.html?${detailParams.toString()}">
+    ${castle.name}
+    </a>
+
+        <span class="result-location">
+            （${castle.location}）
+        </span>
+
+        <span class="result-label">分類</span>
+        <span class="result-value">${castle.status}</span>
+
+        <span class="result-label">遺構</span>
+        <span class="result-value">${castle.remains}</span>
+    `;
+
+    resultList.appendChild(item);
+
+});
+
+})
+.catch(error => {
+    console.error("castles.json の読み込みに失敗しました", error);
+});

@@ -19,8 +19,43 @@ fetch("./data/castles.json")
             )
         ];
 
-        // 五十音順ではなく、まずは文字列順で並べる
-        locations.sort();
+        // 和歌山県の市町村コード順
+const municipalityOrder = [
+    "和歌山市",
+    "海南市",
+    "橋本市",
+    "有田市",
+    "御坊市",
+    "田辺市",
+    "新宮市",
+    "紀の川市",
+    "岩出市",
+    "紀美野町",
+    "かつらぎ町",
+    "九度山町",
+    "高野町",
+    "湯浅町",
+    "広川町",
+    "有田川町",
+    "美浜町",
+    "日高町",
+    "由良町",
+    "印南町",
+    "みなべ町",
+    "日高川町",
+    "白浜町",
+    "上富田町",
+    "すさみ町",
+    "那智勝浦町",
+    "太地町",
+    "古座川町",
+    "北山村",
+    "串本町"
+];
+
+locations.sort((a, b) => {
+    return municipalityOrder.indexOf(a) - municipalityOrder.indexOf(b);
+});
 
         // プルダウンへ追加
         locations.forEach(location => {
