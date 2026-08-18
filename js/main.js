@@ -97,9 +97,13 @@ const castleLayer = L.geoJSON(null, {
  const name = feature.properties["城郭名"];
  const id = feature.properties.id;
 
-       layer.bindPopup(
-    `<strong>${name}</strong><br>${id}`
-    );
+    layer.bindPopup(
+    `<strong>${name}</strong><br>
+    ${id}<br>
+    <a href="./detail.html?id=${encodeURIComponent(id)}">
+        詳細を見る
+    </a>`
+);
     }
 
 }).addTo(map);
@@ -131,9 +135,39 @@ fetch("./data/castles.geojson")
         return response.json();
     })
     .then(data => {
-        castleLayer.addData(data);
-        console.log("GeoJSONを正常に読み込みました", data);
-    })
+    castleLayer.addData(data);
+    console.log("GeoJSONを正常に読み込みました", data);
+
+    // URLから城郭番号を取得
+    const params = new URLSearchParams(window.location.search);
+    const targetId = params.get("id");
+
+    // 城郭番号が指定されている場合
+    if (targetId) {
+
+        let targetLayer = null;
+
+        castleLayer.eachLayer(layer => {
+
+            if (
+                layer.feature &&
+                layer.feature.properties.id === targetId
+            ) {
+                targetLayer = layer;
+            }
+        });
+
+        // 該当する城郭が見つかった場合
+        if (targetLayer) {
+
+            const latlng = targetLayer.getLatLng();
+
+            map.setView(latlng, 16);
+
+            targetLayer.openPopup();
+        }
+    }
+})
     .catch(error => {
         console.error("GeoJSONの読み込みに失敗しました", error);
     });

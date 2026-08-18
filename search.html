@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>城郭検索 | 城郭研究支援GIS</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>城郭研究支援GIS</h1>
+    </header>
+
+    <main>
+        <h2>城郭検索</h2>
+
+     <form id="search-form">
+
+    <div>
+        <label for="name">城郭名</label>
+        <input type="text" id="name" name="name">
+    </div>
+
+    <div>
+        <label for="location">所在</label>
+        <select id="location" name="location">
+            <option value="">すべて</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="castle-id">城郭番号</label>
+        <input type="text" id="castle-id" name="castle-id">
+    </div>
+
+    <button type="submit">検索</button>
+
+</form>
+
+    </main>
+
+    <script src="./js/search.js"></script>
+
+</body>
+
+</html>
