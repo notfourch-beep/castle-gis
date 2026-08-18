@@ -64,9 +64,9 @@ L.control.scale({
 
 // statusによってマーカーの色を決める
 function getMarkerColor(status) {
-    if (status === "城館") {
+    if (status === "城郭") {
         return "red";
-    } else if (status === "非城館") {
+    } else if (status === "類似地形") {
         return "blue";
     } else if (status === "調査中") {
         return "gold";
@@ -94,8 +94,8 @@ const castleLayer = L.geoJSON(null, {
     // マーカーをクリックしたときのポップアップ
     onEachFeature: function (feature, layer) {
 
-        const name = feature.properties["城郭名"];
-        const id = feature.properties["仮番号"];
+ const name = feature.properties["城郭名"];
+ const id = feature.properties.id;
 
        layer.bindPopup(
     `<strong>${name}</strong><br>${id}`
@@ -122,7 +122,7 @@ L.control.layers(
 
 
 // GeoJSONを読み込む
-fetch("./data/castle.geojson")
+fetch("./data/castles.geojson")
     .then(response => {
         if (!response.ok) {
             throw new Error(`HTTPエラー: ${response.status}`);
@@ -149,8 +149,8 @@ legend.onAdd = function () {
 
     div.innerHTML = `
         <strong>凡例</strong><br>
-        <span class="legend-marker castle"></span> 城館<br>
-        <span class="legend-marker noncastle"></span> 非城館<br>
+        <span class="legend-marker castle"></span> 城郭<br>
+        <span class="legend-marker noncastle"></span> 類似地形<br>
         <span class="legend-marker investigating"></span> 調査中
     `;
 
