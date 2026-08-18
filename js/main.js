@@ -172,7 +172,7 @@ fetch("./data/castles.geojson")
         console.error("GeoJSONの読み込みに失敗しました", error);
     });
 
-    // 凡例を作成
+ // 凡例を作成
 const legend = L.control({
     position: "bottomright"
 });
@@ -186,6 +186,8 @@ legend.onAdd = function () {
         <span class="legend-marker castle"></span> 城郭<br>
         <span class="legend-marker noncastle"></span> 類似地形<br>
         <span class="legend-marker investigating"></span> 調査中
+        <hr>
+        <a href="start.html#select">検索の選択にもどる</a>
     `;
 
     return div;
