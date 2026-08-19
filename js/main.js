@@ -229,3 +229,185 @@ function copyCoordinates(lat, lng) {
             console.error("座標のコピーに失敗しました", error);
         });
 }
+
+// 指定した座標へ移動するコントロール
+const coordinateJump = L.control({
+    position: "topleft"
+});
+
+coordinateJump.onAdd = function () {
+
+    const div = L.DomUtil.create("div", "coordinate-jump");
+
+    div.innerHTML = `
+        <button
+            type="button"
+            class="coordinate-jump-toggle"
+            id="coordinate-jump-toggle">
+            座標
+        </button>
+
+        <div class="coordinate-jump-panel">
+
+            <div class="coordinate-jump-title">
+                座標へ移動
+            </div>
+
+            <input
+                type="text"
+                id="coordinate-input"
+                placeholder="33.512345, 135.765432"
+            >
+
+            <button
+                type="button"
+                class="coordinate-jump-button"
+                id="coordinate-jump-button">
+                移動
+            </button>
+
+            <div class="coordinate-jump-guide">
+                緯度, 経度 または 経度, 緯度
+            </div>
+
+        </div>
+    `;
+
+    // コントロール上の操作を地図へ伝えない
+    L.DomEvent.disableClickPropagation(div);
+    L.DomEvent.disableScrollPropagation(div);
+
+    return div;
+};
+
+coordinateJump.addTo(map);
+
+
+const coordinateJumpBox =
+    document.querySelector(".coordinate-jump");
+
+const coordinateJumpToggle =
+    document.getElementById("coordinate-jump-toggle");
+
+const coordinateInput =
+    document.getElementById("coordinate-input");
+
+const coordinateJumpButton =
+    document.getElementById("coordinate-jump-button");
+
+
+// 「座標」ボタンで開閉
+coordinateJumpToggle.addEventListener("click", function () {
+
+    coordinateJumpBox.classList.toggle("open");
+
+    if (coordinateJumpBox.classList.contains("open")) {
+        coordinateInput.focus();
+    }
+});
+
+
+// 「移動」ボタン
+coordinateJumpButton.addEventListener(
+    "click",
+    jumpToCoordinate
+);
+
+
+// Enterキーでも移動
+coordinateInput.addEventListener(
+    "keydown",
+    function (event) {
+
+        if (event.key === "Enter") {
+            jumpToCoordinate();
+        }
+    }
+);
+
+
+// 地図をクリックしたら座標入力欄を閉じる
+map.on("click", function () {
+    coordinateJumpBox.classList.remove("open");
+});
+
+
+function jumpToCoordinate() {
+
+    const input =
+        coordinateInput.value.trim();
+
+    if (input === "") {
+        alert("座標を入力してください。");
+        return;
+    }
+
+    // カンマ、空白、タブなどを区切りとして扱う
+    const values = input
+        .split(/[\s,]+/)
+        .filter(value => value !== "")
+        .map(Number);
+
+    if (
+        values.length !== 2 ||
+        values.some(value => Number.isNaN(value))
+    ) {
+        alert(
+            "座標を正しく入力してください。\n" +
+            "例：33.512345, 135.765432"
+        );
+        return;
+    }
+
+    const first = values[0];
+    const second = values[1];
+
+    let lat;
+    let lng;
+
+    // 緯度・経度
+    if (
+        first >= -90 &&
+        first <= 90 &&
+        second >= -180 &&
+        second <= 180
+    ) {
+        lat = first;
+        lng = second;
+    }
+
+    // 経度・緯度
+    if (
+        Math.abs(first) > 90 &&
+        Math.abs(first) <= 180 &&
+        Math.abs(second) <= 90
+    ) {
+        lng = first;
+        lat = second;
+    }
+
+    if (
+        lat === undefined ||
+        lng === undefined
+    ) {
+        alert("緯度・経度として認識できませんでした。");
+        return;
+    }
+
+    map.setView(
+        [lat, lng],
+        17
+    );
+
+    L.popup()
+        .setLatLng([lat, lng])
+        .setContent(
+            `<strong>指定座標</strong><br>
+            緯度：${lat.toFixed(6)}<br>
+            経度：${lng.toFixed(6)}`
+        )
+        .openOn(map);
+
+    // 移動後は入力欄を閉じる
+    coordinateJumpBox.classList.remove("open");
+}

@@ -54,3 +54,74 @@ h1 {
 .leaflet-container {
     cursor: crosshair;
 }
+
+/* 座標ジャンプ */
+
+.coordinate-jump {
+    background: white;
+    border: 1px solid #888;
+    border-radius: 4px;
+    font-size: 14px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.35);
+}
+
+.coordinate-jump-toggle {
+    display: block;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 4px;
+    background: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.coordinate-jump-toggle:hover {
+    background-color: #f0f0f0;
+}
+
+.coordinate-jump-panel {
+    display: none;
+    width: 220px;
+    padding: 10px;
+    border-top: 1px solid #cccccc;
+    box-sizing: border-box;
+}
+
+.coordinate-jump.open .coordinate-jump-panel {
+    display: block;
+}
+
+.coordinate-jump-title {
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.coordinate-jump input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 8px;
+    margin-bottom: 7px;
+    border: 1px solid #aaaaaa;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.coordinate-jump-button {
+    padding: 5px 12px;
+    border: 1px solid #666666;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+.coordinate-jump-button:hover {
+    background-color: #e5e5e5;
+}
+
+.coordinate-jump-guide {
+    margin-top: 6px;
+    font-size: 11px;
+    line-height: 1.4;
+    color: #555555;
+}
