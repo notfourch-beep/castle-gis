@@ -167,10 +167,10 @@ detail.innerHTML = `
     </section>
 
 
- <div class="map-link-area">
+<div class="map-link-area">
     <a
         class="map-link"
-        href="./index.html?id=${encodeURIComponent(castle.id)}">
+        href="./map.html?id=${encodeURIComponent(castle.id)}">
         地図で表示
     </a>
 </div>

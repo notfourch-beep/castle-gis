@@ -187,7 +187,7 @@ legend.onAdd = function () {
         <span class="legend-marker noncastle"></span> 類似地形<br>
         <span class="legend-marker investigating"></span> 調査中
         <hr>
-        <a href="start.html#select">検索の選択にもどる</a>
+        <a href="index.html#select">検索の選択にもどる</a>
     `;
 
     return div;
