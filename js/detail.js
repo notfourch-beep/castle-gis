@@ -167,6 +167,7 @@ detail.innerHTML = `
     </section>
 
 
+${castle.longitude !== "" && castle.latitude !== "" ? `
 <div class="map-link-area">
     <a
         class="map-link"
@@ -174,6 +175,7 @@ detail.innerHTML = `
         地図で表示
     </a>
 </div>
+` : ""}
 
 <div class="detail-navigation">
     <a
