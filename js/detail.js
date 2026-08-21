@@ -214,7 +214,18 @@ detail.innerHTML = `
 </p>
 
 </section>
+
+<section class="detail-contact">
+    <p>
+        データに誤りを発見した場合、あるいは記載されていない情報をご存じの場合は、
+        <a href="mailto:wajokenjimukyoku@gmail.com?subject=${encodeURIComponent(`城館データの訂正・情報提供：${castle.name}`)}">
+    メール
+        </a>
+        でお知らせください。
+    </p>
+</section>
 `;
+
     })
     .catch(error => {
         console.error("castles.json の読み込みに失敗しました", error);

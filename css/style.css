@@ -28,6 +28,17 @@ h1 {
     font-size: 14px;
 }
 
+.map-information {
+    width: 230px;
+    margin-top: 6px;
+    line-height: 1.5;
+    font-size: 12px;
+}
+
+.map-information a {
+    color: #0066cc;
+}
+
 .legend-marker {
     display: inline-block;
     width: 14px;

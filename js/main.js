@@ -172,7 +172,7 @@ fetch("./data/castles.geojson")
         console.error("GeoJSONの読み込みに失敗しました", error);
     });
 
- // 凡例を作成
+// 凡例を作成
 const legend = L.control({
     position: "bottomright"
 });
@@ -186,9 +186,25 @@ legend.onAdd = function () {
         <span class="legend-marker castle"></span> 城郭<br>
         <span class="legend-marker noncastle"></span> 類似地形<br>
         <span class="legend-marker investigating"></span> 調査中
+
         <hr>
+
+        <div class="map-information">
+            地図上に表示のない場所で城館らしい地形を発見された場合は、
+            未発見の城館である可能性があります。
+            経緯度を添えて
+            <a href="mailto:wajokenjimukyoku@gmail.com?subject=城館候補地の情報提供">
+                ご一報ください
+            </a>。
+        </div>
+
+        <hr>
+
         <a href="index.html#select">検索の選択にもどる</a>
     `;
+
+    // 凡例上のクリック操作が地図に伝わらないようにする
+    L.DomEvent.disableClickPropagation(div);
 
     return div;
 };
