@@ -50,6 +50,17 @@ const csMapGroup = L.layerGroup([
     csMap06TD3x3B
 ]);
 
+// shi-works 和歌山県CS立体図
+const shiworksCsMap = L.tileLayer(
+    "https://xs489works.xsrv.jp/raster-tiles/pref-wakayama/wakayamapc-cs-tiles/{z}/{x}/{y}.png",
+    {
+        minZoom: 4,
+        maxZoom: 18,
+        maxNativeZoom: 17,
+        opacity: 1.0
+    }
+);
+
 // 初期背景地図
 gsiStandard.addTo(map);
 
@@ -110,7 +121,8 @@ const castleLayer = L.geoJSON(null, {
 
 // 重ね合わせレイヤーの一覧
 const overlayMaps = {
-    "CS立体図（試験）": csMapGroup,
+    "自作CS立体図": csMapGroup,
+    "shi-works 和歌山県CS立体図": shiworksCsMap,
     "城館等": castleLayer
 };
 
