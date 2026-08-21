@@ -15,40 +15,10 @@ const gsiStandard = L.tileLayer(
     }
 );
 
-
-
 // 背景地図の一覧
 const baseMaps = {
     "地理院標準地図": gsiStandard
 };
-
-// CS立体図（06TD 3x3 結合版）
-const csMap06TD3x3 = L.tileLayer(
-    "./tiles/06TD_3x3_tiles/{z}/{x}/{y}.png",
-    {
-        minZoom: 12,
-        maxZoom: 18,
-        maxNativeZoom: 18,
-        opacity: 1.0
-    }
-);
-
-// CS立体図（06TD 3x3 B）
-const csMap06TD3x3B = L.tileLayer(
-    "./tiles/06TD_3x3_B_tiles/{z}/{x}/{y}.png",
-    {
-        minZoom: 12,
-        maxZoom: 18,
-        maxNativeZoom: 18,
-        opacity: 1.0
-    }
-);
-
-// CS立体図をグループ化
-const csMapGroup = L.layerGroup([
-    csMap06TD3x3,
-    csMap06TD3x3B
-]);
 
 // shi-works 和歌山県CS立体図
 const shiworksCsMap = L.tileLayer(
@@ -65,7 +35,7 @@ const shiworksCsMap = L.tileLayer(
 gsiStandard.addTo(map);
 
 // CS立体図
-csMapGroup.addTo(map);
+shiworksCsMap.addTo(map);
 
 // 縮尺を表示
 L.control.scale({
@@ -121,7 +91,6 @@ const castleLayer = L.geoJSON(null, {
 
 // 重ね合わせレイヤーの一覧
 const overlayMaps = {
-    "自作CS立体図": csMapGroup,
     "shi-works 和歌山県CS立体図": shiworksCsMap,
     "城館等": castleLayer
 };
