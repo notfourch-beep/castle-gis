@@ -37,15 +37,26 @@ fetch("./data/castles.json")
         const summary = document.getElementById("result-summary");
         const resultList = document.getElementById("result-list");
 
-        // 件数表示
-        summary.textContent = `${results.length}件見つかりました。`;
+// 件数表示
+if (results.length === 0) {
+    summary.textContent = "該当する城館は見つかりませんでした。";
+} else {
+    summary.textContent = `${results.length}件見つかりました。`;
+}
 
-        // 0件の場合
-        if (results.length === 0) {
-            resultList.innerHTML =
-                "<p>条件に一致するものはありませんでした。</p>";
-            return;
-        }
+// 0件の場合
+if (results.length === 0) {
+    resultList.innerHTML = `
+        <p>
+            城館には別名・異称がある場合があります。<br>
+            <a href="./aliases.html">
+                城館名・別名・異称検索
+            </a>
+            もご確認ください。
+        </p>
+    `;
+    return;
+}
 
 // 検索結果を表示
 results.forEach(castle => {

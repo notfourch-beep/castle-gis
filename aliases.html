@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>城館名・別名・異称検索 | 城郭研究支援GIS</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family:
+                -apple-system,
+                BlinkMacSystemFont,
+                "Hiragino Sans",
+                "Yu Gothic",
+                "YuGothic",
+                sans-serif;
+            background-color: #ffffff;
+            color: #222222;
+        }
+
+        .alias-page {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 60px 30px;
+        }
+
+        h1 {
+            margin: 0 0 20px;
+            text-align: center;
+            font-size: 36px;
+        }
+
+        .guide {
+            margin-bottom: 35px;
+            text-align: center;
+            font-size: 16px;
+            line-height: 1.7;
+        }
+
+        .search-area {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 40px;
+        }
+
+        #alias-input {
+            width: 320px;
+            max-width: 70%;
+            box-sizing: border-box;
+            padding: 10px 12px;
+            border: 1px solid #aaaaaa;
+            border-radius: 7px;
+            font-size: 17px;
+        }
+
+        #alias-search-button {
+            padding: 10px 24px;
+            border: 2px solid #333333;
+            border-radius: 8px;
+            background-color: #bfe7f6;
+            color: #222222;
+            font-size: 17px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        #alias-search-button:hover {
+            background-color: #a8dced;
+        }
+
+        #result-summary {
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 16px;
+        }
+
+        .alias-result {
+            padding: 18px 10px;
+            border-bottom: 1px solid #cccccc;
+            line-height: 1.8;
+        }
+
+        .alias-name {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .alias-yomi {
+            margin-left: 8px;
+            color: #555555;
+            font-size: 14px;
+        }
+
+        .alias-label {
+            display: inline-block;
+            margin-right: 6px;
+            padding: 1px 5px;
+            background-color: #eeeeee;
+            font-size: 13px;
+        }
+
+        .castle-link {
+            color: #0066cc;
+        }
+
+        .reference {
+            font-weight: bold;
+        }
+
+        .back-area {
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .back-area a {
+            color: #0066cc;
+        }
+
+        @media (max-width: 600px) {
+            .alias-page {
+                padding: 35px 20px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            .search-area {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            #alias-input {
+                width: 100%;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="alias-page">
+
+        <h1>城館名・別名・異称検索</h1>
+
+        <p class="guide">
+            城館名や別名・異称を入力してください。<br>
+            読み（ひらがな）からも検索できます。
+        </p>
+
+        <div class="search-area">
+            <input
+                type="text"
+                id="alias-input"
+                placeholder="例：愛洲城"
+            >
+
+            <button
+                type="button"
+                id="alias-search-button">
+                検索
+            </button>
+        </div>
+
+        <div id="result-summary"></div>
+        <div id="alias-results"></div>
+
+        <div class="back-area">
+            <a href="search.html">城郭検索にもどる</a>
+        </div>
+
+    </main>
+
+<script>
+
+let aliasData = [];
+
+
+// aliases.json を読み込む
+fetch("./data/aliases.json")
+    .then(response => {
+
+        if (!response.ok) {
+            throw new Error(`HTTPエラー: ${response.status}`);
+        }
+
+        return response.json();
+    })
+    .then(data => {
+
+        aliasData = data;
+
+    })
+    .catch(error => {
+
+        console.error(
+            "aliases.json の読み込みに失敗しました",
+            error
+        );
+
+        document.getElementById("result-summary").textContent =
+            "データの読み込みに失敗しました。";
+    });
+
+
+// 検索ボタン
+document
+    .getElementById("alias-search-button")
+    .addEventListener("click", searchAliases);
+
+
+// Enterキーでも検索
+document
+    .getElementById("alias-input")
+    .addEventListener("keydown", function(event) {
+
+        if (event.key === "Enter") {
+            searchAliases();
+        }
+    });
+
+
+// 参照先の文字列から城館名を取り出す
+function getReferenceName(reference) {
+
+    if (!reference) {
+        return "";
+    }
+
+    let text = reference.trim();
+
+    // 先頭の矢印を除く
+    text = text.replace(/^→\s*/, "");
+
+    // 読み仮名の括弧より前を城館名とする
+    const match = text.match(/^(.+?)\s*[（(]/);
+
+    if (match) {
+        return match[1].trim();
+    }
+
+    return text.trim();
+}
+
+
+// 参照先の城郭番号を aliases.json から探す
+function findReferenceId(reference) {
+
+    const referenceName =
+        getReferenceName(reference);
+
+    if (referenceName === "") {
+        return "";
+    }
+
+    const target =
+        aliasData.find(item =>
+            item.name.trim() === referenceName &&
+            item.id !== ""
+        );
+
+    if (target) {
+        return target.id;
+    }
+
+    return "";
+}
+
+
+function searchAliases() {
+
+    const keyword =
+        document
+            .getElementById("alias-input")
+            .value
+            .trim()
+            .toLowerCase();
+
+    const summary =
+        document.getElementById("result-summary");
+
+    const resultArea =
+        document.getElementById("alias-results");
+
+    resultArea.innerHTML = "";
+
+
+    if (keyword === "") {
+
+        summary.textContent =
+            "検索する城館名を入力してください。";
+
+        return;
+    }
+
+
+    const results = aliasData.filter(item => {
+
+        const name =
+            (item.name || "").toLowerCase();
+
+        const yomi =
+            (item.yomi || "").toLowerCase();
+
+        return (
+            name.includes(keyword) ||
+            yomi.includes(keyword)
+        );
+    });
+
+
+    if (results.length === 0) {
+
+        summary.textContent =
+            "該当する名称は見つかりませんでした。";
+
+        return;
+    }
+
+
+    summary.textContent =
+        `${results.length}件見つかりました。`;
+
+
+    results.forEach(item => {
+
+        const div =
+            document.createElement("div");
+
+        div.className = "alias-result";
+
+
+        let castleInfo = "";
+
+        // 城郭番号がある場合は詳細画面へのリンクを表示
+        if (item.id !== "") {
+
+            castleInfo = `
+                <div>
+                    <span class="alias-label">
+                        城郭番号
+                    </span>
+
+                    <a
+                        class="castle-link"
+                        href="./detail.html?id=${encodeURIComponent(item.id)}">
+                        ${item.id}
+                    </a>
+                </div>
+            `;
+        }
+
+
+        let referenceInfo = "";
+
+        // 参照先がある場合
+        if (item.reference !== "") {
+
+            const referenceName =
+                getReferenceName(item.reference);
+
+            const referenceId =
+                findReferenceId(item.reference);
+
+
+            if (referenceId !== "") {
+
+                referenceInfo = `
+                    <div class="reference">
+                        →
+                        <a
+                            class="castle-link"
+                            href="./detail.html?id=${encodeURIComponent(referenceId)}">
+                            ${referenceName}
+                        </a>
+                    </div>
+                `;
+
+            } else {
+
+                referenceInfo = `
+                    <div class="reference">
+                        ${item.reference}
+                    </div>
+                `;
+            }
+        }
+
+
+        div.innerHTML = `
+            <div>
+                <span class="alias-name">
+                    ${item.name}
+                </span>
+
+                <span class="alias-yomi">
+                    ${item.yomi}
+                </span>
+            </div>
+
+            <div>
+                <span class="alias-label">
+                    所在
+                </span>
+                ${item.location}
+            </div>
+
+            ${castleInfo}
+
+            ${referenceInfo}
+        `;
+
+
+        resultArea.appendChild(div);
+
+    });
+}
+
+</script>
+
+</body>
+
+</html>

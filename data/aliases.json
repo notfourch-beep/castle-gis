@@ -1,0 +1,4706 @@
+[
+  {
+    "yomi": "（きりはら）やまありじょう",
+    "name": "（切原）山在城",
+    "location": "田辺市",
+    "id": "WM0136",
+    "reference": ""
+  },
+  {
+    "yomi": "（との）わだのもりじょう",
+    "name": "（殿）和田森城",
+    "location": "那智勝浦町",
+    "id": "WM0317",
+    "reference": ""
+  },
+  {
+    "yomi": "（わさ）たまき（し）どい",
+    "name": "（和佐）玉置（氏）土居",
+    "location": "日高川町",
+    "id": "WM0578",
+    "reference": ""
+  },
+  {
+    "yomi": "あいすじょう",
+    "name": "愛洲城",
+    "location": "田辺市",
+    "id": "",
+    "reference": "→　衣笠城　（きぬがさじょう）"
+  },
+  {
+    "yomi": "あいすやしき",
+    "name": "相須屋敷",
+    "location": "北山村",
+    "id": "WM0001",
+    "reference": ""
+  },
+  {
+    "yomi": "あおじょう",
+    "name": "阿尾城",
+    "location": "日高町",
+    "id": "WM0002",
+    "reference": ""
+  },
+  {
+    "yomi": "あかつかさかきじょう",
+    "name": "赤塚榊城",
+    "location": "橋本市",
+    "id": "",
+    "reference": "→　赤塚土居　（あかつかどい）"
+  },
+  {
+    "yomi": "あかつかどい",
+    "name": "赤塚土居",
+    "location": "橋本市",
+    "id": "WM0003",
+    "reference": ""
+  },
+  {
+    "yomi": "あかまつ（やま）じょう",
+    "name": "赤松（山）城",
+    "location": "印南町",
+    "id": "WM0004",
+    "reference": ""
+  },
+  {
+    "yomi": "あきづきいせき",
+    "name": "秋月遺跡",
+    "location": "和歌山市",
+    "id": "WM0005",
+    "reference": ""
+  },
+  {
+    "yomi": "あきづきじょう",
+    "name": "秋月城",
+    "location": "和歌山市",
+    "id": "WM0006",
+    "reference": ""
+  },
+  {
+    "yomi": "あきばさんじょう",
+    "name": "秋葉山城",
+    "location": "すさみ町",
+    "id": "",
+    "reference": "→　周参見城　（すさみじょう）"
+  },
+  {
+    "yomi": "あきばさんじょう",
+    "name": "秋葉山城",
+    "location": "紀の川市",
+    "id": "WM0007",
+    "reference": ""
+  },
+  {
+    "yomi": "あずしまじょう",
+    "name": "小豆島城",
+    "location": "和歌山市",
+    "id": "WM0008",
+    "reference": ""
+  },
+  {
+    "yomi": "あぜがわかみじょう",
+    "name": "阿瀬川上城",
+    "location": "有田川町",
+    "id": "",
+    "reference": "→　天子山城　（てんしやまじょう）"
+  },
+  {
+    "yomi": "あぜかわしもじょう",
+    "name": "阿瀬川下城",
+    "location": "有田川町",
+    "id": "",
+    "reference": "→　二川天城　（ふたかわてんじょう）"
+  },
+  {
+    "yomi": "あぜがわじょう",
+    "name": "阿瀬川城",
+    "location": "有田川町",
+    "id": "WM0009",
+    "reference": ""
+  },
+  {
+    "yomi": "あぜかわじょうさい",
+    "name": "阿瀬川城塞",
+    "location": "有田川町",
+    "id": "",
+    "reference": "→　二川天城　（ふたかわてんじょう）"
+  },
+  {
+    "yomi": "あたぎかつやまじょう",
+    "name": "安宅勝山城",
+    "location": "白浜町",
+    "id": "WM0010",
+    "reference": ""
+  },
+  {
+    "yomi": "あたぎざきとおみばんしょ",
+    "name": "安宅崎遠見番所",
+    "location": "白浜町",
+    "id": "WM0011",
+    "reference": ""
+  },
+  {
+    "yomi": "あたぎはちまんやまじょう",
+    "name": "安宅八幡山城",
+    "location": "白浜町",
+    "id": "WM0012",
+    "reference": ""
+  },
+  {
+    "yomi": "あたぎほんじょう",
+    "name": "安宅本城",
+    "location": "白浜町",
+    "id": "WM0013",
+    "reference": ""
+  },
+  {
+    "yomi": "あたぎみなみようがい",
+    "name": "安宅南要害",
+    "location": "白浜町",
+    "id": "",
+    "reference": "→安宅勝山城（あたぎかつやまじょう）"
+  },
+  {
+    "yomi": "あたごやまじょう",
+    "name": "愛宕山城",
+    "location": "有田川町",
+    "id": "WM0014",
+    "reference": ""
+  },
+  {
+    "yomi": "あっそじょう",
+    "name": "且来城",
+    "location": "海南市",
+    "id": "WM0015",
+    "reference": ""
+  },
+  {
+    "yomi": "あづちやまじょう",
+    "name": "安土山城",
+    "location": "田辺市",
+    "id": "",
+    "reference": "→　平が城　（たいらがじょう）"
+  },
+  {
+    "yomi": "あなぶしじょう",
+    "name": "穴伏城",
+    "location": "紀の川市",
+    "id": "WM0016",
+    "reference": ""
+  },
+  {
+    "yomi": "あぶかみやまじょう",
+    "name": "阿武神山城",
+    "location": "有田川町",
+    "id": "",
+    "reference": "→　尾の上城　（おのうえじょう）"
+  },
+  {
+    "yomi": "あぶそ【さわ】じょう",
+    "name": "阿婦曾【沢】城",
+    "location": "新宮市",
+    "id": "WM0017",
+    "reference": ""
+  },
+  {
+    "yomi": "あまごいやまじょう",
+    "name": "雨乞山城",
+    "location": "紀美野町",
+    "id": "WM0018",
+    "reference": ""
+  },
+  {
+    "yomi": "あまつぼやまとりで",
+    "name": "雨壺山砦",
+    "location": "九度山町",
+    "id": "WM0019",
+    "reference": ""
+  },
+  {
+    "yomi": "あまでらみなみじょう",
+    "name": "尼寺南城",
+    "location": "紀の川市",
+    "id": "WM0020",
+    "reference": ""
+  },
+  {
+    "yomi": "いいがきじょう",
+    "name": "飯垣城",
+    "location": "和歌山市",
+    "id": "",
+    "reference": "→　秋月城　（あきづきじょう）"
+  },
+  {
+    "yomi": "いいもりやまじょう",
+    "name": "飯盛山城",
+    "location": "海南市",
+    "id": "WM0021",
+    "reference": ""
+  },
+  {
+    "yomi": "いいもりやまじょう",
+    "name": "飯盛山城",
+    "location": "紀の川市",
+    "id": "WM0022",
+    "reference": ""
+  },
+  {
+    "yomi": "いいもりやまじょう",
+    "name": "飯盛山城",
+    "location": "日高川町",
+    "id": "WM0023",
+    "reference": ""
+  },
+  {
+    "yomi": "いけ（の）しりだいば",
+    "name": "池（ノ）尻台場",
+    "location": "和歌山市",
+    "id": "WM0024",
+    "reference": ""
+  },
+  {
+    "yomi": "いけざきじょう",
+    "name": "池崎城",
+    "location": "海南市",
+    "id": "WM0025",
+    "reference": ""
+  },
+  {
+    "yomi": "いけだじょう",
+    "name": "池田城",
+    "location": "日高町",
+    "id": "",
+    "reference": "→　小坊子ヶ城　（こぼしがじょう）"
+  },
+  {
+    "yomi": "いけのまえだいば",
+    "name": "池ノ前台場",
+    "location": "和歌山市",
+    "id": "WM0026",
+    "reference": ""
+  },
+  {
+    "yomi": "いしがきじょう",
+    "name": "石垣城",
+    "location": "有田川町",
+    "id": "",
+    "reference": "→　鳥屋城　（とやじょう）"
+  },
+  {
+    "yomi": "いしくらやまじょう",
+    "name": "石倉山城",
+    "location": "那智勝浦町",
+    "id": "WM0027",
+    "reference": ""
+  },
+  {
+    "yomi": "いち（い）たに（やま）じょう",
+    "name": "市（井）谷（山）城",
+    "location": "みなべ町",
+    "id": "WM0028",
+    "reference": ""
+  },
+  {
+    "yomi": "いちかのじょう",
+    "name": "市鹿野城",
+    "location": "白浜町",
+    "id": "WM0029",
+    "reference": ""
+  },
+  {
+    "yomi": "いちくりやまじょう",
+    "name": "市栗山城",
+    "location": "みなべ町",
+    "id": "WM0030",
+    "reference": ""
+  },
+  {
+    "yomi": "いちのせじょう",
+    "name": "市ノ瀬城",
+    "location": "上富田町",
+    "id": "",
+    "reference": "→　龍松山城　（りゅうしょうざんじょう）"
+  },
+  {
+    "yomi": "いちやじょう",
+    "name": "市屋城",
+    "location": "那智勝浦町",
+    "id": "WM0031",
+    "reference": ""
+  },
+  {
+    "yomi": "いなりたに（じょう）さい",
+    "name": "稲荷谷（城）塞",
+    "location": "田辺市",
+    "id": "WM0032",
+    "reference": ""
+  },
+  {
+    "yomi": "いなりやまじょう",
+    "name": "稲荷山城",
+    "location": "串本町",
+    "id": "WM0033",
+    "reference": ""
+  },
+  {
+    "yomi": "いなんばらじょう",
+    "name": "印南原城",
+    "location": "印南町",
+    "id": "WM0034",
+    "reference": ""
+  },
+  {
+    "yomi": "いのくちじょう【のせき】",
+    "name": "井ノ口城【の関】",
+    "location": "紀の川市",
+    "id": "WM0035",
+    "reference": ""
+  },
+  {
+    "yomi": "いましろやまじょう",
+    "name": "今城山城",
+    "location": "紀の川市",
+    "id": "WM0036",
+    "reference": ""
+  },
+  {
+    "yomi": "いもうどい",
+    "name": "芋生土居",
+    "location": "橋本市",
+    "id": "WM0037",
+    "reference": ""
+  },
+  {
+    "yomi": "いもせしょうじやしき",
+    "name": "芋瀬庄司屋敷",
+    "location": "かつらぎ町",
+    "id": "WM0038",
+    "reference": ""
+  },
+  {
+    "yomi": "いもばらとのやしき",
+    "name": "五百原殿屋敷",
+    "location": "田辺市",
+    "id": "WM0039",
+    "reference": ""
+  },
+  {
+    "yomi": "いりさやまじょう",
+    "name": "入佐山城",
+    "location": "海南市",
+    "id": "WM0040",
+    "reference": ""
+  },
+  {
+    "yomi": "いろかわさんくろうやしき",
+    "name": "色川三九郎屋敷",
+    "location": "那智勝浦町",
+    "id": "WM0041",
+    "reference": ""
+  },
+  {
+    "yomi": "いわくらじょう",
+    "name": "岩倉城",
+    "location": "橋本市",
+    "id": "WM0042",
+    "reference": ""
+  },
+  {
+    "yomi": "いわさきやかた",
+    "name": "石（岩）崎館",
+    "location": "湯浅町",
+    "id": "",
+    "reference": "→　湯浅氏館　（ゆあさしやかた）"
+  },
+  {
+    "yomi": "いわせじょう",
+    "name": "岩橋城",
+    "location": "和歌山市",
+    "id": "WM0043",
+    "reference": ""
+  },
+  {
+    "yomi": "いわたじょう",
+    "name": "岩田城",
+    "location": "上富田町",
+    "id": "",
+    "reference": "→　釣瓶山城　（つるべやまじょう）"
+  },
+  {
+    "yomi": "いわたにじょう",
+    "name": "岩谷城",
+    "location": "白浜町",
+    "id": "",
+    "reference": "→　血深城　（ちぶかじょう）"
+  },
+  {
+    "yomi": "いわでごてん",
+    "name": "岩出御殿",
+    "location": "岩出市",
+    "id": "WM0044",
+    "reference": ""
+  },
+  {
+    "yomi": "いわむらじょう",
+    "name": "岩村城",
+    "location": "有田市",
+    "id": "",
+    "reference": "→　岩室城　（いわむろじょう）"
+  },
+  {
+    "yomi": "いわむろ（やま）じょう",
+    "name": "岩室（山）城",
+    "location": "有田市",
+    "id": "WM0045",
+    "reference": ""
+  },
+  {
+    "yomi": "いわやじょう",
+    "name": "岩屋城",
+    "location": "串本町",
+    "id": "WM0046",
+    "reference": ""
+  },
+  {
+    "yomi": "いんべ（やま）じょう",
+    "name": "忌部（山）城",
+    "location": "和歌山市",
+    "id": "WM0047",
+    "reference": ""
+  },
+  {
+    "yomi": "うえだししもやしき",
+    "name": "上田氏下屋敷",
+    "location": "橋本市",
+    "id": "",
+    "reference": "→　赤塚土居　（あかつかどい）"
+  },
+  {
+    "yomi": "うえだどいやしき",
+    "name": "上田土居屋敷",
+    "location": "橋本市",
+    "id": "",
+    "reference": "→　榊が城　（さかきがじょう）"
+  },
+  {
+    "yomi": "うえのはらじょう",
+    "name": "上野原城",
+    "location": "紀の川市",
+    "id": "",
+    "reference": "→　尼寺南城　（あまでらみなみじょう）"
+  },
+  {
+    "yomi": "うえのやまじょう",
+    "name": "上野山城",
+    "location": "串本町",
+    "id": "",
+    "reference": "→　古城山城　（こじょうさんじょう）"
+  },
+  {
+    "yomi": "うえのやまじょう",
+    "name": "上野山城",
+    "location": "田辺市",
+    "id": "WM0048",
+    "reference": ""
+  },
+  {
+    "yomi": "うえまつやしき",
+    "name": "植松屋敷",
+    "location": "由良町",
+    "id": "WM0049",
+    "reference": ""
+  },
+  {
+    "yomi": "うえんじょう",
+    "name": "上城",
+    "location": "みなべ町",
+    "id": "WM0050",
+    "reference": ""
+  },
+  {
+    "yomi": "うしろやまじょう",
+    "name": "後山城",
+    "location": "日高川町",
+    "id": "WM0051",
+    "reference": ""
+  },
+  {
+    "yomi": "うちこしじょう",
+    "name": "打越城",
+    "location": "田辺市",
+    "id": "WM0052",
+    "reference": ""
+  },
+  {
+    "yomi": "うのじょう",
+    "name": "宇野城",
+    "location": "紀の川市",
+    "id": "WM0053",
+    "reference": ""
+  },
+  {
+    "yomi": "うましゅくじょう",
+    "name": "馬宿城",
+    "location": "紀の川市",
+    "id": "WM0054",
+    "reference": ""
+  },
+  {
+    "yomi": "うまんたにじょう",
+    "name": "馬谷城",
+    "location": "白浜町",
+    "id": "",
+    "reference": "→　高瀬要害山城　（たかせようがいさんじょう）"
+  },
+  {
+    "yomi": "うみがみだいば",
+    "name": "海髪台場",
+    "location": "和歌山市",
+    "id": "",
+    "reference": "→　大谷台場　（おおたにだいば）"
+  },
+  {
+    "yomi": "うめだじょう",
+    "name": "梅田城",
+    "location": "海南市",
+    "id": "",
+    "reference": "→　八王子砦　（はちおうじとりで）"
+  },
+  {
+    "yomi": "えがわなかじょう",
+    "name": "江川中城",
+    "location": "紀の川市",
+    "id": "WM0055",
+    "reference": ""
+  },
+  {
+    "yomi": "えこんじょう",
+    "name": "エコン城",
+    "location": "田辺市",
+    "id": "WM0056",
+    "reference": ""
+  },
+  {
+    "yomi": "えすみにしじょう",
+    "name": "江住西城",
+    "location": "すさみ町",
+    "id": "WM0057",
+    "reference": ""
+  },
+  {
+    "yomi": "えすみひがしじょう",
+    "name": "江住東城",
+    "location": "すさみ町",
+    "id": "WM0058",
+    "reference": ""
+  },
+  {
+    "yomi": "えなうらこうやのおやまのろしば",
+    "name": "衣奈浦高野尾山狼煙場",
+    "location": "由良町",
+    "id": "WM0059",
+    "reference": ""
+  },
+  {
+    "yomi": "えのきじょう",
+    "name": "榎城",
+    "location": "印南町",
+    "id": "WM0060",
+    "reference": ""
+  },
+  {
+    "yomi": "えのもとじょう",
+    "name": "榎本城",
+    "location": "印南町",
+    "id": "WM0061",
+    "reference": ""
+  },
+  {
+    "yomi": "おうぎやまじょう",
+    "name": "扇山城",
+    "location": "みなべ町",
+    "id": "WM0062",
+    "reference": ""
+  },
+  {
+    "yomi": "おうじょう",
+    "name": "王城",
+    "location": "紀の川市",
+    "id": "WM0063",
+    "reference": ""
+  },
+  {
+    "yomi": "おうじん（やま）【がみね】じょう",
+    "name": "応神（山）【ヵ峰】城",
+    "location": "紀美野町",
+    "id": "WM0064",
+    "reference": ""
+  },
+  {
+    "yomi": "おうのじんじょう",
+    "name": "応の神城",
+    "location": "有田川町",
+    "id": "",
+    "reference": "→　尾の上城　（おのうえじょう）"
+  },
+  {
+    "yomi": "おうらいもがしらつぶのろしば",
+    "name": "小浦芋頭粒狼煙場",
+    "location": "日高町",
+    "id": "WM0065",
+    "reference": ""
+  },
+  {
+    "yomi": "おうらじょう",
+    "name": "小浦城",
+    "location": "日高町",
+    "id": "WM0066",
+    "reference": ""
+  },
+  {
+    "yomi": "おおがいとうやしき",
+    "name": "大桑伊東屋敷",
+    "location": "古座川町",
+    "id": "WM0067",
+    "reference": ""
+  },
+  {
+    "yomi": "おおぎがはまだいば",
+    "name": "扇ヶ浜台場",
+    "location": "田辺市",
+    "id": "WM0068",
+    "reference": ""
+  },
+  {
+    "yomi": "おおころびじょう",
+    "name": "大転城",
+    "location": "田辺市",
+    "id": "WM0069",
+    "reference": ""
+  },
+  {
+    "yomi": "おおたきじょう",
+    "name": "大滝城",
+    "location": "高野町",
+    "id": "WM0070",
+    "reference": ""
+  },
+  {
+    "yomi": "おおたじょう",
+    "name": "太田城",
+    "location": "和歌山市",
+    "id": "WM0071",
+    "reference": ""
+  },
+  {
+    "yomi": "おおたに（かわ）だいば",
+    "name": "大谷（川）台場",
+    "location": "和歌山市",
+    "id": "WM0072",
+    "reference": ""
+  },
+  {
+    "yomi": "おおたにじょう",
+    "name": "大谷城",
+    "location": "すさみ町",
+    "id": "WM0074",
+    "reference": ""
+  },
+  {
+    "yomi": "おおたにじょう",
+    "name": "大谷城",
+    "location": "有田川町",
+    "id": "WM0073",
+    "reference": ""
+  },
+  {
+    "yomi": "おおてじょう",
+    "name": "大手城",
+    "location": "田辺市",
+    "id": "WM0075",
+    "reference": ""
+  },
+  {
+    "yomi": "おおのじょう",
+    "name": "大野城",
+    "location": "海南市",
+    "id": "WM0076",
+    "reference": ""
+  },
+  {
+    "yomi": "おおのじょう",
+    "name": "大野城",
+    "location": "白浜町",
+    "id": "WM0077",
+    "reference": ""
+  },
+  {
+    "yomi": "おおのどい【じょう】",
+    "name": "大野土居【城】",
+    "location": "橋本市",
+    "id": "WM0078",
+    "reference": ""
+  },
+  {
+    "yomi": "おおはまだいば",
+    "name": "大浜台場",
+    "location": "田辺市",
+    "id": "",
+    "reference": "→　扇ヶ浜台場　（おおぎがはまだいば）"
+  },
+  {
+    "yomi": "おおびきうらしらさきとおみばんしょ",
+    "name": "大引浦白崎遠見番所",
+    "location": "由良町",
+    "id": "WM0079",
+    "reference": ""
+  },
+  {
+    "yomi": "おおみなみじょう",
+    "name": "大南城",
+    "location": "かつらぎ町",
+    "id": "WM0080",
+    "reference": ""
+  },
+  {
+    "yomi": "おおむかいでじろ",
+    "name": "大向出城",
+    "location": "白浜町",
+    "id": "WM0081",
+    "reference": ""
+  },
+  {
+    "yomi": "おおやなぎじょう",
+    "name": "大柳城（仮）",
+    "location": "古座川町",
+    "id": "WM0580",
+    "reference": ""
+  },
+  {
+    "yomi": "おかざきじょう",
+    "name": "岡崎城",
+    "location": "和歌山市",
+    "id": "WM0082",
+    "reference": ""
+  },
+  {
+    "yomi": "おかざきつちはしじょう【ぼう】",
+    "name": "岡崎土橋城【坊】",
+    "location": "和歌山市",
+    "id": "WM0083",
+    "reference": ""
+  },
+  {
+    "yomi": "おかじょう",
+    "name": "岡城",
+    "location": "九度山町",
+    "id": "WM0084",
+    "reference": ""
+  },
+  {
+    "yomi": "おかだじょう",
+    "name": "岡田城",
+    "location": "日高町",
+    "id": "",
+    "reference": "→　田島城　（たじまじょう）"
+  },
+  {
+    "yomi": "おかもとのどい",
+    "name": "岡本ノ土居",
+    "location": "日高川町",
+    "id": "WM0085",
+    "reference": ""
+  },
+  {
+    "yomi": "おかやまじょう",
+    "name": "岡山城",
+    "location": "橋本市",
+    "id": "WM0086",
+    "reference": ""
+  },
+  {
+    "yomi": "おがわじょう",
+    "name": "小川城",
+    "location": "紀の川市",
+    "id": "WM0087",
+    "reference": ""
+  },
+  {
+    "yomi": "おきのじょう",
+    "name": "沖ノ城",
+    "location": "和歌山市",
+    "id": "WM0088",
+    "reference": ""
+  },
+  {
+    "yomi": "おきみじょう",
+    "name": "沖見城",
+    "location": "新宮市",
+    "id": "",
+    "reference": "→　新宮城　（しんぐうじょう）"
+  },
+  {
+    "yomi": "おくしやしき",
+    "name": "奥氏屋敷",
+    "location": "紀の川市",
+    "id": "WM0089",
+    "reference": ""
+  },
+  {
+    "yomi": "おくびどい",
+    "name": "尾首土居",
+    "location": "紀の川市",
+    "id": "WM0090",
+    "reference": ""
+  },
+  {
+    "yomi": "おくびやまじょう",
+    "name": "尾首山城",
+    "location": "紀の川市",
+    "id": "WM0091",
+    "reference": ""
+  },
+  {
+    "yomi": "おざきじょう",
+    "name": "尾崎城",
+    "location": "橋本市",
+    "id": "",
+    "reference": "→　岡山城　（おかやまじょう）"
+  },
+  {
+    "yomi": "おざきじょう",
+    "name": "尾崎城",
+    "location": "橋本市",
+    "id": "WM0092",
+    "reference": ""
+  },
+  {
+    "yomi": "おざわじょう",
+    "name": "小澤城",
+    "location": "紀の川市",
+    "id": "WM0093",
+    "reference": ""
+  },
+  {
+    "yomi": "おしたやしき",
+    "name": "御下屋敷",
+    "location": "和歌山市",
+    "id": "",
+    "reference": "→　湊御殿　（みなとごてん）"
+  },
+  {
+    "yomi": "おすてやまじょう",
+    "name": "尾捨山城",
+    "location": "那智勝浦町",
+    "id": "WM0094",
+    "reference": ""
+  },
+  {
+    "yomi": "おたかやしき",
+    "name": "御高屋敷",
+    "location": "串本町",
+    "id": "",
+    "reference": "→　和深浦城　（わぶかうらじょう）"
+  },
+  {
+    "yomi": "おだやかた",
+    "name": "小田館",
+    "location": "橋本市",
+    "id": "WM0095",
+    "reference": ""
+  },
+  {
+    "yomi": "おとこらだいば",
+    "name": "雄良台場",
+    "location": "和歌山市",
+    "id": "WM0096",
+    "reference": ""
+  },
+  {
+    "yomi": "おなかじょう",
+    "name": "小中城",
+    "location": "日高町",
+    "id": "WM0097",
+    "reference": ""
+  },
+  {
+    "yomi": "おにがじょう",
+    "name": "鬼ヶ城",
+    "location": "有田川町",
+    "id": "WM0098",
+    "reference": ""
+  },
+  {
+    "yomi": "おのうえじょう",
+    "name": "尾の上城",
+    "location": "有田川町",
+    "id": "WM0099",
+    "reference": ""
+  },
+  {
+    "yomi": "おのじょう",
+    "name": "小野城",
+    "location": "有田川町",
+    "id": "",
+    "reference": "→　若田城　（わかたじょう）"
+  },
+  {
+    "yomi": "おのだじょう",
+    "name": "小野田城",
+    "location": "海南市",
+    "id": "WM0100",
+    "reference": ""
+  },
+  {
+    "yomi": "おはらだじょう",
+    "name": "小原田城",
+    "location": "橋本市",
+    "id": "WM0101",
+    "reference": ""
+  },
+  {
+    "yomi": "おみねじょう【でら】",
+    "name": "小峰城【寺】",
+    "location": "橋本市",
+    "id": "WM0102",
+    "reference": ""
+  },
+  {
+    "yomi": "かいあわせじょう",
+    "name": "貝合城",
+    "location": "紀の川市",
+    "id": "",
+    "reference": "→　襷城　（たすきじょう）"
+  },
+  {
+    "yomi": "かいぜじょう",
+    "name": "皆瀬城",
+    "location": "日高川町",
+    "id": "WM0444",
+    "reference": ""
+  },
+  {
+    "yomi": "かがみがじょう",
+    "name": "鏡が城",
+    "location": "田辺市",
+    "id": "WM0103",
+    "reference": ""
+  },
+  {
+    "yomi": "かごばだいば",
+    "name": "カゴバ台場",
+    "location": "和歌山市",
+    "id": "WM0104",
+    "reference": ""
+  },
+  {
+    "yomi": "かざはやとうげのろしば",
+    "name": "風早峠狼煙場",
+    "location": "印南町",
+    "id": "WM0105",
+    "reference": ""
+  },
+  {
+    "yomi": "かさまつじょう",
+    "name": "笠松城",
+    "location": "かつらぎ町",
+    "id": "WM0106",
+    "reference": ""
+  },
+  {
+    "yomi": "かじはらじょう",
+    "name": "梶原城",
+    "location": "海南市",
+    "id": "WM0107",
+    "reference": ""
+  },
+  {
+    "yomi": "がじょうやまじょう",
+    "name": "牙城山城",
+    "location": "印南町",
+    "id": "WM0108",
+    "reference": ""
+  },
+  {
+    "yomi": "かすがやまじょう",
+    "name": "春日山城",
+    "location": "紀の川市",
+    "id": "WM0109",
+    "reference": ""
+  },
+  {
+    "yomi": "かたた（ようがいやま）じょう",
+    "name": "堅田（要害山）城",
+    "location": "白浜町",
+    "id": "WM0110",
+    "reference": ""
+  },
+  {
+    "yomi": "かち【つ】やじょう",
+    "name": "勝谷城",
+    "location": "紀美野町",
+    "id": "WM0111",
+    "reference": ""
+  },
+  {
+    "yomi": "かつやまじょう",
+    "name": "勝山城",
+    "location": "那智勝浦町",
+    "id": "",
+    "reference": "→　市屋城　（いちやじょう）"
+  },
+  {
+    "yomi": "かつやまじょう",
+    "name": "勝山城",
+    "location": "那智勝浦町",
+    "id": "WM0112",
+    "reference": ""
+  },
+  {
+    "yomi": "かなやどい",
+    "name": "金屋土居",
+    "location": "有田川町",
+    "id": "WM0113",
+    "reference": ""
+  },
+  {
+    "yomi": "がまうらだいば",
+    "name": "蒲浦台場",
+    "location": "和歌山市",
+    "id": "WM0114",
+    "reference": ""
+  },
+  {
+    "yomi": "かまがみねじょう",
+    "name": "鎌ヶ峯城",
+    "location": "那智勝浦町",
+    "id": "WM0115",
+    "reference": ""
+  },
+  {
+    "yomi": "かめおかしやかた",
+    "name": "亀岡氏館",
+    "location": "橋本市",
+    "id": "",
+    "reference": "→　名倉城　（なぐらじょう）"
+  },
+  {
+    "yomi": "かめやまじょう",
+    "name": "亀山城",
+    "location": "御坊市",
+    "id": "WM0116",
+    "reference": ""
+  },
+  {
+    "yomi": "かもじょう",
+    "name": "加茂城",
+    "location": "海南市",
+    "id": "WM0117",
+    "reference": ""
+  },
+  {
+    "yomi": "かろしろやまじょう",
+    "name": "唐尾城山",
+    "location": "広川町",
+    "id": "WM0118",
+    "reference": ""
+  },
+  {
+    "yomi": "かわぐちじょう",
+    "name": "川口城",
+    "location": "古座川町",
+    "id": "WM0119",
+    "reference": ""
+  },
+  {
+    "yomi": "かわはりひがし・にしじょう",
+    "name": "皮張東・西城",
+    "location": "かつらぎ町",
+    "id": "WM0120",
+    "reference": ""
+  },
+  {
+    "yomi": "かわらがわにしかわどい",
+    "name": "川原河西川土井",
+    "location": "日高川町",
+    "id": "WM0577",
+    "reference": ""
+  },
+  {
+    "yomi": "かんじょがけじょう",
+    "name": "神縄掛城",
+    "location": "紀の川市",
+    "id": "WM0121",
+    "reference": ""
+  },
+  {
+    "yomi": "かんだ（やま）じょう",
+    "name": "神田（山）城",
+    "location": "海南市",
+    "id": "WM0122",
+    "reference": ""
+  },
+  {
+    "yomi": "かんだじょう",
+    "name": "神田城",
+    "location": "すさみ町",
+    "id": "WM0123",
+    "reference": ""
+  },
+  {
+    "yomi": "かんのんざきだいば",
+    "name": "観音崎台場",
+    "location": "和歌山市",
+    "id": "WM0124",
+    "reference": ""
+  },
+  {
+    "yomi": "ぎおんやまほんじん",
+    "name": "祇園山本陣",
+    "location": "白浜町",
+    "id": "WM0125",
+    "reference": ""
+  },
+  {
+    "yomi": "ぎけんやしき",
+    "name": "義賢屋敷",
+    "location": "紀の川市",
+    "id": "WM0126",
+    "reference": ""
+  },
+  {
+    "yomi": "きししやかた",
+    "name": "貴志氏館",
+    "location": "紀の川市",
+    "id": "WM0127",
+    "reference": ""
+  },
+  {
+    "yomi": "きしじょう",
+    "name": "貴志城",
+    "location": "紀の川市",
+    "id": "WM0128",
+    "reference": ""
+  },
+  {
+    "yomi": "きたくじょう",
+    "name": "帰宅城",
+    "location": "新宮市",
+    "id": "WM0129",
+    "reference": ""
+  },
+  {
+    "yomi": "きたじまごてん",
+    "name": "北島御殿",
+    "location": "和歌山市",
+    "id": "WM0130",
+    "reference": ""
+  },
+  {
+    "yomi": "きたのじょう",
+    "name": "北野城",
+    "location": "和歌山市",
+    "id": "WM0131",
+    "reference": ""
+  },
+  {
+    "yomi": "きたやまじょう",
+    "name": "北山城",
+    "location": "有田川町",
+    "id": "WM0132",
+    "reference": ""
+  },
+  {
+    "yomi": "きぬがさじょう",
+    "name": "衣笠城",
+    "location": "田辺市",
+    "id": "WM0133",
+    "reference": ""
+  },
+  {
+    "yomi": "きのもとじょう",
+    "name": "木ノ本城",
+    "location": "和歌山市",
+    "id": "WM0134",
+    "reference": ""
+  },
+  {
+    "yomi": "きょうしやまじょう",
+    "name": "鏡子山城",
+    "location": "田辺市",
+    "id": "WM0135",
+    "reference": ""
+  },
+  {
+    "yomi": "きんすいじょう",
+    "name": "錦水城",
+    "location": "田辺市",
+    "id": "",
+    "reference": "→　田辺城　（たなべじょう）"
+  },
+  {
+    "yomi": "くしどい",
+    "name": "久志土居",
+    "location": "日高町",
+    "id": "WM0137",
+    "reference": ""
+  },
+  {
+    "yomi": "くすのきじょう",
+    "name": "楠木城",
+    "location": "有田川町",
+    "id": "",
+    "reference": "→　来見屋城　（くるみやじょう）"
+  },
+  {
+    "yomi": "くすもとじょう",
+    "name": "楠本城",
+    "location": "田辺市",
+    "id": "WM0138",
+    "reference": ""
+  },
+  {
+    "yomi": "くにじやまじょう",
+    "name": "国治山城",
+    "location": "上富田町",
+    "id": "",
+    "reference": "→　国陣山城　（くにじんやまじょう）"
+  },
+  {
+    "yomi": "くにじんやまじょう",
+    "name": "国陣山城",
+    "location": "上富田町",
+    "id": "WM0139",
+    "reference": ""
+  },
+  {
+    "yomi": "くのはらどい",
+    "name": "久野原土居",
+    "location": "有田川町",
+    "id": "WM0140",
+    "reference": ""
+  },
+  {
+    "yomi": "くほんじじょう",
+    "name": "九品寺城",
+    "location": "海南市",
+    "id": "WM0141",
+    "reference": ""
+  },
+  {
+    "yomi": "くまがさきじょう",
+    "name": "熊ヶ崎城",
+    "location": "和歌山市",
+    "id": "",
+    "reference": "→　天守山城　（てんしゅやまじょう）"
+  },
+  {
+    "yomi": "くらがたわじょう",
+    "name": "鞍賀多和城",
+    "location": "日高町",
+    "id": "WM0142",
+    "reference": ""
+  },
+  {
+    "yomi": "くるみやじょう",
+    "name": "来見屋城",
+    "location": "有田川町",
+    "id": "WM0143",
+    "reference": ""
+  },
+  {
+    "yomi": "くろどやぶ",
+    "name": "九郎殿藪",
+    "location": "紀の川市",
+    "id": "",
+    "reference": "→　義賢屋敷　（ぎけんやしき）"
+  },
+  {
+    "yomi": "けばらなかじょう",
+    "name": "毛原中城",
+    "location": "紀美野町",
+    "id": "WM0144",
+    "reference": ""
+  },
+  {
+    "yomi": "けほんやまじょう",
+    "name": "慶本山城",
+    "location": "美浜町",
+    "id": "WM0145",
+    "reference": ""
+  },
+  {
+    "yomi": "こいいもりやまじょう",
+    "name": "小飯盛山城",
+    "location": "紀の川市",
+    "id": "WM0146",
+    "reference": ""
+  },
+  {
+    "yomi": "こいのどい",
+    "name": "恋野土居",
+    "location": "橋本市",
+    "id": "WM0147",
+    "reference": ""
+  },
+  {
+    "yomi": "こうせいじじょう",
+    "name": "弘誓寺城",
+    "location": "上富田町",
+    "id": "",
+    "reference": "→　龍松山城　（りゅうしょうざんじょう）"
+  },
+  {
+    "yomi": "こうのじょう",
+    "name": "河野城Ⅰ〜Ⅲ",
+    "location": "紀美野町",
+    "id": "WM0148",
+    "reference": ""
+  },
+  {
+    "yomi": "こうのすじょう",
+    "name": "鴻巣城",
+    "location": "白浜町",
+    "id": "WM0149",
+    "reference": ""
+  },
+  {
+    "yomi": "こうぶつじゅうろうしろうやしき",
+    "name": "幸物十郎次郎屋敷",
+    "location": "和歌山市",
+    "id": "WM0150",
+    "reference": ""
+  },
+  {
+    "yomi": "こうようざんじょう",
+    "name": "紅葉山城",
+    "location": "有田川町",
+    "id": "",
+    "reference": "→　清水城　（しみずじょう）"
+  },
+  {
+    "yomi": "こうらだいば",
+    "name": "小浦台場",
+    "location": "和歌山市",
+    "id": "WM0151",
+    "reference": ""
+  },
+  {
+    "yomi": "こえ【し】じじょう",
+    "name": "越路城",
+    "location": "新宮市",
+    "id": "WM0152",
+    "reference": ""
+  },
+  {
+    "yomi": "こかわごてん",
+    "name": "粉河御殿",
+    "location": "紀の川市",
+    "id": "WM0153",
+    "reference": ""
+  },
+  {
+    "yomi": "こかわでら",
+    "name": "粉河寺",
+    "location": "紀の川市",
+    "id": "WM0154",
+    "reference": ""
+  },
+  {
+    "yomi": "こじまいきのまみやしき",
+    "name": "小島壱岐守屋敷",
+    "location": "橋本市",
+    "id": "WM0155",
+    "reference": ""
+  },
+  {
+    "yomi": "こじまじょう",
+    "name": "小島城",
+    "location": "和歌山市",
+    "id": "",
+    "reference": "→　坂ノ上屋敷　（さかのうえやしき）"
+  },
+  {
+    "yomi": "こじょうさんじょう",
+    "name": "古城山城",
+    "location": "串本町",
+    "id": "WM0156",
+    "reference": ""
+  },
+  {
+    "yomi": "こじょうやまじょう",
+    "name": "虎城山城",
+    "location": "串本町",
+    "id": "",
+    "reference": "→　古城山城　（こじょうさんじょう）"
+  },
+  {
+    "yomi": "こしょうやまじょう（とらまつやまじょう）",
+    "name": "虎松山城",
+    "location": "串本町",
+    "id": "WM0157",
+    "reference": ""
+  },
+  {
+    "yomi": "こぞ【つ】か・おにがじょう",
+    "name": "小津荷・鬼ヶ城",
+    "location": "田辺市",
+    "id": "WM0158",
+    "reference": ""
+  },
+  {
+    "yomi": "こだぐみじょう",
+    "name": "小匠城",
+    "location": "那智勝浦町",
+    "id": "WM0159",
+    "reference": ""
+  },
+  {
+    "yomi": "ことうげじょう",
+    "name": "小峠城",
+    "location": "有田川町",
+    "id": "WM0160",
+    "reference": ""
+  },
+  {
+    "yomi": "こぶのもりじょう",
+    "name": "古武之森城",
+    "location": "白浜町",
+    "id": "WM0161",
+    "reference": ""
+  },
+  {
+    "yomi": "ごぼうほうだい",
+    "name": "御坊砲台",
+    "location": "御坊市",
+    "id": "WM0162",
+    "reference": ""
+  },
+  {
+    "yomi": "こぼしが（みね）じょう",
+    "name": "小坊子ヶ（峰）城",
+    "location": "日高町",
+    "id": "WM0163",
+    "reference": ""
+  },
+  {
+    "yomi": "こまつばらやかた",
+    "name": "小松原館",
+    "location": "御坊市",
+    "id": "WM0164",
+    "reference": ""
+  },
+  {
+    "yomi": "ごもうやかた",
+    "name": "胡麻生館",
+    "location": "橋本市",
+    "id": "WM0165",
+    "reference": ""
+  },
+  {
+    "yomi": "こもりだにやしき",
+    "name": "小森谷屋敷",
+    "location": "田辺市",
+    "id": "WM0166",
+    "reference": ""
+  },
+  {
+    "yomi": "こやごもりいせき",
+    "name": "小屋籠り遺跡",
+    "location": "田辺市",
+    "id": "",
+    "reference": "→　稲荷谷塞　（いなりたにさい）"
+  },
+  {
+    "yomi": "こやまじょう",
+    "name": "小山城",
+    "location": "和歌山市",
+    "id": "",
+    "reference": "→　高芝城　（たかしばじょう）"
+  },
+  {
+    "yomi": "こやまじょう",
+    "name": "小山城",
+    "location": "串本町",
+    "id": "WM0167",
+    "reference": ""
+  },
+  {
+    "yomi": "こやまやしき",
+    "name": "小山屋敷",
+    "location": "串本町",
+    "id": "WM0168",
+    "reference": ""
+  },
+  {
+    "yomi": "ごんげんやまじょう",
+    "name": "権現山城",
+    "location": "新宮市",
+    "id": "",
+    "reference": "→　越路城　（こえ【し】じじょう）"
+  },
+  {
+    "yomi": "こんぴらさんじょう",
+    "name": "金毘羅山城",
+    "location": "田辺市",
+    "id": "WM0169",
+    "reference": ""
+  },
+  {
+    "yomi": "ごんべつとうのしろ",
+    "name": "権別当の城",
+    "location": "紀美野町",
+    "id": "WM0170",
+    "reference": ""
+  },
+  {
+    "yomi": "さいかざきじょう",
+    "name": "雑賀崎城",
+    "location": "和歌山市",
+    "id": "WM0171",
+    "reference": ""
+  },
+  {
+    "yomi": "さいかざきだいば",
+    "name": "雑賀崎台場",
+    "location": "和歌山市",
+    "id": "WM0172",
+    "reference": ""
+  },
+  {
+    "yomi": "さいかじょう",
+    "name": "雑賀城",
+    "location": "和歌山市",
+    "id": "WM0173",
+    "reference": ""
+  },
+  {
+    "yomi": "さいこうじじょう",
+    "name": "西光寺城",
+    "location": "海南市",
+    "id": "WM0174",
+    "reference": ""
+  },
+  {
+    "yomi": "さいしょうかいと",
+    "name": "宰相垣内",
+    "location": "紀の川市",
+    "id": "WM0175",
+    "reference": ""
+  },
+  {
+    "yomi": "さいしょがはな",
+    "name": "最初ヶ峰",
+    "location": "海南市",
+    "id": "",
+    "reference": "→　篠ヶ城　（しのがじょう）"
+  },
+  {
+    "yomi": "さいしょがみねじょう",
+    "name": "最初カ峰城",
+    "location": "紀の川市",
+    "id": "WM0176",
+    "reference": ""
+  },
+  {
+    "yomi": "さかいべっかん",
+    "name": "堺別館",
+    "location": "みなべ町",
+    "id": "WM0177",
+    "reference": ""
+  },
+  {
+    "yomi": "さかえだにじょう",
+    "name": "栄谷城",
+    "location": "和歌山市",
+    "id": "",
+    "reference": "→　高芝城　（たかしばじょう）"
+  },
+  {
+    "yomi": "さかおじょう",
+    "name": "坂尾城",
+    "location": "有田川町",
+    "id": "",
+    "reference": "→　尾の上城　（おのうえじょう）"
+  },
+  {
+    "yomi": "さかき（やま）（こばやし）じょう",
+    "name": "榊（山）（小林）城",
+    "location": "橋本市",
+    "id": "",
+    "reference": "→　赤塚土居　（あかつかどい）"
+  },
+  {
+    "yomi": "さかきがじょう",
+    "name": "榊が【ヶ】城",
+    "location": "橋本市",
+    "id": "WM0178",
+    "reference": ""
+  },
+  {
+    "yomi": "さかきだにじょう",
+    "name": "榊谷城",
+    "location": "橋本市",
+    "id": "",
+    "reference": "→　榊が城　（さかきがじょう）"
+  },
+  {
+    "yomi": "さかのうえじょう",
+    "name": "坂ノ上城",
+    "location": "和歌山市",
+    "id": "WM0179",
+    "reference": ""
+  },
+  {
+    "yomi": "さかのうえやしき",
+    "name": "坂ノ上屋敷",
+    "location": "和歌山市",
+    "id": "WM0180",
+    "reference": ""
+  },
+  {
+    "yomi": "さかもとつけじろ【しもやしき】",
+    "name": "坂本付城【下屋敷】",
+    "location": "上富田町",
+    "id": "WM0181",
+    "reference": ""
+  },
+  {
+    "yomi": "さぎのもりべついん【ごぼう】",
+    "name": "鷺森別院【御坊】",
+    "location": "和歌山市",
+    "id": "WM0182",
+    "reference": ""
+  },
+  {
+    "yomi": "さくらぎやまじょう",
+    "name": "桜木山城",
+    "location": "みなべ町",
+    "id": "WM0183",
+    "reference": ""
+  },
+  {
+    "yomi": "さくらやまじょう",
+    "name": "桜山城",
+    "location": "和歌山市",
+    "id": "WM0184",
+    "reference": ""
+  },
+  {
+    "yomi": "さとうじょう",
+    "name": "佐藤城",
+    "location": "紀の川市",
+    "id": "WM0185",
+    "reference": ""
+  },
+  {
+    "yomi": "さとのしろやしき",
+    "name": "里野城屋敷",
+    "location": "すさみ町",
+    "id": "WM0186",
+    "reference": ""
+  },
+  {
+    "yomi": "さとのなかやまじょう",
+    "name": "里野中山城",
+    "location": "すさみ町",
+    "id": "",
+    "reference": "→　里野城屋敷　（さとのしろやしき）"
+  },
+  {
+    "yomi": "さべ【め】じょう",
+    "name": "佐部【目】城",
+    "location": "串本町",
+    "id": "WM0187",
+    "reference": ""
+  },
+  {
+    "yomi": "さへいまえやしき",
+    "name": "佐兵衛前屋敷",
+    "location": "由良町",
+    "id": "",
+    "reference": "→　門前由良城　（門前由良城）"
+  },
+  {
+    "yomi": "さもとおいかわじょう",
+    "name": "佐本追川城",
+    "location": "すさみ町",
+    "id": "WM0582",
+    "reference": ""
+  },
+  {
+    "yomi": "さるおかやまじょう",
+    "name": "猿岡山城",
+    "location": "紀の川市",
+    "id": "WM0188",
+    "reference": ""
+  },
+  {
+    "yomi": "さるかわじょう",
+    "name": "猿川城",
+    "location": "広川町",
+    "id": "WM0189",
+    "reference": ""
+  },
+  {
+    "yomi": "さんやじょう",
+    "name": "山野城",
+    "location": "日高川町",
+    "id": "WM0190",
+    "reference": ""
+  },
+  {
+    "yomi": "しうんざんじょう",
+    "name": "紫雲山城",
+    "location": "海南市",
+    "id": "",
+    "reference": "→　加茂城　（かもじょう）"
+  },
+  {
+    "yomi": "しおじじょう",
+    "name": "塩路城",
+    "location": "印南町",
+    "id": "WM0191",
+    "reference": ""
+  },
+  {
+    "yomi": "しがじょう",
+    "name": "志賀城",
+    "location": "かつらぎ町",
+    "id": "WM0192",
+    "reference": ""
+  },
+  {
+    "yomi": "しがじょう",
+    "name": "志賀城",
+    "location": "日高町",
+    "id": "WM0193",
+    "reference": ""
+  },
+  {
+    "yomi": "しきやじょうのもりじょう",
+    "name": "敷屋城之森城",
+    "location": "新宮市",
+    "id": "WM0194",
+    "reference": ""
+  },
+  {
+    "yomi": "しげきじょう",
+    "name": "重行城",
+    "location": "紀の川市",
+    "id": "WM0195",
+    "reference": ""
+  },
+  {
+    "yomi": "しし【か】がせじょう",
+    "name": "鹿ヶ瀬【背】城",
+    "location": "広川町",
+    "id": "WM0196",
+    "reference": ""
+  },
+  {
+    "yomi": "しずかわじょうのもり",
+    "name": "静川城之森",
+    "location": "田辺市",
+    "id": "WM0197",
+    "reference": ""
+  },
+  {
+    "yomi": "じぞうぶじじょう",
+    "name": "地蔵峰寺城",
+    "location": "海南市",
+    "id": "WM0198",
+    "reference": ""
+  },
+  {
+    "yomi": "しのがじょう",
+    "name": "篠ヶ城",
+    "location": "海南市",
+    "id": "WM0199",
+    "reference": ""
+  },
+  {
+    "yomi": "しのやかた",
+    "name": "篠館",
+    "location": "紀の川市",
+    "id": "WM0200",
+    "reference": ""
+  },
+  {
+    "yomi": "しまだしやかた",
+    "name": "島田氏館",
+    "location": "有田市",
+    "id": "WM0201",
+    "reference": ""
+  },
+  {
+    "yomi": "しまのせじょう",
+    "name": "島之瀬城",
+    "location": "みなべ町",
+    "id": "WM0202",
+    "reference": ""
+  },
+  {
+    "yomi": "しみずしやしき",
+    "name": "清水氏屋敷",
+    "location": "那智勝浦町",
+    "id": "WM0203",
+    "reference": ""
+  },
+  {
+    "yomi": "しみずじょう",
+    "name": "清水城",
+    "location": "有田川町",
+    "id": "WM0204",
+    "reference": ""
+  },
+  {
+    "yomi": "しもさきじょう",
+    "name": "下崎城",
+    "location": "田辺市",
+    "id": "WM0205",
+    "reference": ""
+  },
+  {
+    "yomi": "しもざとじょう",
+    "name": "下里城",
+    "location": "那智勝浦町",
+    "id": "WM0206",
+    "reference": ""
+  },
+  {
+    "yomi": "しもひょうごどい",
+    "name": "下兵庫土居",
+    "location": "橋本市",
+    "id": "WM0207",
+    "reference": ""
+  },
+  {
+    "yomi": "しもやまじょう",
+    "name": "霜【下】山城",
+    "location": "橋本市",
+    "id": "WM0208",
+    "reference": ""
+  },
+  {
+    "yomi": "しゃがわぐちじょう",
+    "name": "庄川口城",
+    "location": "白浜町",
+    "id": "",
+    "reference": "→　血深城　（ちぶかじょう）"
+  },
+  {
+    "yomi": "じゃばみじょう",
+    "name": "蛇喰城",
+    "location": "上富田町",
+    "id": "WM0209",
+    "reference": ""
+  },
+  {
+    "yomi": "しゅくのじょう",
+    "name": "宿ノ城",
+    "location": "田辺市",
+    "id": "WM0210",
+    "reference": ""
+  },
+  {
+    "yomi": "じょうがさき",
+    "name": "城ヶ崎",
+    "location": "和歌山市",
+    "id": "WM0211",
+    "reference": ""
+  },
+  {
+    "yomi": "じょうがみね",
+    "name": "城ヶ峰",
+    "location": "和歌山市",
+    "id": "",
+    "reference": "→　和佐山城　（わさやまじょう）"
+  },
+  {
+    "yomi": "じょうがみね",
+    "name": "城ヶ峰",
+    "location": "御坊市",
+    "id": "WM0212",
+    "reference": ""
+  },
+  {
+    "yomi": "じょうがみねじょう",
+    "name": "城ヶ峯城",
+    "location": "紀の川市",
+    "id": "WM0213",
+    "reference": ""
+  },
+  {
+    "yomi": "じょうがもりじょう",
+    "name": "城ヶ森城",
+    "location": "和歌山市",
+    "id": "WM0214",
+    "reference": ""
+  },
+  {
+    "yomi": "じょうくうざんじょう",
+    "name": "城空山城",
+    "location": "有田川町",
+    "id": "",
+    "reference": "→　大谷城　（おおたにじょう）"
+  },
+  {
+    "yomi": "じょうこくじ",
+    "name": "浄国寺",
+    "location": "御坊市",
+    "id": "WM0215",
+    "reference": ""
+  },
+  {
+    "yomi": "しょうじやしき",
+    "name": "庄司屋敷",
+    "location": "田辺市",
+    "id": "",
+    "reference": "→　真砂氏城館　（まさごしじょうかん）"
+  },
+  {
+    "yomi": "じょうどやまじょう",
+    "name": "浄土山城",
+    "location": "田辺市",
+    "id": "WM0216",
+    "reference": ""
+  },
+  {
+    "yomi": "じょうのこし",
+    "name": "城の越",
+    "location": "有田市",
+    "id": "WM0217",
+    "reference": ""
+  },
+  {
+    "yomi": "じょうのしろ",
+    "name": "上ノ城",
+    "location": "紀美野町",
+    "id": "WM0218",
+    "reference": ""
+  },
+  {
+    "yomi": "じょうのたいらじょう",
+    "name": "城【上】ノ平城",
+    "location": "田辺市",
+    "id": "WM0219",
+    "reference": ""
+  },
+  {
+    "yomi": "じょうのだいらじょう",
+    "name": "城の平城",
+    "location": "海南市",
+    "id": "WM0220",
+    "reference": ""
+  },
+  {
+    "yomi": "じょうのだんじょう",
+    "name": "城の段城",
+    "location": "みなべ町",
+    "id": "WM0221",
+    "reference": ""
+  },
+  {
+    "yomi": "じょうのてん",
+    "name": "城の天",
+    "location": "有田川町",
+    "id": "",
+    "reference": "→　来見屋城　（くるみやじょう）"
+  },
+  {
+    "yomi": "じょうのてん",
+    "name": "城の天",
+    "location": "紀の川市",
+    "id": "WM0222",
+    "reference": ""
+  },
+  {
+    "yomi": "じょうのみね",
+    "name": "城の峯",
+    "location": "和歌山市",
+    "id": "WM0223",
+    "reference": ""
+  },
+  {
+    "yomi": "じょうのもりじょう",
+    "name": "城之森城",
+    "location": "串本町",
+    "id": "",
+    "reference": "→　結城城　（ゆうきじょう）"
+  },
+  {
+    "yomi": "じょうのもりじょう",
+    "name": "城之森城",
+    "location": "那智勝浦町",
+    "id": "WM0224",
+    "reference": ""
+  },
+  {
+    "yomi": "しょうのやまじょう",
+    "name": "庄の山城",
+    "location": "那智勝浦町",
+    "id": "",
+    "reference": "→　中山城　（なかやまじょう）"
+  },
+  {
+    "yomi": "しょうばたじょう",
+    "name": "小畑城",
+    "location": "海南市",
+    "id": "WM0225",
+    "reference": ""
+  },
+  {
+    "yomi": "しょうぶたにじょう",
+    "name": "菖蒲谷城",
+    "location": "橋本市",
+    "id": "",
+    "reference": "→　菖蒲田和の城　（しょうぶたわのしろ）"
+  },
+  {
+    "yomi": "しょうぶたわのしろ",
+    "name": "菖蒲田和の城",
+    "location": "橋本市",
+    "id": "WM0226",
+    "reference": ""
+  },
+  {
+    "yomi": "しょうぶのもりじょう",
+    "name": "菖蒲の森城",
+    "location": "那智勝浦町",
+    "id": "",
+    "reference": "→　中山城　（なかやまじょう）"
+  },
+  {
+    "yomi": "じょのおじょう",
+    "name": "城野尾城",
+    "location": "那智勝浦町",
+    "id": "WM0227",
+    "reference": ""
+  },
+  {
+    "yomi": "じょばら",
+    "name": "ジョバラ",
+    "location": "紀の川市",
+    "id": "WM0228",
+    "reference": ""
+  },
+  {
+    "yomi": "しらいわじょう",
+    "name": "白岩城",
+    "location": "有田川町",
+    "id": "WM0229",
+    "reference": ""
+  },
+  {
+    "yomi": "しらかしじょう",
+    "name": "白樫城",
+    "location": "湯浅町",
+    "id": "",
+    "reference": "→　満願寺城　（まんがんじじょう）"
+  },
+  {
+    "yomi": "しらくらやまじょう",
+    "name": "白倉山城",
+    "location": "海南市",
+    "id": "WM0230",
+    "reference": ""
+  },
+  {
+    "yomi": "しりづけやまじょう【とりで】",
+    "name": "尻付山城【砦】",
+    "location": "田辺市",
+    "id": "",
+    "reference": "→　高地山城　（たかじさんじょう）"
+  },
+  {
+    "yomi": "しろあと",
+    "name": "シロアト",
+    "location": "紀の川市",
+    "id": "WM0231",
+    "reference": ""
+  },
+  {
+    "yomi": "しろがいとじょう",
+    "name": "城垣内城",
+    "location": "紀の川市",
+    "id": "WM0232",
+    "reference": ""
+  },
+  {
+    "yomi": "しろこしやまじょう",
+    "name": "城腰山城",
+    "location": "和歌山市",
+    "id": "WM0233",
+    "reference": ""
+  },
+  {
+    "yomi": "しろのうち",
+    "name": "城ノ内",
+    "location": "和歌山市",
+    "id": "WM0234",
+    "reference": ""
+  },
+  {
+    "yomi": "しろやま",
+    "name": "城山",
+    "location": "那智勝浦町",
+    "id": "WM0235",
+    "reference": ""
+  },
+  {
+    "yomi": "しろやまいせき",
+    "name": "城山遺跡",
+    "location": "和歌山市",
+    "id": "",
+    "reference": "→　木ノ本城　（きのもとじょう）"
+  },
+  {
+    "yomi": "しろやまいせき",
+    "name": "城山遺跡",
+    "location": "海南市",
+    "id": "WM0236",
+    "reference": ""
+  },
+  {
+    "yomi": "しろやまじょう",
+    "name": "城山城",
+    "location": "紀美野町",
+    "id": "",
+    "reference": "→　毛原中城　（けばらなかじょう）"
+  },
+  {
+    "yomi": "しろやまじょう",
+    "name": "城山城",
+    "location": "すさみ町",
+    "id": "",
+    "reference": "→　里野城屋敷　（さとのしろやしき）"
+  },
+  {
+    "yomi": "しんぐう（すおうのかみ）やしき",
+    "name": "新宮（周防守）屋敷",
+    "location": "新宮市",
+    "id": "WM0237",
+    "reference": ""
+  },
+  {
+    "yomi": "しんぐうじゅうろうゆきいえやしき",
+    "name": "新宮十郎行家屋敷",
+    "location": "新宮市",
+    "id": "WM0238",
+    "reference": ""
+  },
+  {
+    "yomi": "しんぐうじょう",
+    "name": "新宮城",
+    "location": "新宮市",
+    "id": "WM0239",
+    "reference": ""
+  },
+  {
+    "yomi": "しんこうぼうやしき",
+    "name": "神光坊屋敷",
+    "location": "那智勝浦町",
+    "id": "WM0240",
+    "reference": ""
+  },
+  {
+    "yomi": "しんむらじょう",
+    "name": "新村城",
+    "location": "海南市",
+    "id": "WM0241",
+    "reference": ""
+  },
+  {
+    "yomi": "すいけんすみよしまえだいば",
+    "name": "水軒住吉前台場",
+    "location": "和歌山市",
+    "id": "WM0242",
+    "reference": ""
+  },
+  {
+    "yomi": "すがはらじょう",
+    "name": "菅原城",
+    "location": "日高川町",
+    "id": "WM0243",
+    "reference": ""
+  },
+  {
+    "yomi": "すさきじょう",
+    "name": "州崎城",
+    "location": "田辺市",
+    "id": "WM0244",
+    "reference": ""
+  },
+  {
+    "yomi": "すさみじょう",
+    "name": "周参見城",
+    "location": "すさみ町",
+    "id": "WM0245",
+    "reference": ""
+  },
+  {
+    "yomi": "すさみなかやまじょう",
+    "name": "周参見中山城",
+    "location": "すさみ町",
+    "id": "WM0246",
+    "reference": ""
+  },
+  {
+    "yomi": "すずき（まごいち）やしき【じょう】",
+    "name": "鈴木（孫一）屋敷【城】",
+    "location": "和歌山市",
+    "id": "WM0247",
+    "reference": ""
+  },
+  {
+    "yomi": "すずきまごいちきょじょう",
+    "name": "鈴木孫一居城",
+    "location": "和歌山市",
+    "id": "",
+    "reference": "→　中津城　（なかつじょう）"
+  },
+  {
+    "yomi": "せいがんじじょう",
+    "name": "青岸寺城",
+    "location": "みなべ町",
+    "id": "",
+    "reference": "→　和田城　（わだじょう）"
+  },
+  {
+    "yomi": "せがみねじょう",
+    "name": "勢ヶ峰城",
+    "location": "白浜町",
+    "id": "",
+    "reference": "→　血深城　（ちぶかじょう）"
+  },
+  {
+    "yomi": "ぜんざかじょう",
+    "name": "銭坂城",
+    "location": "橋本市",
+    "id": "WM0248",
+    "reference": ""
+  },
+  {
+    "yomi": "せんじょうやまじょう",
+    "name": "千丈山城",
+    "location": "田辺市",
+    "id": "WM0249",
+    "reference": ""
+  },
+  {
+    "yomi": "せんすがじょう",
+    "name": "扇子ヶ城",
+    "location": "海南市",
+    "id": "WM0250",
+    "reference": ""
+  },
+  {
+    "yomi": "せんどうじょう",
+    "name": "仙道城",
+    "location": "有田川町",
+    "id": "WM0251",
+    "reference": ""
+  },
+  {
+    "yomi": "そうがわどい",
+    "name": "寒川土居",
+    "location": "日高川町",
+    "id": "WM0541",
+    "reference": ""
+  },
+  {
+    "yomi": "そとはまかわぐちだいば",
+    "name": "外浜川口台場",
+    "location": "和歌山市",
+    "id": "WM0252",
+    "reference": ""
+  },
+  {
+    "yomi": "そとはまだいば",
+    "name": "外浜台場",
+    "location": "和歌山市",
+    "id": "WM0253",
+    "reference": ""
+  },
+  {
+    "yomi": "そのごてん",
+    "name": "薗御殿",
+    "location": "御坊市",
+    "id": "WM0254",
+    "reference": ""
+  },
+  {
+    "yomi": "そのべじょう",
+    "name": "薗部城",
+    "location": "和歌山市",
+    "id": "WM0255",
+    "reference": ""
+  },
+  {
+    "yomi": "そのぼうしゃ",
+    "name": "薗坊舎",
+    "location": "御坊市",
+    "id": "",
+    "reference": "→　浄国寺　（じょうこくじ）"
+  },
+  {
+    "yomi": "そわとりで【じょう】",
+    "name": "曽和砦【城】",
+    "location": "田辺市",
+    "id": "WM0256",
+    "reference": ""
+  },
+  {
+    "yomi": "たいえじょう",
+    "name": "高家城",
+    "location": "日高町",
+    "id": "WM0257",
+    "reference": ""
+  },
+  {
+    "yomi": "だいおうがじょう",
+    "name": "大応ヵ城",
+    "location": "紀美野町",
+    "id": "",
+    "reference": "→　応神山城　（おうじんやまじょう）"
+  },
+  {
+    "yomi": "たいじじょう",
+    "name": "太【泰】地城",
+    "location": "太地町",
+    "id": "WM0258",
+    "reference": ""
+  },
+  {
+    "yomi": "だいにちやまじょう",
+    "name": "大日山城",
+    "location": "すさみ町",
+    "id": "",
+    "reference": "→　周参見中山城　（すさみなかやまじょう）"
+  },
+  {
+    "yomi": "たいらがじょう",
+    "name": "平が城",
+    "location": "田辺市",
+    "id": "WM0259",
+    "reference": ""
+  },
+  {
+    "yomi": "たかいだやまのろしば",
+    "name": "高井田山狼煙場",
+    "location": "みなべ町",
+    "id": "WM0260",
+    "reference": ""
+  },
+  {
+    "yomi": "たかおかしやしき",
+    "name": "高岡氏屋敷",
+    "location": "紀美野町",
+    "id": "WM0261",
+    "reference": ""
+  },
+  {
+    "yomi": "たかおじょう",
+    "name": "高尾城",
+    "location": "橋本市",
+    "id": "WM0262",
+    "reference": ""
+  },
+  {
+    "yomi": "たかじさん【やま】じょう",
+    "name": "高地山城",
+    "location": "田辺市",
+    "id": "WM0263",
+    "reference": ""
+  },
+  {
+    "yomi": "たかじさんじょう",
+    "name": "高城山城",
+    "location": "印南町",
+    "id": "WM0266",
+    "reference": ""
+  },
+  {
+    "yomi": "たかじじょう",
+    "name": "高地城",
+    "location": "田辺市",
+    "id": "WM0264",
+    "reference": ""
+  },
+  {
+    "yomi": "たかしばじょう",
+    "name": "高芝城",
+    "location": "和歌山市",
+    "id": "WM0265",
+    "reference": ""
+  },
+  {
+    "yomi": "たかせようがいさんじょう",
+    "name": "高瀬要害山城",
+    "location": "白浜町",
+    "id": "WM0267",
+    "reference": ""
+  },
+  {
+    "yomi": "たかたこじょうやまじょう",
+    "name": "高田古城山城",
+    "location": "新宮市",
+    "id": "WM0268",
+    "reference": ""
+  },
+  {
+    "yomi": "たかだじょう",
+    "name": "高田城",
+    "location": "紀の川市",
+    "id": "WM0269",
+    "reference": ""
+  },
+  {
+    "yomi": "たかだのどいじょう",
+    "name": "高田土居城",
+    "location": "みなべ町",
+    "id": "WM0270",
+    "reference": ""
+  },
+  {
+    "yomi": "たかのすじょう",
+    "name": "鷹ノ巣城",
+    "location": "田辺市",
+    "id": "WM0271",
+    "reference": ""
+  },
+  {
+    "yomi": "たかのすやまじょう",
+    "name": "鷹巣山城",
+    "location": "田辺市",
+    "id": "WM0508",
+    "reference": ""
+  },
+  {
+    "yomi": "たかはたやまじょう【のろしば】",
+    "name": "高幡山城【狼煙場】",
+    "location": "みなべ町",
+    "id": "WM0272",
+    "reference": ""
+  },
+  {
+    "yomi": "たかはなしやまかがみがじょう",
+    "name": "鷹放山鏡が城",
+    "location": "田辺市",
+    "id": "",
+    "reference": "→　鏡が城　（かがみがじょう）"
+  },
+  {
+    "yomi": "たかぼうしやかた【ようがい】",
+    "name": "高坊氏館【要害】",
+    "location": "橋本市",
+    "id": "WM0273",
+    "reference": ""
+  },
+  {
+    "yomi": "たきがみねいせき",
+    "name": "滝ヶ峰遺跡",
+    "location": "和歌山市",
+    "id": "WM0274",
+    "reference": ""
+  },
+  {
+    "yomi": "たぐらだいば",
+    "name": "田倉台場",
+    "location": "和歌山市",
+    "id": "WM0275",
+    "reference": ""
+  },
+  {
+    "yomi": "たぐらみなみでぐちだいば",
+    "name": "田倉南出口台場",
+    "location": "和歌山市",
+    "id": "WM0276",
+    "reference": ""
+  },
+  {
+    "yomi": "たじまじょう",
+    "name": "田島城",
+    "location": "日高町",
+    "id": "WM0277",
+    "reference": ""
+  },
+  {
+    "yomi": "たじりじょう",
+    "name": "田尻城",
+    "location": "日高川町",
+    "id": "WM0278",
+    "reference": ""
+  },
+  {
+    "yomi": "たすきじょう",
+    "name": "襷城",
+    "location": "紀の川市",
+    "id": "WM0279",
+    "reference": ""
+  },
+  {
+    "yomi": "たつのくちじょう",
+    "name": "龍口城",
+    "location": "田辺市",
+    "id": "WM0280",
+    "reference": ""
+  },
+  {
+    "yomi": "たつのやまじょう",
+    "name": "龍之山城",
+    "location": "田辺市",
+    "id": "",
+    "reference": "→　龍神山城　（りゅうせんざんじょう）"
+  },
+  {
+    "yomi": "たつまきじょう",
+    "name": "辰巻城",
+    "location": "上富田町",
+    "id": "",
+    "reference": "→　龍松山城　（りゅうしょうざんじょう）"
+  },
+  {
+    "yomi": "たなべじょう",
+    "name": "田辺城",
+    "location": "田辺市",
+    "id": "WM0281",
+    "reference": ""
+  },
+  {
+    "yomi": "たなみかみじょう",
+    "name": "田並上城",
+    "location": "串本町",
+    "id": "WM0282",
+    "reference": ""
+  },
+  {
+    "yomi": "たねがじょう",
+    "name": "種が城",
+    "location": "日高町",
+    "id": "",
+    "reference": "→　小坊子ヶ城　（こぼしがじょう）"
+  },
+  {
+    "yomi": "たのいなかやまじょう",
+    "name": "田野井中山城",
+    "location": "白浜町",
+    "id": "WM0283",
+    "reference": ""
+  },
+  {
+    "yomi": "たんかくじょう",
+    "name": "丹鶴城",
+    "location": "新宮市",
+    "id": "",
+    "reference": "→　新宮城　（しんぐうじょう）"
+  },
+  {
+    "yomi": "だんづか（しろうだゆう）じょう",
+    "name": "弾塚（四郎大夫）城",
+    "location": "和歌山市",
+    "id": "WM0284",
+    "reference": ""
+  },
+  {
+    "yomi": "だんづかどい",
+    "name": "弾塚土居",
+    "location": "和歌山市",
+    "id": "WM0285",
+    "reference": ""
+  },
+  {
+    "yomi": "だんなやまじょう",
+    "name": "旦那山城",
+    "location": "太地町",
+    "id": "",
+    "reference": "→　頼子城　（よろこじょう）"
+  },
+  {
+    "yomi": "ちぶかじょう",
+    "name": "血深城",
+    "location": "白浜町",
+    "id": "WM0286",
+    "reference": ""
+  },
+  {
+    "yomi": "ちゃうすやまじょう",
+    "name": "茶臼山城",
+    "location": "紀の川市",
+    "id": "WM0287",
+    "reference": ""
+  },
+  {
+    "yomi": "つがわじょう",
+    "name": "津川城",
+    "location": "紀美野町",
+    "id": "",
+    "reference": "→　上ノ城　（じょうのしろ）"
+  },
+  {
+    "yomi": "つじどうやかた",
+    "name": "辻堂館",
+    "location": "有田市",
+    "id": "",
+    "reference": "→　保田城　（やすだじょう）"
+  },
+  {
+    "yomi": "つだけんもつかずながたく",
+    "name": "津田監物算長宅",
+    "location": "和歌山市",
+    "id": "",
+    "reference": "→　吐前城　（はんざきじょう）"
+  },
+  {
+    "yomi": "つちはししやしき",
+    "name": "土橋氏屋敷",
+    "location": "和歌山市",
+    "id": "WM0288",
+    "reference": ""
+  },
+  {
+    "yomi": "つちはしへいじやしき",
+    "name": "土橋平次屋敷",
+    "location": "和歌山市",
+    "id": "WM0289",
+    "reference": ""
+  },
+  {
+    "yomi": "つちややしき【じょう】",
+    "name": "土屋屋敷【城】",
+    "location": "和歌山市",
+    "id": "WM0290",
+    "reference": ""
+  },
+  {
+    "yomi": "つる【り】べ（い）やまじょう",
+    "name": "釣瓶山城",
+    "location": "上富田町",
+    "id": "WM0293",
+    "reference": ""
+  },
+  {
+    "yomi": "つるがじょう",
+    "name": "鶴ヶ城",
+    "location": "田辺市",
+    "id": "WM0291",
+    "reference": ""
+  },
+  {
+    "yomi": "つるかわじょう",
+    "name": "鶴川城",
+    "location": "古座川町",
+    "id": "WM0292",
+    "reference": ""
+  },
+  {
+    "yomi": "でじろやしき",
+    "name": "出城ヤシキ",
+    "location": "紀美野町",
+    "id": "",
+    "reference": "→　毛原中城　（けばらなかじょう）"
+  },
+  {
+    "yomi": "てどりじょう",
+    "name": "手取城",
+    "location": "日高川町",
+    "id": "WM0294",
+    "reference": ""
+  },
+  {
+    "yomi": "でばなやまじょう",
+    "name": "出鼻山城",
+    "location": "和歌山市",
+    "id": "WM0295",
+    "reference": ""
+  },
+  {
+    "yomi": "てらなかじょう",
+    "name": "寺中城",
+    "location": "紀美野町",
+    "id": "WM0296",
+    "reference": ""
+  },
+  {
+    "yomi": "てらやまいせき【じょう】",
+    "name": "寺山遺跡【城】",
+    "location": "日高川町",
+    "id": "WM0297",
+    "reference": ""
+  },
+  {
+    "yomi": "てんしやまじょう",
+    "name": "天子山城",
+    "location": "有田川町",
+    "id": "WM0298",
+    "reference": ""
+  },
+  {
+    "yomi": "てんじやまじょう",
+    "name": "天路【神】山城",
+    "location": "日高町",
+    "id": "",
+    "reference": "→　比井城　（ひいじょう）"
+  },
+  {
+    "yomi": "てんしゅやまじょう",
+    "name": "天守山城",
+    "location": "和歌山市",
+    "id": "WM0299",
+    "reference": ""
+  },
+  {
+    "yomi": "てんじょう",
+    "name": "天城",
+    "location": "有田川町",
+    "id": "",
+    "reference": "→　二川天城　（ふたかわてんじょう）"
+  },
+  {
+    "yomi": "てんまじょう",
+    "name": "天満城",
+    "location": "那智勝浦町",
+    "id": "WM0300",
+    "reference": ""
+  },
+  {
+    "yomi": "どいじょう",
+    "name": "土井城",
+    "location": "紀美野町",
+    "id": "WM0301",
+    "reference": ""
+  },
+  {
+    "yomi": "どいじょう",
+    "name": "土井城",
+    "location": "白浜町",
+    "id": "WM0302",
+    "reference": ""
+  },
+  {
+    "yomi": "どいじょう",
+    "name": "土井城",
+    "location": "田辺市",
+    "id": "WM0303",
+    "reference": ""
+  },
+  {
+    "yomi": "どいじょう",
+    "name": "土井城",
+    "location": "みなべ町",
+    "id": "WM0304",
+    "reference": ""
+  },
+  {
+    "yomi": "どいちょうじゃやしき",
+    "name": "土井長者屋敷",
+    "location": "紀の川市",
+    "id": "WM0305",
+    "reference": ""
+  },
+  {
+    "yomi": "どいばらやかた",
+    "name": "土居原館",
+    "location": "紀の川市",
+    "id": "WM0306",
+    "reference": ""
+  },
+  {
+    "yomi": "どいやしき",
+    "name": "土居屋敷",
+    "location": "紀美野町",
+    "id": "WM0307",
+    "reference": ""
+  },
+  {
+    "yomi": "どいやまじょう",
+    "name": "土井山城",
+    "location": "田辺市",
+    "id": "WM0308",
+    "reference": ""
+  },
+  {
+    "yomi": "とうがくのしろ",
+    "name": "東岳ノ城",
+    "location": "海南市",
+    "id": "",
+    "reference": "→　白倉山城　（しらくらやまじょう）"
+  },
+  {
+    "yomi": "とうげやかた",
+    "name": "東家館",
+    "location": "橋本市",
+    "id": "WM0309",
+    "reference": ""
+  },
+  {
+    "yomi": "とうじょう",
+    "name": "東城",
+    "location": "和歌山市",
+    "id": "WM0310",
+    "reference": ""
+  },
+  {
+    "yomi": "とおいじょう",
+    "name": "遠井城",
+    "location": "有田川町",
+    "id": "WM0311",
+    "reference": ""
+  },
+  {
+    "yomi": "とさのぼうじょう",
+    "name": "土佐坊城",
+    "location": "紀の川市",
+    "id": "WM0312",
+    "reference": ""
+  },
+  {
+    "yomi": "とのしば",
+    "name": "殿芝",
+    "location": "和歌山市",
+    "id": "WM0313",
+    "reference": ""
+  },
+  {
+    "yomi": "とののどい",
+    "name": "殿の土井",
+    "location": "広川町",
+    "id": "WM0314",
+    "reference": ""
+  },
+  {
+    "yomi": "とのひょうえやしき",
+    "name": "戸野兵衛屋敷",
+    "location": "北山村",
+    "id": "",
+    "reference": "→　相須屋敷　（あいすやしき）"
+  },
+  {
+    "yomi": "とのやいせき",
+    "name": "殿屋遺跡",
+    "location": "田辺市",
+    "id": "WM0315",
+    "reference": ""
+  },
+  {
+    "yomi": "とのやしきじょう",
+    "name": "殿屋敷城",
+    "location": "田辺市",
+    "id": "WM0316",
+    "reference": ""
+  },
+  {
+    "yomi": "とびがすじょう",
+    "name": "鳶ヵ巣城",
+    "location": "紀美野町",
+    "id": "WM0318",
+    "reference": ""
+  },
+  {
+    "yomi": "とびがみねじょう",
+    "name": "鳶が峰城",
+    "location": "和歌山市",
+    "id": "WM0503",
+    "reference": ""
+  },
+  {
+    "yomi": "とびのすじょう",
+    "name": "鳶之巣城",
+    "location": "みなべ町",
+    "id": "WM0319",
+    "reference": ""
+  },
+  {
+    "yomi": "とまり（やま）じょう",
+    "name": "泊（山）城",
+    "location": "田辺市",
+    "id": "WM0320",
+    "reference": ""
+  },
+  {
+    "yomi": "とみやすじょう",
+    "name": "富安城",
+    "location": "御坊市",
+    "id": "WM0321",
+    "reference": ""
+  },
+  {
+    "yomi": "ともがしまほうだい",
+    "name": "友ヶ島砲台",
+    "location": "和歌山市",
+    "id": "WM0322",
+    "reference": ""
+  },
+  {
+    "yomi": "とやじょう",
+    "name": "鳥屋城",
+    "location": "有田川町",
+    "id": "WM0323",
+    "reference": ""
+  },
+  {
+    "yomi": "とりばじょう",
+    "name": "鳥羽城",
+    "location": "広川町",
+    "id": "WM0324",
+    "reference": ""
+  },
+  {
+    "yomi": "とんだざかようがいやまじょう",
+    "name": "富田坂要害山城",
+    "location": "白浜町",
+    "id": "",
+    "reference": "→高瀬要害山城（たかせようがいさんじょう）"
+  },
+  {
+    "yomi": "ないばいじょう",
+    "name": "内羽位城",
+    "location": "田辺市",
+    "id": "WM0325",
+    "reference": ""
+  },
+  {
+    "yomi": "ながおじょう",
+    "name": "長尾城",
+    "location": "和歌山市",
+    "id": "WM0326",
+    "reference": ""
+  },
+  {
+    "yomi": "なかおじょうやま",
+    "name": "中尾城山",
+    "location": "和歌山市",
+    "id": "WM0327",
+    "reference": ""
+  },
+  {
+    "yomi": "なかごえじょう",
+    "name": "中越城",
+    "location": "印南町",
+    "id": "",
+    "reference": "→　印南原城　（いなんばらじょう）"
+  },
+  {
+    "yomi": "なかさかこじょう",
+    "name": "中坂古城",
+    "location": "和歌山市",
+    "id": "WM0328",
+    "reference": ""
+  },
+  {
+    "yomi": "なかしやしき",
+    "name": "中氏屋敷",
+    "location": "紀の川市",
+    "id": "WM0329",
+    "reference": ""
+  },
+  {
+    "yomi": "なかすじょう",
+    "name": "中州城",
+    "location": "和歌山市",
+    "id": "",
+    "reference": "→　中津城　（なかつじょう）"
+  },
+  {
+    "yomi": "なかつじょう",
+    "name": "中津城",
+    "location": "和歌山市",
+    "id": "WM0330",
+    "reference": ""
+  },
+  {
+    "yomi": "なかのしまじょう",
+    "name": "中野島城",
+    "location": "和歌山市",
+    "id": "",
+    "reference": "→　中津城　（なかつじょう）"
+  },
+  {
+    "yomi": "なかのじょう",
+    "name": "中野城",
+    "location": "和歌山市",
+    "id": "WM0333",
+    "reference": ""
+  },
+  {
+    "yomi": "なかのじょう",
+    "name": "中ノ城",
+    "location": "紀美野町",
+    "id": "WM0331",
+    "reference": ""
+  },
+  {
+    "yomi": "なかのじょう",
+    "name": "中野城",
+    "location": "広川町",
+    "id": "WM0332",
+    "reference": ""
+  },
+  {
+    "yomi": "なかのみなみじょう",
+    "name": "中野南城",
+    "location": "紀の川市",
+    "id": "",
+    "reference": "→　城の天　（じょうのてん）"
+  },
+  {
+    "yomi": "なかみなみじょう",
+    "name": "中南城",
+    "location": "かつらぎ町",
+    "id": "WM0334",
+    "reference": ""
+  },
+  {
+    "yomi": "ながみね（やま）じょう",
+    "name": "長峰（山）城",
+    "location": "海南市",
+    "id": "WM0335",
+    "reference": ""
+  },
+  {
+    "yomi": "なかみねじょう",
+    "name": "中峰【峯】城",
+    "location": "田辺市",
+    "id": "WM0336",
+    "reference": ""
+  },
+  {
+    "yomi": "なかむらじょう",
+    "name": "中村城",
+    "location": "和歌山市",
+    "id": "",
+    "reference": "→　東城　（とうじょう）"
+  },
+  {
+    "yomi": "なかむらじょう",
+    "name": "中村城",
+    "location": "御坊市",
+    "id": "",
+    "reference": "→　鍋倉山城　（なべくらやまじょう）"
+  },
+  {
+    "yomi": "ながやぶじょう",
+    "name": "長藪城",
+    "location": "橋本市",
+    "id": "WM0337",
+    "reference": ""
+  },
+  {
+    "yomi": "なかやまじょう",
+    "name": "中山城",
+    "location": "すさみ町",
+    "id": "",
+    "reference": "→　里野城屋敷　（さとのしろやしき）"
+  },
+  {
+    "yomi": "なかやまじょう",
+    "name": "中山城",
+    "location": "田辺市",
+    "id": "WM0338",
+    "reference": ""
+  },
+  {
+    "yomi": "なかやまじょう",
+    "name": "中山城",
+    "location": "那智勝浦町",
+    "id": "WM0339",
+    "reference": ""
+  },
+  {
+    "yomi": "なぐらじょう",
+    "name": "名倉城",
+    "location": "橋本市",
+    "id": "WM0340",
+    "reference": ""
+  },
+  {
+    "yomi": "なごそじょう",
+    "name": "名古曽城",
+    "location": "橋本市",
+    "id": "",
+    "reference": "→　高坊氏館　（たかぼうしやかた）"
+  },
+  {
+    "yomi": "なじまじょう",
+    "name": "名島城",
+    "location": "広川町",
+    "id": "",
+    "reference": "→　広城　（ひろじょう）"
+  },
+  {
+    "yomi": "なばえのはなのろしば",
+    "name": "名南風鼻狼煙場",
+    "location": "有田市",
+    "id": "WM0341",
+    "reference": ""
+  },
+  {
+    "yomi": "なべくらやまじょう",
+    "name": "鍋倉山城",
+    "location": "御坊市",
+    "id": "WM0342",
+    "reference": ""
+  },
+  {
+    "yomi": "なめらうたのかみやしき",
+    "name": "奈目良雅楽頭屋敷",
+    "location": "田辺市",
+    "id": "WM0343",
+    "reference": ""
+  },
+  {
+    "yomi": "なるかみじょう",
+    "name": "鳴神城",
+    "location": "印南町",
+    "id": "WM0344",
+    "reference": ""
+  },
+  {
+    "yomi": "にえがわきゅうぞうやしき【どい】",
+    "name": "贄川久蔵屋敷【土居】",
+    "location": "橋本市",
+    "id": "WM0345",
+    "reference": ""
+  },
+  {
+    "yomi": "にかいじょう",
+    "name": "二階城",
+    "location": "有田川町",
+    "id": "WM0346",
+    "reference": ""
+  },
+  {
+    "yomi": "にこうじょうのもりじょう",
+    "name": "二河城の森城",
+    "location": "那智勝浦町",
+    "id": "WM0347",
+    "reference": ""
+  },
+  {
+    "yomi": "にしおかじょう",
+    "name": "西岡城",
+    "location": "紀の川市",
+    "id": "WM0348",
+    "reference": ""
+  },
+  {
+    "yomi": "にしおさんとりで",
+    "name": "西尾山砦",
+    "location": "九度山町",
+    "id": "WM0349",
+    "reference": ""
+  },
+  {
+    "yomi": "にしじょう",
+    "name": "西城",
+    "location": "和歌山市",
+    "id": "",
+    "reference": "→　山名城　（やまなじょう）"
+  },
+  {
+    "yomi": "にしはたやまにしじょう",
+    "name": "西畑山西城",
+    "location": "串本町",
+    "id": "WM0350",
+    "reference": ""
+  },
+  {
+    "yomi": "にしはたやまひがしじょう",
+    "name": "西畑山東城",
+    "location": "串本町",
+    "id": "WM0351",
+    "reference": ""
+  },
+  {
+    "yomi": "にしはまごてん",
+    "name": "西浜御殿",
+    "location": "和歌山市",
+    "id": "WM0352",
+    "reference": ""
+  },
+  {
+    "yomi": "にしはまごようち",
+    "name": "西浜御用地",
+    "location": "和歌山市",
+    "id": "",
+    "reference": "→　西浜御殿　（にしはまごてん）"
+  },
+  {
+    "yomi": "にしはらじょう",
+    "name": "西原城",
+    "location": "有田川町",
+    "id": "WM0353",
+    "reference": ""
+  },
+  {
+    "yomi": "にしはらじょう",
+    "name": "西原城",
+    "location": "田辺市",
+    "id": "WM0354",
+    "reference": ""
+  },
+  {
+    "yomi": "にしみなみはたじょう",
+    "name": "西南畑城",
+    "location": "印南町",
+    "id": "WM0355",
+    "reference": ""
+  },
+  {
+    "yomi": "にしむらじょう",
+    "name": "西村城",
+    "location": "和歌山市",
+    "id": "",
+    "reference": "→　坂ノ上屋敷　（さかのうえやしき）"
+  },
+  {
+    "yomi": "にしやまじょう",
+    "name": "西山城",
+    "location": "那智勝浦町",
+    "id": "",
+    "reference": "→　神光坊屋敷　（しんこうぼうやしき）"
+  },
+  {
+    "yomi": "にしわきあんのとりで",
+    "name": "西脇庵の砦",
+    "location": "紀の川市",
+    "id": "",
+    "reference": "→　茶臼山城　（ちゃうすやまじょう）"
+  },
+  {
+    "yomi": "にちぜんぐうにしどい",
+    "name": "日前宮西土井",
+    "location": "和歌山市",
+    "id": "",
+    "reference": "→　秋月遺跡　（あきづきいせき）"
+  },
+  {
+    "yomi": "にぶじょう",
+    "name": "二部城",
+    "location": "串本町",
+    "id": "WM0356",
+    "reference": ""
+  },
+  {
+    "yomi": "にゅうやじょう【どい】",
+    "name": "丹生谷【屋】城【土居】",
+    "location": "紀の川市",
+    "id": "WM0357",
+    "reference": ""
+  },
+  {
+    "yomi": "にゅうやまじょう",
+    "name": "入山城",
+    "location": "美浜町",
+    "id": "WM0358",
+    "reference": ""
+  },
+  {
+    "yomi": "ぬりやじょう",
+    "name": "塗屋城",
+    "location": "上富田町",
+    "id": "WM0359",
+    "reference": ""
+  },
+  {
+    "yomi": "ねごろこじょう",
+    "name": "根来古城",
+    "location": "岩出市",
+    "id": "",
+    "reference": "→　根来寺西山　（ねごろでらにしやま）"
+  },
+  {
+    "yomi": "ねごろでらきたやま",
+    "name": "根来寺北山",
+    "location": "岩出市",
+    "id": "WM0360",
+    "reference": ""
+  },
+  {
+    "yomi": "ねごろでらさいほうきゅうりょういせき",
+    "name": "根来寺西方丘陵遺跡",
+    "location": "岩出市",
+    "id": "WM0361",
+    "reference": ""
+  },
+  {
+    "yomi": "ねごろでらにしやま",
+    "name": "根来寺西山",
+    "location": "岩出市",
+    "id": "WM0362",
+    "reference": ""
+  },
+  {
+    "yomi": "ねごろでらまえやま",
+    "name": "根来寺前山",
+    "location": "岩出市",
+    "id": "WM0363",
+    "reference": ""
+  },
+  {
+    "yomi": "のいのどい",
+    "name": "野井の土井",
+    "location": "有田市",
+    "id": "WM0364",
+    "reference": ""
+  },
+  {
+    "yomi": "のうがわじょう",
+    "name": "直川城",
+    "location": "和歌山市",
+    "id": "WM0584",
+    "reference": ""
+  },
+  {
+    "yomi": "のかみはちまんやまほんじん",
+    "name": "野上八幡山本陣",
+    "location": "紀美野町",
+    "id": "",
+    "reference": "→　八幡山本陣　（はちまんやまほんじん）"
+  },
+  {
+    "yomi": "のきじょう",
+    "name": "能城城",
+    "location": "新宮市",
+    "id": "WM0365",
+    "reference": ""
+  },
+  {
+    "yomi": "のぐちじょう",
+    "name": "野口城",
+    "location": "橋本市",
+    "id": "",
+    "reference": "→　霜山城　（しもやまじょう）"
+  },
+  {
+    "yomi": "のぐちじょう",
+    "name": "野口城",
+    "location": "御坊市",
+    "id": "WM0366",
+    "reference": ""
+  },
+  {
+    "yomi": "のじりがおかじょう",
+    "name": "野尻ヶ丘城",
+    "location": "御坊市",
+    "id": "",
+    "reference": "→　野口城　（のぐちじょう）"
+  },
+  {
+    "yomi": "のだじょう",
+    "name": "野田城",
+    "location": "有田川町",
+    "id": "",
+    "reference": "→　藤並城　（ふじなみじょう）"
+  },
+  {
+    "yomi": "のだじょう",
+    "name": "野田城",
+    "location": "上富田町",
+    "id": "WM0367",
+    "reference": ""
+  },
+  {
+    "yomi": "のだはらじょう",
+    "name": "野田原城",
+    "location": "紀の川市",
+    "id": "WM0368",
+    "reference": ""
+  },
+  {
+    "yomi": "のぼたじょう",
+    "name": "登田城",
+    "location": "みなべ町",
+    "id": "",
+    "reference": "→　土井城　（どいじょう）"
+  },
+  {
+    "yomi": "のみがじょう",
+    "name": "蚤ヶ城",
+    "location": "那智勝浦町",
+    "id": "WM0369",
+    "reference": ""
+  },
+  {
+    "yomi": "はいふだいば",
+    "name": "配府台場",
+    "location": "和歌山市",
+    "id": "WM0370",
+    "reference": ""
+  },
+  {
+    "yomi": "はぎ・おにがじょう",
+    "name": "萩・鬼ヶ城",
+    "location": "田辺市",
+    "id": "WM0371",
+    "reference": ""
+  },
+  {
+    "yomi": "はしづめぼうやしき",
+    "name": "橋爪坊屋敷",
+    "location": "那智勝浦町",
+    "id": "WM0372",
+    "reference": ""
+  },
+  {
+    "yomi": "はしもとぐんぶぎょうしょ",
+    "name": "橋本郡奉行所",
+    "location": "橋本市",
+    "id": "",
+    "reference": "→　橋本御殿　（はしもとごてん）"
+  },
+  {
+    "yomi": "はしもとごてん",
+    "name": "橋本御殿",
+    "location": "橋本市",
+    "id": "WM0373",
+    "reference": ""
+  },
+  {
+    "yomi": "はしもとだいかんしょ",
+    "name": "橋本代官所",
+    "location": "橋本市",
+    "id": "",
+    "reference": "→　橋本御殿　（はしもとごてん）"
+  },
+  {
+    "yomi": "はた（け）やまじょう",
+    "name": "畑山城",
+    "location": "九度山町",
+    "id": "WM0374",
+    "reference": ""
+  },
+  {
+    "yomi": "はたけやましやかた",
+    "name": "畠山氏館",
+    "location": "広川町",
+    "id": "WM0375",
+    "reference": ""
+  },
+  {
+    "yomi": "はたけやまやかた",
+    "name": "畠山館",
+    "location": "有田川町",
+    "id": "",
+    "reference": "→　金屋土居　（かなやどい）"
+  },
+  {
+    "yomi": "はたやまじょう",
+    "name": "幡山城",
+    "location": "みなべ町",
+    "id": "",
+    "reference": "→　要害城　（ようがいじょう）"
+  },
+  {
+    "yomi": "はちおうじじょう【とりで】",
+    "name": "八王子城【砦】",
+    "location": "田辺市",
+    "id": "",
+    "reference": "→　上野山城　（うえのやまじょう）"
+  },
+  {
+    "yomi": "はちおうじとりで",
+    "name": "八王子砦",
+    "location": "海南市",
+    "id": "WM0376",
+    "reference": ""
+  },
+  {
+    "yomi": "はちおかやまじょう",
+    "name": "八【鉢】岡山城",
+    "location": "紀の川市",
+    "id": "WM0377",
+    "reference": ""
+  },
+  {
+    "yomi": "ばちぐりじょう",
+    "name": "八栗城",
+    "location": "印南町",
+    "id": "",
+    "reference": "→　印南原城　（いなんばらじょう）"
+  },
+  {
+    "yomi": "はちぶせやまじょう",
+    "name": "鉢伏山城",
+    "location": "海南市",
+    "id": "",
+    "reference": "→　入佐山城　（いりさやまじょう）"
+  },
+  {
+    "yomi": "はちまんやまほんじん",
+    "name": "八幡山本陣",
+    "location": "紀美野町",
+    "id": "WM0378",
+    "reference": ""
+  },
+  {
+    "yomi": "はつしまちょうじょうのうち",
+    "name": "初島町城ノ内",
+    "location": "有田市",
+    "id": "WM0379",
+    "reference": ""
+  },
+  {
+    "yomi": "はつしまちょうじょうもと",
+    "name": "初島町城元",
+    "location": "有田市",
+    "id": "WM0380",
+    "reference": ""
+  },
+  {
+    "yomi": "はっせんがんじょう",
+    "name": "八千貫城",
+    "location": "印南町",
+    "id": "WM0381",
+    "reference": ""
+  },
+  {
+    "yomi": "はつやまじょう",
+    "name": "初山城",
+    "location": "田辺市",
+    "id": "WM0382",
+    "reference": ""
+  },
+  {
+    "yomi": "はなだじょう",
+    "name": "花田城",
+    "location": "有田川町",
+    "id": "",
+    "reference": "→　遠井城　（とおいじょう）"
+  },
+  {
+    "yomi": "はなみつじょう",
+    "name": "花光城",
+    "location": "田辺市",
+    "id": "",
+    "reference": "→　大転城　（おおころびじょう）"
+  },
+  {
+    "yomi": "はねさかしやかた",
+    "name": "塙坂氏館",
+    "location": "橋本市",
+    "id": "WM0383",
+    "reference": ""
+  },
+  {
+    "yomi": "はぶじょう",
+    "name": "土生城",
+    "location": "日高川町",
+    "id": "WM0384",
+    "reference": ""
+  },
+  {
+    "yomi": "はまごてん",
+    "name": "浜御殿",
+    "location": "和歌山市",
+    "id": "WM0385",
+    "reference": ""
+  },
+  {
+    "yomi": "はやしかいとじょう",
+    "name": "林垣内城",
+    "location": "紀の川市",
+    "id": "WM0386",
+    "reference": ""
+  },
+  {
+    "yomi": "はやじょう",
+    "name": "芳養城",
+    "location": "田辺市",
+    "id": "WM0387",
+    "reference": ""
+  },
+  {
+    "yomi": "はらがいと",
+    "name": "原垣内城",
+    "location": "田辺市",
+    "id": "WM0388",
+    "reference": ""
+  },
+  {
+    "yomi": "はんざきじょう",
+    "name": "吐前城",
+    "location": "和歌山市",
+    "id": "WM0389",
+    "reference": ""
+  },
+  {
+    "yomi": "ひいじょう",
+    "name": "比井城",
+    "location": "日高町",
+    "id": "WM0390",
+    "reference": ""
+  },
+  {
+    "yomi": "ひがしおかじょう",
+    "name": "東岡城",
+    "location": "紀の川市",
+    "id": "WM0391",
+    "reference": ""
+  },
+  {
+    "yomi": "ひがしばたじょう",
+    "name": "東畑城",
+    "location": "海南市",
+    "id": "WM0392",
+    "reference": ""
+  },
+  {
+    "yomi": "ひがしやまじょう",
+    "name": "東山城",
+    "location": "那智勝浦町",
+    "id": "",
+    "reference": "→　橋爪坊屋敷　（はしづめぼうやしき）"
+  },
+  {
+    "yomi": "ひかたじょう",
+    "name": "日方城",
+    "location": "海南市",
+    "id": "WM0393",
+    "reference": ""
+  },
+  {
+    "yomi": "ひきじょう",
+    "name": "日置城",
+    "location": "白浜町",
+    "id": "WM0394",
+    "reference": ""
+  },
+  {
+    "yomi": "ひなたやまじょう",
+    "name": "日向山城",
+    "location": "田辺市",
+    "id": "WM0395",
+    "reference": ""
+  },
+  {
+    "yomi": "ひのみさきとおみばんしょ",
+    "name": "日ノ御碕遠見番所",
+    "location": "美浜町",
+    "id": "WM0396",
+    "reference": ""
+  },
+  {
+    "yomi": "ひばしとうげじょう",
+    "name": "ヒバシ【日橋・日待】峠城",
+    "location": "紀の川市",
+    "id": "WM0397",
+    "reference": ""
+  },
+  {
+    "yomi": "ひょうえだいら",
+    "name": "兵衛平",
+    "location": "白浜町",
+    "id": "",
+    "reference": "→　市鹿野城　（いちかのじょう）"
+  },
+  {
+    "yomi": "ひょうがじょう",
+    "name": "兵ヶ城",
+    "location": "有田川町",
+    "id": "WM0398",
+    "reference": ""
+  },
+  {
+    "yomi": "ひらいじょう",
+    "name": "平井城",
+    "location": "和歌山市",
+    "id": "",
+    "reference": "→鈴木孫一屋敷（すずきまごいちやしき）"
+  },
+  {
+    "yomi": "ひらいわじょう",
+    "name": "平岩城",
+    "location": "紀美野町",
+    "id": "WM0399",
+    "reference": ""
+  },
+  {
+    "yomi": "ひらのしやしき",
+    "name": "平野氏屋敷",
+    "location": "紀の川市",
+    "id": "WM0400",
+    "reference": ""
+  },
+  {
+    "yomi": "ひらのじょう",
+    "name": "平野城",
+    "location": "橋本市",
+    "id": "",
+    "reference": "→　岡山城　（おかやまじょう）"
+  },
+  {
+    "yomi": "ひらのとおみばんしょ",
+    "name": "平野遠見番所",
+    "location": "那智勝浦町",
+    "id": "WM0401",
+    "reference": ""
+  },
+  {
+    "yomi": "ひらやまじょう",
+    "name": "平山城",
+    "location": "和歌山市",
+    "id": "",
+    "reference": "→　坂ノ上城　（さかのうえじょう）"
+  },
+  {
+    "yomi": "ひらやまじょう",
+    "name": "平山城",
+    "location": "橋本市",
+    "id": "WM0402",
+    "reference": ""
+  },
+  {
+    "yomi": "ひろごてん",
+    "name": "広御殿",
+    "location": "広川町",
+    "id": "WM0403",
+    "reference": ""
+  },
+  {
+    "yomi": "ひろじょう",
+    "name": "広城",
+    "location": "広川町",
+    "id": "WM0404",
+    "reference": ""
+  },
+  {
+    "yomi": "ひろぼやまじょう",
+    "name": "広保山城",
+    "location": "湯浅町",
+    "id": "WM0405",
+    "reference": ""
+  },
+  {
+    "yomi": "ふかたにじょう",
+    "name": "深谷城",
+    "location": "田辺市",
+    "id": "WM0406",
+    "reference": ""
+  },
+  {
+    "yomi": "ふきあげごてん",
+    "name": "吹上御殿",
+    "location": "和歌山市",
+    "id": "WM0407",
+    "reference": ""
+  },
+  {
+    "yomi": "ふくいじょう",
+    "name": "福井城",
+    "location": "紀美野町",
+    "id": "WM0408",
+    "reference": ""
+  },
+  {
+    "yomi": "ふくいやかた【じょう】",
+    "name": "福井館【城】",
+    "location": "田辺市",
+    "id": "WM0409",
+    "reference": ""
+  },
+  {
+    "yomi": "ふけじょう",
+    "name": "吹井城",
+    "location": "由良町",
+    "id": "WM0410",
+    "reference": ""
+  },
+  {
+    "yomi": "ふじくら（やま）じょう",
+    "name": "藤倉（山）城",
+    "location": "那智勝浦町",
+    "id": "WM0411",
+    "reference": ""
+  },
+  {
+    "yomi": "ふじくらしじょう",
+    "name": "藤倉支城",
+    "location": "那智勝浦町",
+    "id": "WM0412",
+    "reference": ""
+  },
+  {
+    "yomi": "ふじたにじょう",
+    "name": "藤谷城",
+    "location": "日高川町",
+    "id": "WM0413",
+    "reference": ""
+  },
+  {
+    "yomi": "ふじつなのようがい",
+    "name": "藤綱要害",
+    "location": "那智勝浦町",
+    "id": "WM0414",
+    "reference": ""
+  },
+  {
+    "yomi": "ふじなみじょう",
+    "name": "藤並城",
+    "location": "有田川町",
+    "id": "WM0415",
+    "reference": ""
+  },
+  {
+    "yomi": "ふじわらじょう",
+    "name": "藤原城",
+    "location": "すさみ町",
+    "id": "WM0416",
+    "reference": ""
+  },
+  {
+    "yomi": "ふたかわてんじょう",
+    "name": "二川天城",
+    "location": "有田川町",
+    "id": "WM0417",
+    "reference": ""
+  },
+  {
+    "yomi": "ふちゅうおやかた",
+    "name": "府中御館",
+    "location": "和歌山市",
+    "id": "WM0418",
+    "reference": ""
+  },
+  {
+    "yomi": "ふゆのじょう",
+    "name": "冬野城",
+    "location": "和歌山市",
+    "id": "WM0419",
+    "reference": ""
+  },
+  {
+    "yomi": "ふるわだじょう",
+    "name": "古和田城",
+    "location": "紀の川市",
+    "id": "WM0420",
+    "reference": ""
+  },
+  {
+    "yomi": "へいすがじょう",
+    "name": "平須賀城",
+    "location": "みなべ町",
+    "id": "WM0421",
+    "reference": ""
+  },
+  {
+    "yomi": "べっとうやしき",
+    "name": "別当屋敷",
+    "location": "新宮市",
+    "id": "WM0422",
+    "reference": ""
+  },
+  {
+    "yomi": "べんざいてん（やま）じょう",
+    "name": "弁財天（山）城",
+    "location": "和歌山市",
+    "id": "WM0423",
+    "reference": ""
+  },
+  {
+    "yomi": "ほうづととうげじょう",
+    "name": "方寸峠城",
+    "location": "湯浅町",
+    "id": "",
+    "reference": "→　広保山城　（ひろぼやまじょう）"
+  },
+  {
+    "yomi": "ほこらだいば",
+    "name": "保古良台場",
+    "location": "和歌山市",
+    "id": "WM0424",
+    "reference": ""
+  },
+  {
+    "yomi": "ほしおやかた",
+    "name": "星尾館",
+    "location": "有田市",
+    "id": "WM0425",
+    "reference": ""
+  },
+  {
+    "yomi": "ぼしとのしば",
+    "name": "ぼしとの芝",
+    "location": "新宮市",
+    "id": "",
+    "reference": "→　堀内氏館　（ほりうちしやかた）"
+  },
+  {
+    "yomi": "ほりうちしやかた",
+    "name": "堀内氏館",
+    "location": "新宮市",
+    "id": "WM0426",
+    "reference": ""
+  },
+  {
+    "yomi": "ほりうちしやしき【しんぐうじょう】",
+    "name": "堀内氏屋敷【新宮城】",
+    "location": "新宮市",
+    "id": "WM0427",
+    "reference": ""
+  },
+  {
+    "yomi": "ほりがいと",
+    "name": "堀垣内",
+    "location": "紀の川市",
+    "id": "",
+    "reference": "→　貴志氏館　（きししやかた）"
+  },
+  {
+    "yomi": "ほりがみねじょう",
+    "name": "堀ヶ峰城",
+    "location": "田辺市",
+    "id": "WM0428",
+    "reference": ""
+  },
+  {
+    "yomi": "ほりじょう",
+    "name": "堀城",
+    "location": "紀美野町",
+    "id": "WM0429",
+    "reference": ""
+  },
+  {
+    "yomi": "ほりのうちやかた",
+    "name": "堀ノ内館",
+    "location": "有田市",
+    "id": "",
+    "reference": "→　野井の土井　（のいのどい）"
+  },
+  {
+    "yomi": "ほんぐう（しろやま）じょう",
+    "name": "本宮（城山）城",
+    "location": "田辺市",
+    "id": "WM0430",
+    "reference": ""
+  },
+  {
+    "yomi": "まいづるじょう",
+    "name": "舞鶴城",
+    "location": "日高町",
+    "id": "WM0431",
+    "reference": ""
+  },
+  {
+    "yomi": "まきのおじょう",
+    "name": "槙ノ尾城",
+    "location": "九度山町",
+    "id": "WM0432",
+    "reference": ""
+  },
+  {
+    "yomi": "まさごしじょう（かん）",
+    "name": "真砂氏城（館）",
+    "location": "田辺市",
+    "id": "WM0433",
+    "reference": ""
+  },
+  {
+    "yomi": "ますがじょう",
+    "name": "増賀城",
+    "location": "田辺市",
+    "id": "",
+    "reference": "→　鶴ヶ城　（つるがじょう）"
+  },
+  {
+    "yomi": "ますがたじょう",
+    "name": "枡形城",
+    "location": "日高川町",
+    "id": "",
+    "reference": "→　寒川土居　（そうがわどい）"
+  },
+  {
+    "yomi": "まつえごてん",
+    "name": "松江御殿",
+    "location": "和歌山市",
+    "id": "WM0434",
+    "reference": ""
+  },
+  {
+    "yomi": "まつの【が】みねじょう",
+    "name": "松の【ヶ】峰城",
+    "location": "紀美野町",
+    "id": "WM0435",
+    "reference": ""
+  },
+  {
+    "yomi": "まつもとしきょじょう",
+    "name": "松本氏居城",
+    "location": "すさみ町",
+    "id": "WM0436",
+    "reference": ""
+  },
+  {
+    "yomi": "まつもとしどい",
+    "name": "松本氏土居",
+    "location": "田辺市",
+    "id": "WM0437",
+    "reference": ""
+  },
+  {
+    "yomi": "まつやまじょう",
+    "name": "松山城",
+    "location": "橋本市",
+    "id": "",
+    "reference": "→菖蒲田和の城（しょうぶたわのしろ）"
+  },
+  {
+    "yomi": "まるやまじょう",
+    "name": "丸山城",
+    "location": "御坊市",
+    "id": "",
+    "reference": "→　亀山城　（かめやまじょう）"
+  },
+  {
+    "yomi": "まるやまじんや",
+    "name": "丸山陣屋",
+    "location": "有田川町",
+    "id": "",
+    "reference": "→　西原城　（にしはらじょう）"
+  },
+  {
+    "yomi": "まんがんじ（やま）じょう",
+    "name": "満願寺（山）城",
+    "location": "湯浅町",
+    "id": "WM0438",
+    "reference": ""
+  },
+  {
+    "yomi": "まんどころのつぼ",
+    "name": "政所ノ坪",
+    "location": "和歌山市",
+    "id": "",
+    "reference": "→鈴木孫一屋敷（すずきまごいちやしき）"
+  },
+  {
+    "yomi": "みおがわなかむらじょう",
+    "name": "三尾川中村城",
+    "location": "古座川町",
+    "id": "WM0439",
+    "reference": ""
+  },
+  {
+    "yomi": "みおがわまるやまじょう",
+    "name": "三尾川丸山城",
+    "location": "古座川町",
+    "id": "WM0579",
+    "reference": ""
+  },
+  {
+    "yomi": "みおじょう",
+    "name": "三尾城",
+    "location": "美浜町",
+    "id": "WM0440",
+    "reference": ""
+  },
+  {
+    "yomi": "みかずらじょう",
+    "name": "三葛城",
+    "location": "和歌山市",
+    "id": "",
+    "reference": "→　天守山城　（てんしゅやまじょう）"
+  },
+  {
+    "yomi": "みかずらじょう",
+    "name": "三葛城",
+    "location": "和歌山市",
+    "id": "",
+    "reference": "→　弁財天山城　（べんざいてんやまじょう）"
+  },
+  {
+    "yomi": "みこのはまだいば",
+    "name": "神子浜台場",
+    "location": "田辺市",
+    "id": "WM0441",
+    "reference": ""
+  },
+  {
+    "yomi": "みささみねじょう",
+    "name": "ミササ峰城",
+    "location": "紀の川市",
+    "id": "WM0442",
+    "reference": ""
+  },
+  {
+    "yomi": "みざのどい",
+    "name": "三佐ノ土居",
+    "location": "日高川町",
+    "id": "WM0443",
+    "reference": ""
+  },
+  {
+    "yomi": "みなとごいんでん",
+    "name": "湊御隠殿",
+    "location": "和歌山市",
+    "id": "WM0445",
+    "reference": ""
+  },
+  {
+    "yomi": "みなとごてん",
+    "name": "湊御殿",
+    "location": "和歌山市",
+    "id": "WM0446",
+    "reference": ""
+  },
+  {
+    "yomi": "みなとじょう",
+    "name": "湊城",
+    "location": "和歌山市",
+    "id": "WM0447",
+    "reference": ""
+  },
+  {
+    "yomi": "みなべだいば",
+    "name": "南部台場",
+    "location": "みなべ町",
+    "id": "WM0448",
+    "reference": ""
+  },
+  {
+    "yomi": "みなみがわぶんてきやしき",
+    "name": "南川文敵屋敷",
+    "location": "和歌山市",
+    "id": "WM0449",
+    "reference": ""
+  },
+  {
+    "yomi": "みなみやまじょう",
+    "name": "南山城",
+    "location": "和歌山市",
+    "id": "WM0450",
+    "reference": ""
+  },
+  {
+    "yomi": "みねやまじょう",
+    "name": "峯山城",
+    "location": "田辺市",
+    "id": "WM0451",
+    "reference": ""
+  },
+  {
+    "yomi": "みやいじょうのはなじょう",
+    "name": "宮井城ノ鼻城",
+    "location": "新宮市",
+    "id": "WM0452",
+    "reference": ""
+  },
+  {
+    "yomi": "みやいじょうのもとじょう",
+    "name": "宮井城ノ元城",
+    "location": "新宮市",
+    "id": "WM0453",
+    "reference": ""
+  },
+  {
+    "yomi": "みやざきじょう",
+    "name": "宮崎城",
+    "location": "有田市",
+    "id": "WM0454",
+    "reference": ""
+  },
+  {
+    "yomi": "みやざきとおみばんしょ",
+    "name": "宮崎遠見番所",
+    "location": "有田市",
+    "id": "WM0455",
+    "reference": ""
+  },
+  {
+    "yomi": "みやしろのもりやまじょう",
+    "name": "御社森山城",
+    "location": "那智勝浦町",
+    "id": "WM0456",
+    "reference": ""
+  },
+  {
+    "yomi": "みやしろやまじょう",
+    "name": "宮城山城",
+    "location": "那智勝浦町",
+    "id": "",
+    "reference": "→御社森山城（みやしろのもりやまじょう）"
+  },
+  {
+    "yomi": "みやしろやまとりで",
+    "name": "宮代山砦",
+    "location": "田辺市",
+    "id": "WM0457",
+    "reference": ""
+  },
+  {
+    "yomi": "みやだいじょう",
+    "name": "宮代城",
+    "location": "田辺市",
+    "id": "WM0458",
+    "reference": ""
+  },
+  {
+    "yomi": "みやはらしやかた【どい】",
+    "name": "宮原氏館【土井】",
+    "location": "有田市",
+    "id": "WM0459",
+    "reference": ""
+  },
+  {
+    "yomi": "みやまほうだいぐん",
+    "name": "深山砲台群",
+    "location": "和歌山市",
+    "id": "WM0585",
+    "reference": ""
+  },
+  {
+    "yomi": "みょうけんやまじょう",
+    "name": "妙見山城",
+    "location": "海南市",
+    "id": "",
+    "reference": "→　神田城（かんだじょう）"
+  },
+  {
+    "yomi": "みょうけんやまじょう",
+    "name": "妙見山城",
+    "location": "和歌山市",
+    "id": "",
+    "reference": "→　雑賀城　（さいかじょう）"
+  },
+  {
+    "yomi": "みょうじんさんじょう",
+    "name": "明神山城",
+    "location": "新宮市",
+    "id": "WM0460",
+    "reference": ""
+  },
+  {
+    "yomi": "みょうじんじょう",
+    "name": "明神城（仮）",
+    "location": "古座川町",
+    "id": "WM0581",
+    "reference": ""
+  },
+  {
+    "yomi": "みろくじさんじょう【とりで】",
+    "name": "弥勒寺山城【砦】",
+    "location": "和歌山市",
+    "id": "WM0461",
+    "reference": ""
+  },
+  {
+    "yomi": "むかいたいらじょう",
+    "name": "向平城",
+    "location": "白浜町",
+    "id": "WM0462",
+    "reference": ""
+  },
+  {
+    "yomi": "むめいやかた",
+    "name": "無名館",
+    "location": "橋本市",
+    "id": "WM0463",
+    "reference": ""
+  },
+  {
+    "yomi": "もえだいば",
+    "name": "藻江台場",
+    "location": "和歌山市",
+    "id": "WM0464",
+    "reference": ""
+  },
+  {
+    "yomi": "もとのわきじょう",
+    "name": "本ノ【之】脇城",
+    "location": "美浜町",
+    "id": "WM0465",
+    "reference": ""
+  },
+  {
+    "yomi": "もとばんしょだいば",
+    "name": "元番所台場",
+    "location": "和歌山市",
+    "id": "WM0466",
+    "reference": ""
+  },
+  {
+    "yomi": "もみじやまじょう",
+    "name": "紅葉山城",
+    "location": "有田川町",
+    "id": "",
+    "reference": "→　清水城　（しみずじょう）"
+  },
+  {
+    "yomi": "もんじろやぶ",
+    "name": "モンジロヤブ",
+    "location": "那智勝浦町",
+    "id": "",
+    "reference": "→　石倉山城　（いしくらやまじょう）"
+  },
+  {
+    "yomi": "もんぜんじょう",
+    "name": "門前城",
+    "location": "由良町",
+    "id": "WM0583",
+    "reference": ""
+  },
+  {
+    "yomi": "もんぜんゆらじょう",
+    "name": "門前由良城",
+    "location": "由良町",
+    "id": "WM0467",
+    "reference": ""
+  },
+  {
+    "yomi": "やくしさんとりで",
+    "name": "薬師山砦",
+    "location": "九度山町",
+    "id": "WM0468",
+    "reference": ""
+  },
+  {
+    "yomi": "やぐら（やま）じょう",
+    "name": "矢倉（山）城",
+    "location": "新宮市",
+    "id": "",
+    "reference": "→　明神山城　（みょうじんさんじょう）"
+  },
+  {
+    "yomi": "やすだしこじょう",
+    "name": "保田氏古城",
+    "location": "有田川町",
+    "id": "WM0469",
+    "reference": ""
+  },
+  {
+    "yomi": "やすだじょう",
+    "name": "保田城",
+    "location": "有田市",
+    "id": "WM0470",
+    "reference": ""
+  },
+  {
+    "yomi": "やのもりじょう",
+    "name": "弥ノ森城",
+    "location": "那智勝浦町",
+    "id": "WM0471",
+    "reference": ""
+  },
+  {
+    "yomi": "やはたじょう",
+    "name": "八幡城",
+    "location": "有田川町",
+    "id": "",
+    "reference": "→　清水城　（しみずじょう）"
+  },
+  {
+    "yomi": "やはたやまじょう",
+    "name": "八幡山城",
+    "location": "御坊市",
+    "id": "WM0472",
+    "reference": ""
+  },
+  {
+    "yomi": "やまぐちごてん",
+    "name": "山口御殿",
+    "location": "和歌山市",
+    "id": "WM0473",
+    "reference": ""
+  },
+  {
+    "yomi": "やまぐちにしじょう",
+    "name": "山口西城",
+    "location": "和歌山市",
+    "id": "",
+    "reference": "→　坂ノ上屋敷　（さかのうえやしき）"
+  },
+  {
+    "yomi": "やまさきじょう",
+    "name": "山﨑城",
+    "location": "日高川町",
+    "id": "WM0474",
+    "reference": ""
+  },
+  {
+    "yomi": "やまだやかた",
+    "name": "山田館",
+    "location": "みなべ町",
+    "id": "",
+    "reference": "→　城の段城　（じょうのだんじょう）"
+  },
+  {
+    "yomi": "やまなじょう",
+    "name": "山名城",
+    "location": "和歌山市",
+    "id": "WM0475",
+    "reference": ""
+  },
+  {
+    "yomi": "やまのうちどいやしき",
+    "name": "山内土居屋敷",
+    "location": "橋本市",
+    "id": "",
+    "reference": "→　尾崎城　（おざきじょう）"
+  },
+  {
+    "yomi": "やまんじょじょう",
+    "name": "山城城",
+    "location": "日高町",
+    "id": "WM0476",
+    "reference": ""
+  },
+  {
+    "yomi": "ゆあさしやかた",
+    "name": "湯浅氏館",
+    "location": "湯浅町",
+    "id": "WM0477",
+    "reference": ""
+  },
+  {
+    "yomi": "ゆあさじょう",
+    "name": "湯浅城",
+    "location": "湯浅町",
+    "id": "WM0478",
+    "reference": ""
+  },
+  {
+    "yomi": "ゆうきじょう",
+    "name": "結城城",
+    "location": "串本町",
+    "id": "WM0479",
+    "reference": ""
+  },
+  {
+    "yomi": "ゆかわしじょうかん",
+    "name": "湯河氏城館",
+    "location": "田辺市",
+    "id": "WM0480",
+    "reference": ""
+  },
+  {
+    "yomi": "ゆかわじょう",
+    "name": "湯河城",
+    "location": "御坊市",
+    "id": "",
+    "reference": "→　亀山城　（かめやまじょう）"
+  },
+  {
+    "yomi": "ゆかわやかた",
+    "name": "湯河館",
+    "location": "広川町",
+    "id": "WM0481",
+    "reference": ""
+  },
+  {
+    "yomi": "ゆずのはまだいば",
+    "name": "柚ノ浜台場",
+    "location": "和歌山市",
+    "id": "WM0482",
+    "reference": ""
+  },
+  {
+    "yomi": "ゆらじょう",
+    "name": "由良城",
+    "location": "由良町",
+    "id": "WM0483",
+    "reference": ""
+  },
+  {
+    "yomi": "ゆらのうちかさねやまのろしば",
+    "name": "由良之内重山狼煙場",
+    "location": "由良町",
+    "id": "WM0484",
+    "reference": ""
+  },
+  {
+    "yomi": "ようがいじょう",
+    "name": "要害城",
+    "location": "印南町",
+    "id": "WM0485",
+    "reference": ""
+  },
+  {
+    "yomi": "ようがいじょう",
+    "name": "要害城",
+    "location": "みなべ町",
+    "id": "WM0486",
+    "reference": ""
+  },
+  {
+    "yomi": "ようがいのもりじょう",
+    "name": "要害ノ森城",
+    "location": "那智勝浦町",
+    "id": "WM0487",
+    "reference": ""
+  },
+  {
+    "yomi": "ようがいもりやま【がもり】じょう",
+    "name": "要害森山【ヵ森】城",
+    "location": "田辺市",
+    "id": "WM0488",
+    "reference": ""
+  },
+  {
+    "yomi": "ようざんごてん",
+    "name": "陽山御殿",
+    "location": "紀の川市",
+    "id": "WM0489",
+    "reference": ""
+  },
+  {
+    "yomi": "ようりゅうじょう",
+    "name": "揚柳城",
+    "location": "海南市",
+    "id": "",
+    "reference": "→　篠ヶ城　（しのがじょう）"
+  },
+  {
+    "yomi": "よこちやまじょう",
+    "name": "横地山城",
+    "location": "那智勝浦町",
+    "id": "",
+    "reference": "→　市屋城　（いちやじょう）"
+  },
+  {
+    "yomi": "よこてやまじょう",
+    "name": "横手山城",
+    "location": "田辺市",
+    "id": "WM0490",
+    "reference": ""
+  },
+  {
+    "yomi": "よしいじょう",
+    "name": "吉井城",
+    "location": "紀美野町",
+    "id": "",
+    "reference": "→　上ノ城　（じょうのしろ）"
+  },
+  {
+    "yomi": "よしだじょう",
+    "name": "吉田城",
+    "location": "御坊市",
+    "id": "",
+    "reference": "→　八幡山城　（やはたやまじょう）"
+  },
+  {
+    "yomi": "よしだじょう",
+    "name": "吉田城",
+    "location": "橋本市",
+    "id": "",
+    "reference": "→　吉原城　（よしわらじょう）"
+  },
+  {
+    "yomi": "よしはらごぼう【ぼうしゃ】",
+    "name": "吉原御坊【坊舎】",
+    "location": "美浜町",
+    "id": "WM0491",
+    "reference": ""
+  },
+  {
+    "yomi": "よしわらじょう",
+    "name": "吉原城",
+    "location": "橋本市",
+    "id": "WM0492",
+    "reference": ""
+  },
+  {
+    "yomi": "よろこじょう",
+    "name": "頼子城",
+    "location": "太地町",
+    "id": "WM0493",
+    "reference": ""
+  },
+  {
+    "yomi": "よろこやまじょう",
+    "name": "寄子山城",
+    "location": "太地町",
+    "id": "",
+    "reference": "→　頼子城　（よろこじょう）"
+  },
+  {
+    "yomi": "りゅうしょうざんじょう",
+    "name": "龍松山城",
+    "location": "上富田町",
+    "id": "WM0494",
+    "reference": ""
+  },
+  {
+    "yomi": "りゅうじんいずみのかみやしき",
+    "name": "龍神和泉守屋敷",
+    "location": "田辺市",
+    "id": "WM0495",
+    "reference": ""
+  },
+  {
+    "yomi": "りゅうせんざんじょう",
+    "name": "龍神【仙】山城",
+    "location": "田辺市",
+    "id": "WM0496",
+    "reference": ""
+  },
+  {
+    "yomi": "れんがんじょう",
+    "name": "連貫城",
+    "location": "紀の川市",
+    "id": "WM0497",
+    "reference": ""
+  },
+  {
+    "yomi": "わかたじょう",
+    "name": "若田城",
+    "location": "有田川町",
+    "id": "WM0498",
+    "reference": ""
+  },
+  {
+    "yomi": "わかやまじょう",
+    "name": "和歌山城",
+    "location": "和歌山市",
+    "id": "WM0499",
+    "reference": ""
+  },
+  {
+    "yomi": "わきたじょう",
+    "name": "脇田城",
+    "location": "田辺市",
+    "id": "WM0500",
+    "reference": ""
+  },
+  {
+    "yomi": "わさじょう",
+    "name": "和佐城",
+    "location": "日高川町",
+    "id": "WM0501",
+    "reference": ""
+  },
+  {
+    "yomi": "わさやまじょう",
+    "name": "和佐山城",
+    "location": "和歌山市",
+    "id": "WM0502",
+    "reference": ""
+  },
+  {
+    "yomi": "わだうらたかつぶやまのろしば",
+    "name": "和田浦高粒山狼煙場",
+    "location": "美浜町",
+    "id": "WM0504",
+    "reference": ""
+  },
+  {
+    "yomi": "わだじょう",
+    "name": "和田城",
+    "location": "みなべ町",
+    "id": "WM0505",
+    "reference": ""
+  },
+  {
+    "yomi": "わだじょうのもりじょう",
+    "name": "和田城之森城",
+    "location": "田辺市",
+    "id": "WM0506",
+    "reference": ""
+  },
+  {
+    "yomi": "わぶかうらじょう",
+    "name": "和深浦城",
+    "location": "串本町",
+    "id": "WM0507",
+    "reference": ""
+  }
+]

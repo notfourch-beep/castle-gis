@@ -244,7 +244,7 @@ coordinateJump.onAdd = function () {
             type="button"
             class="coordinate-jump-toggle"
             id="coordinate-jump-toggle">
-            座標
+            経緯度を入力
         </button>
 
         <div class="coordinate-jump-panel">
