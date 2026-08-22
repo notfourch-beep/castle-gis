@@ -93,7 +93,7 @@ const castleLayer = L.geoJSON(null, {
 
 // 重ね合わせレイヤーの一覧
 const overlayMaps = {
-    "shi-works 和歌山県CS立体図": shiworksCsMap,
+    "和歌山県CS立体図": shiworksCsMap,
     "城館等": castleLayer
 };
 
