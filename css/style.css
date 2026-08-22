@@ -19,6 +19,8 @@ h1 {
     height: calc(100vh - 57px);
 }
 
+/* 凡例 */
+
 .legend {
     background: white;
     padding: 8px 10px;
@@ -26,6 +28,31 @@ h1 {
     border-radius: 4px;
     line-height: 1.8;
     font-size: 14px;
+}
+
+.legend-toggle {
+    display: block;
+    width: 100%;
+    padding: 4px 6px;
+    border: none;
+    background: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    cursor: pointer;
+}
+
+.legend-toggle:hover {
+    background-color: #f0f0f0;
+}
+
+.legend-content {
+    display: block;
+    margin-top: 4px;
+}
+
+.legend.collapsed .legend-content {
+    display: none;
 }
 
 .map-information {
@@ -61,7 +88,50 @@ h1 {
     background: gold;
 }
 
+/* スマホ用レイヤー開閉 */
+
+.mobile-layer-toggle {
+    display: block;
+    width: 100%;
+    padding: 7px 10px;
+    border: none;
+    background: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    cursor: pointer;
+}
+
+.mobile-layer-toggle:hover {
+    background-color: #f0f0f0;
+}
+
+.mobile-layer-control.collapsed .leaflet-control-layers-list {
+    display: none;
+}
+
+/* スマホではLeaflet標準の小さいレイヤーアイコンを使わない */
+.mobile-layer-control .leaflet-control-layers-toggle {
+    display: none;
+}
+
+/* スマホ用レイヤーコントロールの見た目 */
+.mobile-layer-control {
+    background: white;
+    border: 1px solid #888;
+    border-radius: 4px;
+    font-size: 14px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.35);
+}
+
+/* レイヤー一覧を開いたときの余白 */
+.mobile-layer-control .leaflet-control-layers-list {
+    padding: 6px 10px 8px 10px;
+    margin: 0;
+}
+
 /* 地図上のカーソルを十字線にする */
+
 .leaflet-container {
     cursor: crosshair;
 }

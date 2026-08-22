@@ -77,16 +77,16 @@ const castleLayer = L.geoJSON(null, {
     // マーカーをクリックしたときのポップアップ
     onEachFeature: function (feature, layer) {
 
- const name = feature.properties["城郭名"];
- const id = feature.properties.id;
+        const name = feature.properties["城郭名"];
+        const id = feature.properties.id;
 
-    layer.bindPopup(
-    `<strong>${name}</strong><br>
-    ${id}<br>
-    <a href="./detail.html?id=${encodeURIComponent(id)}">
-        詳細を見る
-    </a>`
-);
+        layer.bindPopup(
+            `<strong>${name}</strong><br>
+            ${id}<br>
+            <a href="./detail.html?id=${encodeURIComponent(id)}">
+                詳細を見る
+            </a>`
+        );
     }
 
 }).addTo(map);
@@ -97,8 +97,11 @@ const overlayMaps = {
     "城館等": castleLayer
 };
 
-// レイヤー切替コントロールを表示
-L.control.layers(
+// 画面幅が狭いかどうか
+const isNarrowScreen = window.innerWidth < 768;
+
+// レイヤー切替コントロール
+const layerControl = L.control.layers(
     baseMaps,
     overlayMaps,
     {
@@ -107,6 +110,43 @@ L.control.layers(
     }
 ).addTo(map);
 
+// レイヤーコントロールに「レイヤー」の見出しを追加
+const layerContainer = layerControl.getContainer();
+
+const layerButton = L.DomUtil.create(
+    "button",
+    "mobile-layer-toggle"
+);
+
+layerButton.type = "button";
+layerButton.textContent = "レイヤー";
+
+layerContainer.insertBefore(
+    layerButton,
+    layerContainer.firstChild
+);
+
+// ボタン操作が地図へ伝わらないようにする
+L.DomEvent.disableClickPropagation(layerButton);
+
+// スマホでは「レイヤー」ボタンで開閉
+if (isNarrowScreen) {
+
+    layerContainer.classList.add("mobile-layer-control");
+    layerContainer.classList.add("collapsed");
+
+    layerButton.addEventListener(
+        "click",
+        function () {
+            layerContainer.classList.toggle("collapsed");
+        }
+    );
+
+} else {
+
+    // PC・タブレットでは見出しとして表示
+    layerButton.classList.add("desktop-layer-title");
+}
 
 // GeoJSONを読み込む
 fetch("./data/castles.geojson")
@@ -118,39 +158,40 @@ fetch("./data/castles.geojson")
         return response.json();
     })
     .then(data => {
-    castleLayer.addData(data);
-    console.log("GeoJSONを正常に読み込みました", data);
 
-    // URLから城郭番号を取得
-    const params = new URLSearchParams(window.location.search);
-    const targetId = params.get("id");
+        castleLayer.addData(data);
+        console.log("GeoJSONを正常に読み込みました", data);
 
-    // 城郭番号が指定されている場合
-    if (targetId) {
+        // URLから城郭番号を取得
+        const params = new URLSearchParams(window.location.search);
+        const targetId = params.get("id");
 
-        let targetLayer = null;
+        // 城郭番号が指定されている場合
+        if (targetId) {
 
-        castleLayer.eachLayer(layer => {
+            let targetLayer = null;
 
-            if (
-                layer.feature &&
-                layer.feature.properties.id === targetId
-            ) {
-                targetLayer = layer;
+            castleLayer.eachLayer(layer => {
+
+                if (
+                    layer.feature &&
+                    layer.feature.properties.id === targetId
+                ) {
+                    targetLayer = layer;
+                }
+            });
+
+            // 該当する城郭が見つかった場合
+            if (targetLayer) {
+
+                const latlng = targetLayer.getLatLng();
+
+                map.setView(latlng, 16);
+
+                targetLayer.openPopup();
             }
-        });
-
-        // 該当する城郭が見つかった場合
-        if (targetLayer) {
-
-            const latlng = targetLayer.getLatLng();
-
-            map.setView(latlng, 16);
-
-            targetLayer.openPopup();
         }
-    }
-})
+    })
     .catch(error => {
         console.error("GeoJSONの読み込みに失敗しました", error);
     });
@@ -165,34 +206,73 @@ legend.onAdd = function () {
     const div = L.DomUtil.create("div", "legend");
 
     div.innerHTML = `
-        <strong>凡例</strong><br>
-        <span class="legend-marker castle"></span> 城郭<br>
-        <span class="legend-marker noncastle"></span> 類似地形<br>
-        <span class="legend-marker investigating"></span> 調査中
+        <button
+            type="button"
+            class="legend-toggle"
+            id="legend-toggle">
+            凡例
+        </button>
 
-        <hr>
+        <div class="legend-content">
 
-        <div class="map-information">
-            地図上に表示のない場所で城館らしい地形を発見された場合は、
-            未発見の城館である可能性があります。
-            経緯度を添えて
-            <a href="mailto:wajokenjimukyoku@gmail.com?subject=城館候補地の情報提供">
-                ご一報ください
-            </a>。
+            <span class="legend-marker castle"></span> 城郭<br>
+            <span class="legend-marker noncastle"></span> 類似地形<br>
+            <span class="legend-marker investigating"></span> 調査中
+
+            <hr>
+
+            <div class="map-information">
+                地図上に表示のない場所で城館らしい地形を発見された場合は、
+                未発見の城館である可能性があります。
+                経緯度を添えて
+                <a href="mailto:wajokenjimukyoku@gmail.com?subject=城館候補地の情報提供">
+                    ご一報ください
+                </a>。
+            </div>
+
+            <hr>
+
+            <a href="index.html#select">検索の選択にもどる</a>
+
         </div>
-
-        <hr>
-
-        <a href="index.html#select">検索の選択にもどる</a>
     `;
 
     // 凡例上のクリック操作が地図に伝わらないようにする
     L.DomEvent.disableClickPropagation(div);
+    L.DomEvent.disableScrollPropagation(div);
 
     return div;
 };
 
 legend.addTo(map);
+
+// 凡例の開閉
+const legendBox =
+    document.querySelector(".legend");
+
+const legendToggle =
+    document.getElementById("legend-toggle");
+
+// 画面幅に応じて凡例の初期表示を調整
+function updateLegendForScreen() {
+
+    if (window.innerWidth < 768) {
+        legendBox.classList.add("collapsed");
+    } else {
+        legendBox.classList.remove("collapsed");
+    }
+}
+
+// 最初に一度判定
+updateLegendForScreen();
+
+// 画面幅が変わった場合も再判定
+window.addEventListener("resize", updateLegendForScreen);
+
+// 「凡例」ボタンで開閉
+legendToggle.addEventListener("click", function () {
+    legendBox.classList.toggle("collapsed");
+});
 
 // 地図をクリックした場所の座標を表示
 map.on("click", function (e) {
@@ -200,14 +280,14 @@ map.on("click", function (e) {
     const lat = e.latlng.lat.toFixed(6);
     const lng = e.latlng.lng.toFixed(6);
 
-const popupContent = `
-    <strong>座標</strong><br>
-    経度：${lng}<br>
-    緯度：${lat}<br><br>
-    <button onclick="copyCoordinates('${lat}', '${lng}')">
-        座標をコピー
-    </button>
-`;
+    const popupContent = `
+        <strong>座標</strong><br>
+        経度：${lng}<br>
+        緯度：${lat}<br><br>
+        <button onclick="copyCoordinates('${lat}', '${lng}')">
+            座標をコピー
+        </button>
+    `;
 
     L.popup()
         .setLatLng(e.latlng)
@@ -281,7 +361,6 @@ coordinateJump.onAdd = function () {
 
 coordinateJump.addTo(map);
 
-
 const coordinateJumpBox =
     document.querySelector(".coordinate-jump");
 
@@ -294,7 +373,6 @@ const coordinateInput =
 const coordinateJumpButton =
     document.getElementById("coordinate-jump-button");
 
-
 // 「座標」ボタンで開閉
 coordinateJumpToggle.addEventListener("click", function () {
 
@@ -305,13 +383,11 @@ coordinateJumpToggle.addEventListener("click", function () {
     }
 });
 
-
 // 「移動」ボタン
 coordinateJumpButton.addEventListener(
     "click",
     jumpToCoordinate
 );
-
 
 // Enterキーでも移動
 coordinateInput.addEventListener(
@@ -324,12 +400,10 @@ coordinateInput.addEventListener(
     }
 );
 
-
 // 地図をクリックしたら座標入力欄を閉じる
 map.on("click", function () {
     coordinateJumpBox.classList.remove("open");
 });
-
 
 function jumpToCoordinate() {
 
