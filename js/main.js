@@ -24,6 +24,8 @@ const baseMaps = {
 const shiworksCsMap = L.tileLayer(
     "https://xs489works.xsrv.jp/raster-tiles/pref-wakayama/wakayamapc-cs-tiles/{z}/{x}/{y}.png",
     {
+        attribution:
+            'CS立体図：<a href="https://github.com/shiwaku/csmap-on-maplibre" target="_blank">shi-works</a> / 原初データ：和歌山県3次元点群データ / <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>',
         minZoom: 4,
         maxZoom: 18,
         maxNativeZoom: 17,
