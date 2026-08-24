@@ -80,9 +80,9 @@ detail.innerHTML = `
     </section>
 
 
-    <section class="detail-section">
+<section class="detail-section bibliography-section">
 
-        <h2>縄張り図などの掲載情報</h2>
+    <h2>縄張り図などの掲載情報</h2>
 
  <div class="detail-row">
     <div class="label">『和歌山城郭研究』</div>
@@ -145,10 +145,10 @@ detail.innerHTML = `
     </section>
 
 
-    <section class="detail-section">
+<section class="detail-section bibliography-section">
 
-        <h2>関連資料</h2>
-
+    <h2>関連資料</h2>
+    
         <div class="detail-row">
             <div class="label">関連論文</div>
             <div>${castle.related_papers || "―"}</div>
