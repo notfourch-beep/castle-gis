@@ -16,7 +16,7 @@ h1 {
 
 #map {
     width: 100%;
-    height: calc(100vh - 57px);
+    height: 100vh;
 }
 
 /* 凡例 */

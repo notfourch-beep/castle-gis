@@ -215,7 +215,7 @@ legend.onAdd = function () {
 
         <div class="legend-content">
 
-            <span class="legend-marker castle"></span> 城郭<br>
+            <span class="legend-marker castle"></span> 城館<br>
             <span class="legend-marker noncastle"></span> 類似地形<br>
             <span class="legend-marker investigating"></span> 調査中
 
