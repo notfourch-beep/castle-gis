@@ -106,6 +106,19 @@ results.forEach(castle => {
 
 });
 
+// 別名・異称検索への案内
+const aliasGuide = document.createElement("p");
+
+aliasGuide.innerHTML = `
+    お探しの城館が見つからない場合は、別名・異称で登録されている可能性があります。<br>
+    <a href="./aliases.html">
+        城館名・別名・異称検索
+    </a>
+    もご確認ください。
+`;
+
+resultList.appendChild(aliasGuide);
+
 })
 .catch(error => {
     console.error("castles.json の読み込みに失敗しました", error);
