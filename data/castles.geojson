@@ -6,6 +6,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          135.359832,
+          34.073245
+        ]
+      },
+      "properties": {
+        "id": "WM0417",
+        "城郭名": "二川天城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           135.504239,
           34.115316
         ]
@@ -96,6 +111,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          135.421369,
+          34.087965
+        ]
+      },
+      "properties": {
+        "id": "WM0353",
+        "城郭名": "西原城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           135.42886,
           34.086868
         ]
@@ -156,21 +186,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.421369,
-          34.087965
-        ]
-      },
-      "properties": {
-        "id": "WM0353",
-        "城郭名": "西原城",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           135.219479,
           34.064173
         ]
@@ -186,13 +201,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.359832,
-          34.073245
+          135.338033,
+          34.103854
         ]
       },
       "properties": {
-        "id": "WM0417",
-        "城郭名": "二川天城",
+        "id": "WM0650",
+        "城郭名": "ミノ城",
         "status": "城郭"
       }
     },
@@ -209,6 +224,21 @@
         "id": "WM0469",
         "城郭名": "保田氏古城",
         "status": "類似地形"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.245175,
+          34.072235
+        ]
+      },
+      "properties": {
+        "id": "WM0567",
+        "城郭名": "湯浅宗光館",
+        "status": "城郭"
       }
     },
     {
@@ -238,21 +268,6 @@
       "properties": {
         "id": "WM0045",
         "城郭名": "岩室（山）城",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.141764,
-          34.018234
-        ]
-      },
-      "properties": {
-        "id": "WM0341",
-        "城郭名": "名南風鼻狼煙場",
         "status": "城郭"
       }
     },
@@ -321,6 +336,36 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          135.141764,
+          34.018234
+        ]
+      },
+      "properties": {
+        "id": "WM0341",
+        "城郭名": "名南風鼻狼煙場",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.202598,
+          33.863315
+        ]
+      },
+      "properties": {
+        "id": "WM0562",
+        "城郭名": "南谷尻掛城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           135.242667,
           33.833733
         ]
@@ -381,6 +426,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          135.227285,
+          33.845567
+        ]
+      },
+      "properties": {
+        "id": "WM0522",
+        "城郭名": "隠野城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           135.237694,
           33.837245
         ]
@@ -411,13 +471,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.265138,
-          33.807668
+          135.20859,
+          33.837917
         ]
       },
       "properties": {
-        "id": "WM0344",
-        "城郭名": "鳴神城",
+        "id": "WM0266",
+        "城郭名": "高城山城",
         "status": "城郭"
       }
     },
@@ -426,13 +486,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.224983,
-          33.874798
+          135.265138,
+          33.807668
         ]
       },
       "properties": {
-        "id": "WM0355",
-        "城郭名": "西南畑城（仮）",
+        "id": "WM0344",
+        "城郭名": "鳴神城",
         "status": "城郭"
       }
     },
@@ -463,6 +523,21 @@
       "properties": {
         "id": "WM0486",
         "城郭名": "要害城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.224983,
+          33.874798
+        ]
+      },
+      "properties": {
+        "id": "WM0355",
+        "城郭名": "西南畑城（仮）",
         "status": "城郭"
       }
     },
@@ -516,6 +591,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          135.214099,
+          34.149362
+        ]
+      },
+      "properties": {
+        "id": "WM0616",
+        "城郭名": "稲井屋敷",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           135.222921,
           34.136378
         ]
@@ -546,13 +636,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.1878,
-          34.125208
+          135.132721,
+          34.132988
         ]
       },
       "properties": {
-        "id": "WM0117",
-        "城郭名": "加茂城",
+        "id": "WM0624",
+        "城郭名": "梶原居館",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.227805,
+          34.156376
+        ]
+      },
+      "properties": {
+        "id": "WM0524",
+        "城郭名": "春日山城",
         "status": "城郭"
       }
     },
@@ -591,36 +696,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.198239,
-          34.135504
-        ]
-      },
-      "properties": {
-        "id": "WM0198",
-        "城郭名": "地蔵峰寺城",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.279966,
-          34.185424
-        ]
-      },
-      "properties": {
-        "id": "WM0199",
-        "城郭名": "篠ヶ城",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           135.179111,
           34.105772
         ]
@@ -636,6 +711,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          135.198239,
+          34.135504
+        ]
+      },
+      "properties": {
+        "id": "WM0198",
+        "城郭名": "地蔵峰寺城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           135.302495,
           34.162579
         ]
@@ -643,6 +733,21 @@
       "properties": {
         "id": "WM0241",
         "城郭名": "新村城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.210709,
+          34.144909
+        ]
+      },
+      "properties": {
+        "id": "WM0614",
+        "城郭名": "鈴木屋敷",
         "status": "城郭"
       }
     },
@@ -711,21 +816,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.227805,
-          34.156376
-        ]
-      },
-      "properties": {
-        "id": "WM0524",
-        "城郭名": "春日山城",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           135.23148,
           34.177614
         ]
@@ -756,13 +846,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.210709,
-          34.144909
+          135.1878,
+          34.125208
         ]
       },
       "properties": {
-        "id": "WM0614",
-        "城郭名": "鈴木屋敷",
+        "id": "WM0117",
+        "城郭名": "加茂城",
         "status": "城郭"
       }
     },
@@ -771,13 +861,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.214099,
-          34.149362
+          135.279966,
+          34.185424
         ]
       },
       "properties": {
-        "id": "WM0616",
-        "城郭名": "稲井屋敷",
+        "id": "WM0199",
+        "城郭名": "篠ヶ城",
         "status": "城郭"
       }
     },
@@ -786,28 +876,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.132721,
-          34.132988
+          135.486826,
+          34.341252
         ]
       },
       "properties": {
-        "id": "WM0624",
-        "城郭名": "梶原居館",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.567184,
-          34.131592
-        ]
-      },
-      "properties": {
-        "id": "WM0038",
-        "城郭名": "芋瀬庄司屋敷",
+        "id": "WM0519",
+        "城郭名": "大久保城（屋敷）",
         "status": "城郭"
       }
     },
@@ -831,6 +906,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          135.502485,
+          34.313281
+        ]
+      },
+      "properties": {
+        "id": "WM0523",
+        "城郭名": "柏木城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           135.50092,
           34.264454
         ]
@@ -838,6 +928,36 @@
       "properties": {
         "id": "WM0120",
         "城郭名": "皮張東・西城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.46267,
+          34.291319
+        ]
+      },
+      "properties": {
+        "id": "WM0527",
+        "城郭名": "窪山城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.488752,
+          34.280792
+        ]
+      },
+      "properties": {
+        "id": "WM0532",
+        "城郭名": "志富田氏館",
         "status": "城郭"
       }
     },
@@ -861,6 +981,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          135.530573,
+          34.307791
+        ]
+      },
+      "properties": {
+        "id": "WM0546",
+        "城郭名": "中飯降城",
+        "status": "調査中"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           135.45369,
           34.285668
         ]
@@ -869,6 +1004,51 @@
         "id": "WM0554",
         "城郭名": "鉢伏山城",
         "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.567184,
+          34.131592
+        ]
+      },
+      "properties": {
+        "id": "WM0038",
+        "城郭名": "芋瀬庄司屋敷",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.487813,
+          34.26662
+        ]
+      },
+      "properties": {
+        "id": "WM0556",
+        "城郭名": "星川城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.516985,
+          34.286749
+        ]
+      },
+      "properties": {
+        "id": "WM0561",
+        "城郭名": "三谷城",
+        "status": "調査中"
       }
     },
     {
@@ -898,21 +1078,6 @@
       "properties": {
         "id": "WM0181",
         "城郭名": "坂本付城（下屋敷）",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.453309,
-          33.675475
-        ]
-      },
-      "properties": {
-        "id": "WM0209",
-        "城郭名": "蛇喰城",
         "status": "城郭"
       }
     },
@@ -966,6 +1131,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          135.453309,
+          33.675475
+        ]
+      },
+      "properties": {
+        "id": "WM0209",
+        "城郭名": "蛇喰城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           135.46839,
           33.719545
         ]
@@ -996,13 +1176,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.451071,
-          34.215797
+          135.417321,
+          34.272536
         ]
       },
       "properties": {
-        "id": "WM0007",
-        "城郭名": "秋葉山城",
+        "id": "WM0489",
+        "城郭名": "陽山御殿",
         "status": "城郭"
       }
     },
@@ -1011,13 +1191,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.443727,
-          34.278632
+          135.451071,
+          34.215797
         ]
       },
       "properties": {
-        "id": "WM0016",
-        "城郭名": "穴伏城",
+        "id": "WM0007",
+        "城郭名": "秋葉山城",
         "status": "城郭"
       }
     },
@@ -1221,13 +1401,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.356131,
-          34.267673
+          135.370734,
+          34.239468
         ]
       },
       "properties": {
-        "id": "WM0175",
-        "城郭名": "宰相垣内",
+        "id": "WM0176",
+        "城郭名": "最初カ峰城",
         "status": "城郭"
       }
     },
@@ -1236,13 +1416,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.370734,
-          34.239468
+          135.356131,
+          34.267673
         ]
       },
       "properties": {
-        "id": "WM0176",
-        "城郭名": "最初カ峰城",
+        "id": "WM0175",
+        "城郭名": "宰相垣内",
         "status": "城郭"
       }
     },
@@ -1281,21 +1461,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.452456,
-          34.219184
-        ]
-      },
-      "properties": {
-        "id": "WM0222",
-        "城郭名": "城の天",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           135.411796,
           34.199667
         ]
@@ -1311,6 +1476,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          135.330652,
+          34.215271
+        ]
+      },
+      "properties": {
+        "id": "WM0232",
+        "城郭名": "城垣内城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           135.390683,
           34.194119
         ]
@@ -1319,6 +1499,21 @@
         "id": "WM0231",
         "城郭名": "シロアト",
         "status": "類似地形"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.452456,
+          34.219184
+        ]
+      },
+      "properties": {
+        "id": "WM0222",
+        "城郭名": "城の天",
+        "status": "城郭"
       }
     },
     {
@@ -1393,6 +1588,21 @@
       "properties": {
         "id": "WM0306",
         "城郭名": "土居原館",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.444571,
+          34.21937
+        ]
+      },
+      "properties": {
+        "id": "WM0628",
+        "城郭名": "土井ノ森城",
         "status": "城郭"
       }
     },
@@ -1566,13 +1776,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.417321,
-          34.272536
+          135.227805,
+          34.156376
         ]
       },
       "properties": {
-        "id": "WM0489",
-        "城郭名": "陽山御殿",
+        "id": "WM0569",
+        "城郭名": "龍門山城",
         "status": "城郭"
       }
     },
@@ -1596,28 +1806,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.227805,
-          34.156376
+          135.443727,
+          34.278632
         ]
       },
       "properties": {
-        "id": "WM0569",
-        "城郭名": "龍門山城",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.444571,
-          34.21937
-        ]
-      },
-      "properties": {
-        "id": "WM0628",
-        "城郭名": "土井ノ森城",
+        "id": "WM0016",
+        "城郭名": "穴伏城",
         "status": "城郭"
       }
     },
@@ -1641,6 +1836,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          135.367177,
+          34.160032
+        ]
+      },
+      "properties": {
+        "id": "WM0218",
+        "城郭名": "上ノ城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           135.34154,
           34.180926
         ]
@@ -1648,6 +1858,21 @@
       "properties": {
         "id": "WM0064",
         "城郭名": "応神山城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.399048,
+          34.149433
+        ]
+      },
+      "properties": {
+        "id": "WM0625",
+        "城郭名": "隠地山城",
         "status": "城郭"
       }
     },
@@ -1686,21 +1911,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.340038,
-          34.158112
-        ]
-      },
-      "properties": {
-        "id": "WM0148",
-        "城郭名": "河野城Ⅰ〜Ⅲ",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           135.407889,
           34.172937
         ]
@@ -1708,21 +1918,6 @@
       "properties": {
         "id": "WM0170",
         "城郭名": "権別当の城",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.367177,
-          34.160032
-        ]
-      },
-      "properties": {
-        "id": "WM0218",
-        "城郭名": "上ノ城",
         "status": "城郭"
       }
     },
@@ -1866,6 +2061,36 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          135.314687,
+          34.155324
+        ]
+      },
+      "properties": {
+        "id": "WM0570",
+        "城郭名": "蓮華寺砦",
+        "status": "調査中"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.340038,
+          34.158112
+        ]
+      },
+      "properties": {
+        "id": "WM0148",
+        "城郭名": "河野城Ⅰ〜Ⅲ",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           135.825012,
           33.525045
         ]
@@ -1873,96 +2098,6 @@
       "properties": {
         "id": "WM0033",
         "城郭名": "稲荷山城",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.86637,
-          33.547467
-        ]
-      },
-      "properties": {
-        "id": "WM0046",
-        "城郭名": "岩屋城",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.828685,
-          33.515929
-        ]
-      },
-      "properties": {
-        "id": "WM0156",
-        "城郭名": "古城山城",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.65885,
-          33.512959
-        ]
-      },
-      "properties": {
-        "id": "WM0157",
-        "城郭名": "虎松山城",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.819141,
-          33.514534
-        ]
-      },
-      "properties": {
-        "id": "WM0167",
-        "城郭名": "小山城（屋敷）",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.864469,
-          33.554694
-        ]
-      },
-      "properties": {
-        "id": "WM0187",
-        "城郭名": "佐部城",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.720905,
-          33.501297
-        ]
-      },
-      "properties": {
-        "id": "WM0282",
-        "城郭名": "田並上城",
         "status": "城郭"
       }
     },
@@ -2016,6 +2151,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          135.86637,
+          33.547467
+        ]
+      },
+      "properties": {
+        "id": "WM0046",
+        "城郭名": "岩屋城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           135.733292,
           33.494835
         ]
@@ -2023,6 +2173,81 @@
       "properties": {
         "id": "WM0479",
         "城郭名": "結城城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.828685,
+          33.515929
+        ]
+      },
+      "properties": {
+        "id": "WM0156",
+        "城郭名": "古城山城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.65885,
+          33.512959
+        ]
+      },
+      "properties": {
+        "id": "WM0157",
+        "城郭名": "虎松山城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.864469,
+          33.554694
+        ]
+      },
+      "properties": {
+        "id": "WM0187",
+        "城郭名": "佐部城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.819141,
+          33.514534
+        ]
+      },
+      "properties": {
+        "id": "WM0167",
+        "城郭名": "小山城（屋敷）",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.720905,
+          33.501297
+        ]
+      },
+      "properties": {
+        "id": "WM0282",
+        "城郭名": "田並上城",
         "status": "城郭"
       }
     },
@@ -2121,29 +2346,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.685431,
-          33.55211
+          135.753483,
+          33.533198
         ]
       },
       "properties": {
-        "id": "CLL001",
-        "城郭名": "類似地形",
-        "status": "類似地形"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.734359,
-          33.602384
-        ]
-      },
-      "properties": {
-        "id": "WM0067",
-        "城郭名": "大桑伊東屋敷",
-        "status": "類似地形"
+        "id": "WM0580",
+        "城郭名": "大柳城（仮）",
+        "status": "城郭"
       }
     },
     {
@@ -2181,21 +2391,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.670391,
-          33.544608
-        ]
-      },
-      "properties": {
-        "id": "WM0439",
-        "城郭名": "三尾川中村城",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           135.687316,
           33.551056
         ]
@@ -2211,13 +2406,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.753483,
-          33.533198
+          135.760567,
+          33.539474
         ]
       },
       "properties": {
-        "id": "WM0580",
-        "城郭名": "大柳城（仮）",
+        "id": "WM0581",
+        "城郭名": "明神城（仮）",
         "status": "城郭"
       }
     },
@@ -2226,13 +2421,58 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.760567,
-          33.539474
+          135.685431,
+          33.55211
         ]
       },
       "properties": {
-        "id": "WM0581",
-        "城郭名": "明神城（仮）",
+        "id": "CLL001",
+        "城郭名": "類似地形",
+        "status": "類似地形"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.670391,
+          33.544608
+        ]
+      },
+      "properties": {
+        "id": "WM0439",
+        "城郭名": "三尾川中村城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.734359,
+          33.602384
+        ]
+      },
+      "properties": {
+        "id": "WM0067",
+        "城郭名": "大桑伊東屋敷",
+        "status": "類似地形"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.168217,
+          33.885879
+        ]
+      },
+      "properties": {
+        "id": "WM0515",
+        "城郭名": "岩内城",
         "status": "城郭"
       }
     },
@@ -2263,21 +2503,6 @@
       "properties": {
         "id": "WM0164",
         "城郭名": "小松原館",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.154942,
-          33.888537
-        ]
-      },
-      "properties": {
-        "id": "WM0215",
-        "城郭名": "浄国寺",
         "status": "城郭"
       }
     },
@@ -2331,6 +2556,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          135.177353,
+          33.841121
+        ]
+      },
+      "properties": {
+        "id": "WM0551",
+        "城郭名": "野島城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           135.168879,
           33.9123
         ]
@@ -2346,13 +2586,58 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.46447,
-          33.571883
+          135.193409,
+          33.81957
         ]
       },
       "properties": {
-        "id": "WM0010",
-        "城郭名": "安宅勝山城",
+        "id": "WM0516",
+        "城郭名": "上野城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.154942,
+          33.888537
+        ]
+      },
+      "properties": {
+        "id": "WM0215",
+        "城郭名": "浄国寺",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.165825,
+          33.879221
+        ]
+      },
+      "properties": {
+        "id": "WM0547",
+        "城郭名": "中村氏館",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.167407,
+          33.865133
+        ]
+      },
+      "properties": {
+        "id": "WM0557",
+        "城郭名": "満留山（丸山）城",
         "status": "城郭"
       }
     },
@@ -2376,21 +2661,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.465258,
-          33.583277
-        ]
-      },
-      "properties": {
-        "id": "WM0012",
-        "城郭名": "安宅八幡山城",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           135.464347,
           33.57882
         ]
@@ -2398,111 +2668,6 @@
       "properties": {
         "id": "WM0013",
         "城郭名": "安宅本城",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.531014,
-          33.656576
-        ]
-      },
-      "properties": {
-        "id": "WM0029",
-        "城郭名": "市鹿野城",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.459538,
-          33.580516
-        ]
-      },
-      "properties": {
-        "id": "WM0078",
-        "城郭名": "大野城",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.447595,
-          33.558035
-        ]
-      },
-      "properties": {
-        "id": "WM0081",
-        "城郭名": "大向出城",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.388228,
-          33.675263
-        ]
-      },
-      "properties": {
-        "id": "WM0110",
-        "城郭名": "堅田要害山城",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.396796,
-          33.65898
-        ]
-      },
-      "properties": {
-        "id": "WM0125",
-        "城郭名": "祇園山本陣",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.416377,
-          33.678411
-        ]
-      },
-      "properties": {
-        "id": "WM0149",
-        "城郭名": "鴻巣城",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.470883,
-          33.567583
-        ]
-      },
-      "properties": {
-        "id": "WM0161",
-        "城郭名": "古武之森城",
         "status": "城郭"
       }
     },
@@ -2526,13 +2691,58 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.444001,
-          33.594931
+          135.447775,
+          33.568772
         ]
       },
       "properties": {
-        "id": "WM0283",
-        "城郭名": "田野井中山城",
+        "id": "WM0394",
+        "城郭名": "日置城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.46447,
+          33.571883
+        ]
+      },
+      "properties": {
+        "id": "WM0010",
+        "城郭名": "安宅勝山城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.465258,
+          33.583277
+        ]
+      },
+      "properties": {
+        "id": "WM0012",
+        "城郭名": "安宅八幡山城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.396796,
+          33.65898
+        ]
+      },
+      "properties": {
+        "id": "WM0125",
+        "城郭名": "祇園山本陣",
         "status": "城郭"
       }
     },
@@ -2556,13 +2766,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.448542,
-          33.598415
+          135.388228,
+          33.675263
         ]
       },
       "properties": {
-        "id": "WM0302",
-        "城郭名": "土井城",
+        "id": "WM0110",
+        "城郭名": "堅田要害山城",
         "status": "城郭"
       }
     },
@@ -2571,13 +2781,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.447775,
-          33.568772
+          135.470883,
+          33.567583
         ]
       },
       "properties": {
-        "id": "WM0394",
-        "城郭名": "日置城",
+        "id": "WM0161",
+        "城郭名": "古武之森城",
         "status": "城郭"
       }
     },
@@ -2601,13 +2811,88 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.978252,
-          33.718728
+          135.416377,
+          33.678411
         ]
       },
       "properties": {
-        "id": "WM0017",
-        "城郭名": "阿婦曾城",
+        "id": "WM0149",
+        "城郭名": "鴻巣城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.531014,
+          33.656576
+        ]
+      },
+      "properties": {
+        "id": "WM0029",
+        "城郭名": "市鹿野城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.447595,
+          33.558035
+        ]
+      },
+      "properties": {
+        "id": "WM0081",
+        "城郭名": "大向出城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.459538,
+          33.580516
+        ]
+      },
+      "properties": {
+        "id": "WM0078",
+        "城郭名": "大野城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.444001,
+          33.594931
+        ]
+      },
+      "properties": {
+        "id": "WM0283",
+        "城郭名": "田野井中山城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.448542,
+          33.598415
+        ]
+      },
+      "properties": {
+        "id": "WM0302",
+        "城郭名": "土井城",
         "status": "城郭"
       }
     },
@@ -2631,6 +2916,36 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          135.992068,
+          33.72995
+        ]
+      },
+      "properties": {
+        "id": "WM0239",
+        "城郭名": "新宮城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.978252,
+          33.718728
+        ]
+      },
+      "properties": {
+        "id": "WM0017",
+        "城郭名": "阿婦曾城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           135.978657,
           33.721913
         ]
@@ -2646,13 +2961,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.812119,
-          33.839059
+          135.852485,
+          33.836674
         ]
       },
       "properties": {
-        "id": "WM0194",
-        "城郭名": "敷屋城之森城",
+        "id": "WM0453",
+        "城郭名": "宮井城ノ元城",
         "status": "城郭"
       }
     },
@@ -2661,28 +2976,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.985374,
-          33.727735
+          135.854834,
+          33.836728
         ]
       },
       "properties": {
-        "id": "WM0237",
-        "城郭名": "新宮周防守屋敷",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.992068,
-          33.72995
-        ]
-      },
-      "properties": {
-        "id": "WM0239",
-        "城郭名": "新宮城",
+        "id": "WM0452",
+        "城郭名": "宮井城ノ鼻城",
         "status": "城郭"
       }
     },
@@ -2706,6 +3006,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          135.985374,
+          33.727735
+        ]
+      },
+      "properties": {
+        "id": "WM0237",
+        "城郭名": "新宮周防守屋敷",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           135.875543,
           33.797143
         ]
@@ -2713,6 +3028,21 @@
       "properties": {
         "id": "WM0365",
         "城郭名": "能城城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.812119,
+          33.839059
+        ]
+      },
+      "properties": {
+        "id": "WM0194",
+        "城郭名": "敷屋城之森城",
         "status": "城郭"
       }
     },
@@ -2751,36 +3081,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.854834,
-          33.836728
-        ]
-      },
-      "properties": {
-        "id": "WM0452",
-        "城郭名": "宮井城ノ鼻城",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.852485,
-          33.836674
-        ]
-      },
-      "properties": {
-        "id": "WM0453",
-        "城郭名": "宮井城ノ元城",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           135.988631,
           33.72713
         ]
@@ -2789,21 +3089,6 @@
         "id": "WM0460",
         "城郭名": "明神山城",
         "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.4946,
-          33.554914
-        ]
-      },
-      "properties": {
-        "id": "CLL002",
-        "城郭名": "類似地形",
-        "status": "類似地形"
       }
     },
     {
@@ -2841,13 +3126,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.616365,
-          33.578053
+          135.614721,
+          33.582767
         ]
       },
       "properties": {
-        "id": "WM0074",
-        "城郭名": "大谷城",
+        "id": "WM0582",
+        "城郭名": "佐本追川城",
         "status": "城郭"
       }
     },
@@ -2856,29 +3141,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.50223,
-          33.556781
+          135.4946,
+          33.554914
         ]
       },
       "properties": {
-        "id": "WM0123",
-        "城郭名": "神田城",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.627313,
-          33.511755
-        ]
-      },
-      "properties": {
-        "id": "WM0186",
-        "城郭名": "里野城屋敷",
-        "status": "城郭"
+        "id": "CLL002",
+        "城郭名": "類似地形",
+        "status": "類似地形"
       }
     },
     {
@@ -2916,21 +3186,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.508448,
-          33.547462
-        ]
-      },
-      "properties": {
-        "id": "WM0416",
-        "城郭名": "藤原城",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           135.541223,
           33.532893
         ]
@@ -2946,13 +3201,58 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.614721,
-          33.582767
+          135.50223,
+          33.556781
         ]
       },
       "properties": {
-        "id": "WM0582",
-        "城郭名": "佐本追川城",
+        "id": "WM0123",
+        "城郭名": "神田城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.616365,
+          33.578053
+        ]
+      },
+      "properties": {
+        "id": "WM0074",
+        "城郭名": "大谷城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.508448,
+          33.547462
+        ]
+      },
+      "properties": {
+        "id": "WM0416",
+        "城郭名": "藤原城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.627313,
+          33.511755
+        ]
+      },
+      "properties": {
+        "id": "WM0186",
+        "城郭名": "里野城屋敷",
         "status": "城郭"
       }
     },
@@ -3036,14 +3336,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.428267,
-          33.809094
+          135.801599,
+          33.830527
         ]
       },
       "properties": {
-        "id": "WM0069",
-        "城郭名": "大転城",
-        "status": "類似地形"
+        "id": "WM0158",
+        "城郭名": "小津荷・鬼ヶ城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.579829,
+          33.719485
+        ]
+      },
+      "properties": {
+        "id": "WM0574",
+        "城郭名": "御屋敷砦",
+        "status": "調査中"
       }
     },
     {
@@ -3066,13 +3381,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.426236,
-          33.748735
+          135.415896,
+          33.762805
         ]
       },
       "properties": {
-        "id": "WM0133",
-        "城郭名": "衣笠城",
+        "id": "WM0135",
+        "城郭名": "鏡子山城",
         "status": "城郭"
       }
     },
@@ -3081,13 +3396,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.415896,
-          33.762805
+          135.426236,
+          33.748735
         ]
       },
       "properties": {
-        "id": "WM0135",
-        "城郭名": "鏡子山城",
+        "id": "WM0133",
+        "城郭名": "衣笠城",
         "status": "城郭"
       }
     },
@@ -3126,21 +3441,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.801599,
-          33.830527
-        ]
-      },
-      "properties": {
-        "id": "WM0158",
-        "城郭名": "小津荷・鬼ヶ城",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           135.423814,
           33.796483
         ]
@@ -3163,36 +3463,6 @@
       "properties": {
         "id": "WM0197",
         "城郭名": "静川城之森",
-        "status": "類似地形"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.423796,
-          33.799971
-        ]
-      },
-      "properties": {
-        "id": "WM0205",
-        "城郭名": "下崎城",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.38366,
-          33.722047
-        ]
-      },
-      "properties": {
-        "id": "WM0210",
-        "城郭名": "宿ノ城",
         "status": "類似地形"
       }
     },
@@ -3246,14 +3516,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.444107,
-          33.744047
+          135.428267,
+          33.809094
         ]
       },
       "properties": {
-        "id": "WM0263",
-        "城郭名": "高地山城",
-        "status": "城郭"
+        "id": "WM0069",
+        "城郭名": "大転城",
+        "status": "類似地形"
       }
     },
     {
@@ -3268,6 +3538,21 @@
       "properties": {
         "id": "WM0264",
         "城郭名": "高地城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.444107,
+          33.744047
+        ]
+      },
+      "properties": {
+        "id": "WM0263",
+        "城郭名": "高地山城",
         "status": "城郭"
       }
     },
@@ -3291,14 +3576,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.424273,
-          33.730178
+          135.773051,
+          33.857586
         ]
       },
       "properties": {
-        "id": "WM0280",
-        "城郭名": "龍口城",
-        "status": "類似地形"
+        "id": "WM0508",
+        "城郭名": "鷹巣山城",
+        "status": "城郭"
       }
     },
     {
@@ -3396,21 +3681,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.358568,
-          33.771993
-        ]
-      },
-      "properties": {
-        "id": "WM0325",
-        "城郭名": "内羽位城",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           135.428644,
           33.794805
         ]
@@ -3433,6 +3703,21 @@
       "properties": {
         "id": "WM0338",
         "城郭名": "中山城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.786847,
+          33.833951
+        ]
+      },
+      "properties": {
+        "id": "WM0548",
+        "城郭名": "七越城",
         "status": "城郭"
       }
     },
@@ -3561,21 +3846,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.764644,
-          33.840479
-        ]
-      },
-      "properties": {
-        "id": "WM0430",
-        "城郭名": "本宮城",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           135.498233,
           33.762551
         ]
@@ -3614,6 +3884,21 @@
         "id": "WM0458",
         "城郭名": "宮代城",
         "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.38366,
+          33.722047
+        ]
+      },
+      "properties": {
+        "id": "WM0210",
+        "城郭名": "宿ノ城",
+        "status": "類似地形"
       }
     },
     {
@@ -3666,6 +3951,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          135.424273,
+          33.730178
+        ]
+      },
+      "properties": {
+        "id": "WM0280",
+        "城郭名": "龍口城",
+        "status": "類似地形"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           135.393892,
           33.790227
         ]
@@ -3711,13 +4011,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.773051,
-          33.857586
+          135.423796,
+          33.799971
         ]
       },
       "properties": {
-        "id": "WM0508",
-        "城郭名": "鷹巣山城",
+        "id": "WM0205",
+        "城郭名": "下崎城",
         "status": "城郭"
       }
     },
@@ -3726,13 +4026,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.921564,
-          33.653794
+          135.358568,
+          33.771993
         ]
       },
       "properties": {
-        "id": "WM0027",
-        "城郭名": "石倉山城",
+        "id": "WM0325",
+        "城郭名": "内羽位城",
         "status": "城郭"
       }
     },
@@ -3741,28 +4041,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.913928,
-          33.592144
+          135.764644,
+          33.840479
         ]
       },
       "properties": {
-        "id": "WM0031",
-        "城郭名": "市屋城",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.903244,
-          33.589647
-        ]
-      },
-      "properties": {
-        "id": "WM0094",
-        "城郭名": "尾捨山城",
+        "id": "WM0430",
+        "城郭名": "本宮城",
         "status": "城郭"
       }
     },
@@ -3778,66 +4063,6 @@
       "properties": {
         "id": "WM0112",
         "城郭名": "勝山城",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.831974,
-          33.672879
-        ]
-      },
-      "properties": {
-        "id": "WM0115",
-        "城郭名": "鎌ヶ峯城",
-        "status": "類似地形"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.846203,
-          33.60799
-        ]
-      },
-      "properties": {
-        "id": "WM0159",
-        "城郭名": "小匠城",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.919288,
-          33.586848
-        ]
-      },
-      "properties": {
-        "id": "WM0206",
-        "城郭名": "下里城",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.860738,
-          33.672576
-        ]
-      },
-      "properties": {
-        "id": "WM0224",
-        "城郭名": "城之森城",
         "status": "城郭"
       }
     },
@@ -3876,13 +4101,133 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.970837,
-          33.67002
+          135.934795,
+          33.646183
         ]
       },
       "properties": {
-        "id": "WM0317",
-        "城郭名": "殿和田森城",
+        "id": "WM0372",
+        "城郭名": "橋爪坊屋敷",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.926853,
+          33.643772
+        ]
+      },
+      "properties": {
+        "id": "WM0411",
+        "城郭名": "藤倉城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.919288,
+          33.586848
+        ]
+      },
+      "properties": {
+        "id": "WM0206",
+        "城郭名": "下里城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.831974,
+          33.672879
+        ]
+      },
+      "properties": {
+        "id": "WM0115",
+        "城郭名": "鎌ヶ峯城",
+        "status": "類似地形"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.89507,
+          33.594086
+        ]
+      },
+      "properties": {
+        "id": "WM0456",
+        "城郭名": "御社森（山）城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.913928,
+          33.592144
+        ]
+      },
+      "properties": {
+        "id": "WM0031",
+        "城郭名": "市屋城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.846203,
+          33.60799
+        ]
+      },
+      "properties": {
+        "id": "WM0159",
+        "城郭名": "小匠城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.860738,
+          33.672576
+        ]
+      },
+      "properties": {
+        "id": "WM0224",
+        "城郭名": "城之森城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.921564,
+          33.653794
+        ]
+      },
+      "properties": {
+        "id": "WM0027",
+        "城郭名": "石倉山城",
         "status": "城郭"
       }
     },
@@ -3898,6 +4243,36 @@
       "properties": {
         "id": "WM0339",
         "城郭名": "中山城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.970837,
+          33.67002
+        ]
+      },
+      "properties": {
+        "id": "WM0317",
+        "城郭名": "殿和田森城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.928647,
+          33.642357
+        ]
+      },
+      "properties": {
+        "id": "WM0412",
+        "城郭名": "藤倉支城",
         "status": "城郭"
       }
     },
@@ -3936,58 +4311,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.934795,
-          33.646183
+          135.903244,
+          33.589647
         ]
       },
       "properties": {
-        "id": "WM0372",
-        "城郭名": "橋爪坊屋敷",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.926853,
-          33.643772
-        ]
-      },
-      "properties": {
-        "id": "WM0411",
-        "城郭名": "藤倉城",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.928647,
-          33.642357
-        ]
-      },
-      "properties": {
-        "id": "WM0412",
-        "城郭名": "藤倉支城",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.89507,
-          33.594086
-        ]
-      },
-      "properties": {
-        "id": "WM0456",
-        "城郭名": "御社森（山）城",
+        "id": "WM0094",
+        "城郭名": "尾捨山城",
         "status": "城郭"
       }
     },
@@ -4033,21 +4363,6 @@
       "properties": {
         "id": "WM0042",
         "城郭名": "岩倉城",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.550618,
-          34.308885
-        ]
-      },
-      "properties": {
-        "id": "WM0076",
-        "城郭名": "大野土居",
         "status": "城郭"
       }
     },
@@ -4131,36 +4446,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.657422,
-          34.323877
-        ]
-      },
-      "properties": {
-        "id": "WM0147",
-        "城郭名": "恋野土居",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.609261,
-          34.329483
-        ]
-      },
-      "properties": {
-        "id": "WM0165",
-        "城郭名": "胡麻生館",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           135.642581,
           34.318544
         ]
@@ -4236,21 +4521,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.606992,
-          34.315895
-        ]
-      },
-      "properties": {
-        "id": "WM0309",
-        "城郭名": "東家館",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           135.615042,
           34.357835
         ]
@@ -4296,13 +4566,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.559061,
-          34.306996
+          135.606992,
+          34.315895
         ]
       },
       "properties": {
-        "id": "WM0383",
-        "城郭名": "塙坂氏館",
+        "id": "WM0309",
+        "城郭名": "東家館",
         "status": "城郭"
       }
     },
@@ -4341,6 +4611,111 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          135.609261,
+          34.329483
+        ]
+      },
+      "properties": {
+        "id": "WM0165",
+        "城郭名": "胡麻生館",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.550618,
+          34.308885
+        ]
+      },
+      "properties": {
+        "id": "WM0076",
+        "城郭名": "大野土居",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.559061,
+          34.306996
+        ]
+      },
+      "properties": {
+        "id": "WM0383",
+        "城郭名": "塙坂氏館",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.657422,
+          34.323877
+        ]
+      },
+      "properties": {
+        "id": "WM0147",
+        "城郭名": "恋野土居",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.268452,
+          33.96733
+        ]
+      },
+      "properties": {
+        "id": "WM0023",
+        "城郭名": "飯盛（山）城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.457633,
+          33.993815
+        ]
+      },
+      "properties": {
+        "id": "WM0514",
+        "城郭名": "妹尾屋敷",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.280237,
+          33.941691
+        ]
+      },
+      "properties": {
+        "id": "WM0051",
+        "城郭名": "後山城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           135.26632,
           33.953884
         ]
@@ -4356,13 +4731,43 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.257358,
-          33.898807
+          135.467121,
+          33.956674
         ]
       },
       "properties": {
-        "id": "WM0190",
-        "城郭名": "山野城",
+        "id": "WM0541",
+        "城郭名": "寒川土居",
+        "status": "類似地形"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.311791,
+          33.930616
+        ]
+      },
+      "properties": {
+        "id": "WM0443",
+        "城郭名": "三佐ノ土居",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.487218,
+          33.959144
+        ]
+      },
+      "properties": {
+        "id": "WM0537",
+        "城郭名": "城の頂",
         "status": "城郭"
       }
     },
@@ -4416,6 +4821,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          135.225697,
+          33.877778
+        ]
+      },
+      "properties": {
+        "id": "WM0297",
+        "城郭名": "寺山城",
+        "status": "類似地形"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           135.184699,
           33.912241
         ]
@@ -4431,13 +4851,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.311791,
-          33.930616
+          135.208386,
+          33.926323
         ]
       },
       "properties": {
-        "id": "WM0443",
-        "城郭名": "三佐ノ土居",
+        "id": "WM0413",
+        "城郭名": "藤谷城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.374474,
+          33.992895
+        ]
+      },
+      "properties": {
+        "id": "WM0444",
+        "城郭名": "皆瀬城",
         "status": "城郭"
       }
     },
@@ -4461,29 +4896,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.211346,
-          33.896041
+          135.257358,
+          33.898807
         ]
       },
       "properties": {
-        "id": "WM0501",
-        "城郭名": "和佐城（仮）",
+        "id": "WM0190",
+        "城郭名": "山野城",
         "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.467121,
-          33.956674
-        ]
-      },
-      "properties": {
-        "id": "WM0541",
-        "城郭名": "寒川土居",
-        "status": "類似地形"
       }
     },
     {
@@ -4506,13 +4926,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.078194,
-          33.89978
+          135.211346,
+          33.896041
         ]
       },
       "properties": {
-        "id": "WM0002",
-        "城郭名": "阿尾城",
+        "id": "WM0501",
+        "城郭名": "和佐城（仮）",
         "status": "城郭"
       }
     },
@@ -4521,28 +4941,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.079562,
-          33.928676
+          135.078194,
+          33.89978
         ]
       },
       "properties": {
-        "id": "WM0066",
-        "城郭名": "小浦城",
-        "status": "類似地形"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.128813,
-          33.924876
-        ]
-      },
-      "properties": {
-        "id": "WM0097",
-        "城郭名": "小中城",
+        "id": "WM0002",
+        "城郭名": "阿尾城",
         "status": "城郭"
       }
     },
@@ -4573,6 +4978,36 @@
       "properties": {
         "id": "WM0163",
         "城郭名": "小坊子ヶ峰城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.079562,
+          33.928676
+        ]
+      },
+      "properties": {
+        "id": "WM0066",
+        "城郭名": "小浦城",
+        "status": "類似地形"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.128813,
+          33.924876
+        ]
+      },
+      "properties": {
+        "id": "WM0097",
+        "城郭名": "小中城",
         "status": "城郭"
       }
     },
@@ -4701,13 +5136,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.279727,
-          33.80313
+          135.316608,
+          33.777961
         ]
       },
       "properties": {
-        "id": "WM0028",
-        "城郭名": "市谷山城",
+        "id": "WM0030",
+        "城郭名": "市栗山城",
         "status": "城郭"
       }
     },
@@ -4716,13 +5151,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.316608,
-          33.777961
+          135.279727,
+          33.80313
         ]
       },
       "properties": {
-        "id": "WM0030",
-        "城郭名": "市栗山城",
+        "id": "WM0028",
+        "城郭名": "市谷山城",
         "status": "城郭"
       }
     },
@@ -4768,21 +5203,6 @@
       "properties": {
         "id": "WM0202",
         "城郭名": "島之瀬城",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.340779,
-          33.783274
-        ]
-      },
-      "properties": {
-        "id": "WM0221",
-        "城郭名": "城の段城",
         "status": "城郭"
       }
     },
@@ -4881,6 +5301,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          135.340779,
+          33.783274
+        ]
+      },
+      "properties": {
+        "id": "WM0221",
+        "城郭名": "城の段城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           135.140785,
           33.904428
         ]
@@ -4896,13 +5331,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.074749,
-          33.889264
+          135.073906,
+          33.897229
         ]
       },
       "properties": {
-        "id": "WM0440",
-        "城郭名": "三尾城",
+        "id": "WM0145",
+        "城郭名": "慶本山城（仮）",
         "status": "城郭"
       }
     },
@@ -4918,6 +5353,21 @@
       "properties": {
         "id": "WM0465",
         "城郭名": "本ノ（之）脇城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.074749,
+          33.889264
+        ]
+      },
+      "properties": {
+        "id": "WM0440",
+        "城郭名": "三尾城",
         "status": "城郭"
       }
     },
@@ -5001,6 +5451,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          135.078626,
+          33.975621
+        ]
+      },
+      "properties": {
+        "id": "WM0079",
+        "城郭名": "大引浦白崎遠見番所",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           135.098542,
           33.990554
         ]
@@ -5016,13 +5481,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.078626,
-          33.975621
+          135.146532,
+          33.968434
         ]
       },
       "properties": {
-        "id": "WM0079",
-        "城郭名": "大引浦白崎遠見番所",
+        "id": "WM0583",
+        "城郭名": "門前城",
         "status": "城郭"
       }
     },
@@ -5061,13 +5526,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.146532,
-          33.968434
+          135.204606,
+          34.229728
         ]
       },
       "properties": {
-        "id": "WM0583",
-        "城郭名": "門前城",
+        "id": "WM0006",
+        "城郭名": "秋月城",
         "status": "城郭"
       }
     },
@@ -5091,43 +5556,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.204606,
-          34.229728
+          135.173399,
+          34.231408
         ]
       },
       "properties": {
-        "id": "WM0006",
-        "城郭名": "秋月城",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.001735,
-          34.280091
-        ]
-      },
-      "properties": {
-        "id": "WM0024",
-        "城郭名": "池ノ尻台場",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.001058,
-          34.282359
-        ]
-      },
-      "properties": {
-        "id": "WM0026",
-        "城郭名": "池ノ前台場",
+        "id": "WM0513",
+        "城郭名": "安藤氏屋敷",
         "status": "城郭"
       }
     },
@@ -5181,21 +5616,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.069295,
-          34.292999
-        ]
-      },
-      "properties": {
-        "id": "WM0096",
-        "城郭名": "雄良台場",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           135.139933,
           34.193604
         ]
@@ -5203,21 +5623,6 @@
       "properties": {
         "id": "WM0104",
         "城郭名": "カゴバ台場",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.018127,
-          34.285451
-        ]
-      },
-      "properties": {
-        "id": "WM0114",
-        "城郭名": "蒲浦台場",
         "status": "城郭"
       }
     },
@@ -5271,13 +5676,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.145316,
-          34.191518
+          135.139924,
+          34.193617
         ]
       },
       "properties": {
-        "id": "WM0171",
-        "城郭名": "雑賀崎城",
+        "id": "WM0172",
+        "城郭名": "雑賀崎台場",
         "status": "城郭"
       }
     },
@@ -5286,13 +5691,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.139924,
-          34.193617
+          135.145316,
+          34.191518
         ]
       },
       "properties": {
-        "id": "WM0172",
-        "城郭名": "雑賀崎台場",
+        "id": "WM0171",
+        "城郭名": "雑賀崎城",
         "status": "城郭"
       }
     },
@@ -5391,21 +5796,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.236874,
-          34.204679
-        ]
-      },
-      "properties": {
-        "id": "WM0233",
-        "城郭名": "城腰山城",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           135.153066,
           34.199622
         ]
@@ -5466,6 +5856,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          135.018127,
+          34.285451
+        ]
+      },
+      "properties": {
+        "id": "WM0114",
+        "城郭名": "蒲浦台場",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           135.072254,
           34.272744
         ]
@@ -5481,13 +5886,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.259586,
-          34.262248
+          135.215256,
+          34.265078
         ]
       },
       "properties": {
-        "id": "WM0310",
-        "城郭名": "東城",
+        "id": "WM0313",
+        "城郭名": "殿芝",
         "status": "城郭"
       }
     },
@@ -5496,13 +5901,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.215256,
-          34.265078
+          135.215356,
+          34.271146
         ]
       },
       "properties": {
-        "id": "WM0313",
-        "城郭名": "殿芝",
+        "id": "WM0584",
+        "城郭名": "直川城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.206788,
+          34.268965
+        ]
+      },
+      "properties": {
+        "id": "WM0327",
+        "城郭名": "中尾城山",
         "status": "城郭"
       }
     },
@@ -5556,6 +5976,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          135.1135,
+          34.263111
+        ]
+      },
+      "properties": {
+        "id": "WM0549",
+        "城郭名": "西庄Ⅱ遺跡",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           135.046122,
           34.293099
         ]
@@ -5586,6 +6021,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          135.259586,
+          34.262248
+        ]
+      },
+      "properties": {
+        "id": "WM0310",
+        "城郭名": "東城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           135.038538,
           34.294476
         ]
@@ -5601,6 +6051,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          135.174145,
+          34.231523
+        ]
+      },
+      "properties": {
+        "id": "WM0559",
+        "城郭名": "水野氏屋敷",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           135.243792,
           34.192328
         ]
@@ -5608,6 +6073,21 @@
       "properties": {
         "id": "WM0450",
         "城郭名": "南山城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.072528,
+          34.296472
+        ]
+      },
+      "properties": {
+        "id": "WM0585",
+        "城郭名": "深山砲台群",
         "status": "城郭"
       }
     },
@@ -5638,21 +6118,6 @@
       "properties": {
         "id": "WM0464",
         "城郭名": "藻江台場",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.13895,
-          34.190389
-        ]
-      },
-      "properties": {
-        "id": "WM0466",
-        "城郭名": "元番所台場",
         "status": "城郭"
       }
     },
@@ -5721,6 +6186,66 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          135.13895,
+          34.190389
+        ]
+      },
+      "properties": {
+        "id": "WM0466",
+        "城郭名": "元番所台場",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.236874,
+          34.204679
+        ]
+      },
+      "properties": {
+        "id": "WM0233",
+        "城郭名": "城腰山城",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.001058,
+          34.282359
+        ]
+      },
+      "properties": {
+        "id": "WM0026",
+        "城郭名": "池ノ前台場",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.001735,
+          34.280091
+        ]
+      },
+      "properties": {
+        "id": "WM0024",
+        "城郭名": "池ノ尻台場",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           135.241179,
           34.183438
         ]
@@ -5736,73 +6261,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.173399,
-          34.231408
+          135.069295,
+          34.292999
         ]
       },
       "properties": {
-        "id": "WM0513",
-        "城郭名": "安藤氏屋敷",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.1135,
-          34.263111
-        ]
-      },
-      "properties": {
-        "id": "WM0549",
-        "城郭名": "西庄Ⅱ遺跡",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.174145,
-          34.231523
-        ]
-      },
-      "properties": {
-        "id": "WM0559",
-        "城郭名": "水野氏屋敷",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.215356,
-          34.271146
-        ]
-      },
-      "properties": {
-        "id": "WM0584",
-        "城郭名": "直川城",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.072528,
-          34.296472
-        ]
-      },
-      "properties": {
-        "id": "WM0585",
-        "城郭名": "深山砲台群",
+        "id": "WM0096",
+        "城郭名": "雄良台場",
         "status": "城郭"
       }
     },
@@ -5826,6 +6291,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          135.174226,
+          34.202166
+        ]
+      },
+      "properties": {
+        "id": "WM0589",
+        "城郭名": "愛宕山砦",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           135.172734,
           34.224844
         ]
@@ -5841,28 +6321,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.175266,
-          34.195671
+          135.160739,
+          34.25296
         ]
       },
       "properties": {
-        "id": "WM0588",
-        "城郭名": "甲崎砦",
-        "status": "城郭"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.174226,
-          34.202166
-        ]
-      },
-      "properties": {
-        "id": "WM0589",
-        "城郭名": "愛宕山砦",
+        "id": "WM0597",
+        "城郭名": "梶取の古城",
         "status": "城郭"
       }
     },
@@ -5886,6 +6351,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          135.229399,
+          34.190386
+        ]
+      },
+      "properties": {
+        "id": "WM0605",
+        "城郭名": "高政陣屋",
+        "status": "城郭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           135.171479,
           34.187719
         ]
@@ -5894,21 +6374,6 @@
         "id": "WM0593",
         "城郭名": "玉津島（山）砦",
         "status": "調査中"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.160739,
-          34.25296
-        ]
-      },
-      "properties": {
-        "id": "WM0597",
-        "城郭名": "梶取の古城",
-        "status": "城郭"
       }
     },
     {
@@ -5931,13 +6396,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.229399,
-          34.190386
+          135.175266,
+          34.195671
         ]
       },
       "properties": {
-        "id": "WM0605",
-        "城郭名": "高政陣屋",
+        "id": "WM0588",
+        "城郭名": "甲崎砦",
         "status": "城郭"
       }
     }
