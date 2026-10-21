@@ -484,3 +484,121 @@ function jumpToCoordinate() {
     // 移動後は入力欄を閉じる
     coordinateJumpBox.classList.remove("open");
 }
+
+
+// ========================================
+// スマホ用：現在位置表示
+// ========================================
+
+// 現在位置のマーカーと精度円
+let currentLocationMarker = null;
+let currentLocationAccuracy = null;
+
+// 現在位置ボタン
+const currentLocationControl = L.control({
+    position: "topleft"
+});
+
+currentLocationControl.onAdd = function () {
+
+    const div = L.DomUtil.create(
+        "div",
+        "current-location-control"
+    );
+
+    const button = L.DomUtil.create(
+        "button",
+        "current-location-button",
+        div
+    );
+
+    button.type = "button";
+    button.textContent = "現在位置";
+    button.title = "現在位置を表示";
+
+    // ボタン操作を地図へ伝えない
+    L.DomEvent.disableClickPropagation(div);
+
+    button.addEventListener("click", function () {
+
+        button.disabled = true;
+        button.textContent = "取得中…";
+
+        map.locate({
+            setView: false,
+            enableHighAccuracy: true,
+            timeout: 15000,
+            maximumAge: 0
+        });
+    });
+
+    return div;
+};
+
+// 画面にコントロールを追加
+currentLocationControl.addTo(map);
+
+// 位置取得に成功した場合
+map.on("locationfound", function (e) {
+
+    const latlng = e.latlng;
+
+    // 前回の表示を削除
+    if (currentLocationMarker) {
+        map.removeLayer(currentLocationMarker);
+    }
+
+    if (currentLocationAccuracy) {
+        map.removeLayer(currentLocationAccuracy);
+    }
+
+    // 推定精度の範囲
+    currentLocationAccuracy = L.circle(latlng, {
+        radius: e.accuracy,
+        color: "#1976d2",
+        fillColor: "#1976d2",
+        fillOpacity: 0.10,
+        weight: 1
+    }).addTo(map);
+
+    // 現在位置を青い点で表示
+    currentLocationMarker = L.circleMarker(latlng, {
+        radius: 7,
+        color: "white",
+        weight: 2,
+        fillColor: "#1976d2",
+        fillOpacity: 1
+    }).addTo(map);
+
+    // 現在位置へ移動
+    map.setView(latlng, 16);
+
+    // ボタンを元に戻す
+    const button = document.querySelector(
+        ".current-location-button"
+    );
+
+    if (button) {
+        button.disabled = false;
+        button.textContent = "現在位置";
+    }
+});
+
+// 位置取得に失敗した場合
+map.on("locationerror", function (e) {
+
+    const button = document.querySelector(
+        ".current-location-button"
+    );
+
+    if (button) {
+        button.disabled = false;
+        button.textContent = "現在位置";
+    }
+
+    alert(
+        "現在位置を取得できませんでした。\n" +
+        "スマートフォンの位置情報設定をご確認ください。\n" +
+        e.message
+    );
+});

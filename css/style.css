@@ -206,3 +206,37 @@ h1 {
     line-height: 1.4;
     color: #555555;
 }
+
+
+/* ========================================
+   スマホ用：現在位置ボタン
+   ======================================== */
+
+/* PC・タブレットでは非表示 */
+.current-location-control {
+    display: none;
+}
+
+/* スマートフォンのみ表示 */
+@media (max-width: 767px) {
+
+    .current-location-control {
+        display: block;
+    }
+
+    .current-location-button {
+        background: white;
+        border: 2px solid rgba(0, 0, 0, 0.2);
+        border-radius: 4px;
+        padding: 7px 10px;
+        font-size: 13px;
+        font-weight: bold;
+        color: #333;
+        cursor: pointer;
+    }
+
+    .current-location-button:disabled {
+        opacity: 0.6;
+        cursor: wait;
+    }
+}
